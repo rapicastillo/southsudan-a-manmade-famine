@@ -46,7 +46,7 @@ body
     z-index: 50; 
 
     h1, h2, h3 {
-      font-family: AvenirHeavy;
+      font-family: AvenirHeavy, sans-serifv;
       color: $highlight_color;
     }
 
@@ -96,11 +96,11 @@ body
     &#s2 > div.container-fluid {bottom: 30%; left: 0px; }
     &#s3 > div.container-fluid .row {bottom: 0px; left: 0px; }
     &#s4 > div.container-fluid { 
-      top: 20%; 
+     
     }
 
     &#s4 > div#s4-speech.container-fluid { 
-      top: 20%; 
+     
     }
 
     &#s11 > div.container-fluid { top: 30%; }
@@ -139,9 +139,9 @@ body
 
     &#s1 { background-image: url(../img/s1-main.JPG); }
     &#s2 { background-image: url(../img/s2-main.JPG); }
-    &#s3 { background-color: rgb(0,0,0); }
+    &#s3 { background-image: url(../img/c1-cover.jpg); }
     &#s4 { background-image: url(../img/s4-bg.jpg); }
-    &#s5 { background-image: url(../img/s5-bg.JPG); }
+    &#s5 { background-color: rgb(0,0,0); }
     &#s6 { background-image: url(../img/s5-bg.JPG); }
     &#s7 { background-image: url(../img/s7-main.JPG);}
     &#s8 { background-color: whitesmoke; }
@@ -449,6 +449,13 @@ nav
   #chapter-1-man { background-image: url(../img/chapter1-main.png); }
   #chapter-1-bg { background-image: url(../img/chapter1-cover.jpg); }
   #chapter-1-kid { background-image: url(../img/chapter1-kid.png); }
+  #chapter-1-military { background-image: url(../img/c1-military.JPG); }
+
+  #chapter-1-johnmamer { background-image: url(../img/c1-john-mamer.png); 
+    background-size: auto 75%;
+    background-position: bottom left;
+    
+  }
 
   #chapter-7-desat { background-image: url(../img/s7-main-desat.JPG); }
 }

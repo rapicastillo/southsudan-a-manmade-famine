@@ -43,7 +43,7 @@ body > section {
   background-repeat: no-repeat;
   background-size: cover; }
   body > section h1, body > section h2, body > section h3 {
-    font-family: AvenirHeavy;
+    font-family: AvenirHeavy, sans-serifv;
     color: #f9a319; }
   body > section strong.highlight {
     color: #f9a319; }
@@ -66,10 +66,6 @@ body > section {
   body > section#s3 > div.container-fluid .row {
     bottom: 0px;
     left: 0px; }
-  body > section#s4 > div.container-fluid {
-    top: 20%; }
-  body > section#s4 > div#s4-speech.container-fluid {
-    top: 20%; }
   body > section#s11 > div.container-fluid {
     top: 30%; }
   body > section#s12 > div.container-fluid {
@@ -93,11 +89,11 @@ body > section {
   body > section#s2 {
     background-image: url(../img/s2-main.JPG); }
   body > section#s3 {
-    background-color: black; }
+    background-image: url(../img/c1-cover.jpg); }
   body > section#s4 {
     background-image: url(../img/s4-bg.jpg); }
   body > section#s5 {
-    background-image: url(../img/s5-bg.JPG); }
+    background-color: black; }
   body > section#s6 {
     background-image: url(../img/s5-bg.JPG); }
   body > section#s7 {
@@ -338,6 +334,12 @@ nav .nav.navbar-nav#navigation-area > li > a {
     background-image: url(../img/chapter1-cover.jpg); }
   .stage #chapter-1-kid {
     background-image: url(../img/chapter1-kid.png); }
+  .stage #chapter-1-military {
+    background-image: url(../img/c1-military.JPG); }
+  .stage #chapter-1-johnmamer {
+    background-image: url(../img/c1-john-mamer.png);
+    background-size: auto 75%;
+    background-position: bottom left; }
   .stage #chapter-7-desat {
     background-image: url(../img/s7-main-desat.JPG); }
 

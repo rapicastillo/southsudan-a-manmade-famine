@@ -6,8 +6,8 @@
 	  	.width($(window).width())
 	  	.height($(window).height());
 
-    $("#s4-viewport").height($(window).height()/2);
-
+    $("#s4-viewport").height($(window).height()  / 2);
+    $("#s4-viewport").mCustomScrollbar();
   });
 
   $(".map").height(screen.height * 0.60);
@@ -154,6 +154,6 @@
 
     $("#navigation-area a").tooltip();
 
-     $("#s4-viewport").mCustomScrollbar();
+     
 
 });

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>South Sudan - A manmade famine -- UN Office for the Coordination of Humanitarian Affairs</title>
+	<title></title>tle>South Sudan - A manmade famine -- UN Office for the Coordination of Humanitarian Affairs</title>
 	<meta charset="utf-8">
 	<meta name="viewport" conelevent="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,8 +85,9 @@
 
 	SECTION 1
 -->
-<section id="s1" data--1p="transform: translate(0,0%);" data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);">
-	<!-- div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-0p="opacity: 0" data-50p="opacity: 1;"></div -->
+<section id="s1" data--1p="transform: translate(0,0%);"	
+	data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);">
+	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-2"></div>
@@ -131,7 +132,7 @@
 	SECTION 2
 -->
 <section style="z-index: 20;"  id="s2" data-50p="transform:translate(0,100%);" data-100p="transform: translate(0, 0%)" data-150p="transform: translate(0, 0%)" data-199p="transform: translate(0,-100%); display: block" data-200p="display: none">
-	<!-div class="black-overlay" data--1p="background-color: rgba(0,0,0,1);" data-100p="opacity: 1" data-150p="opacity: 0;" data-190p="opacity: 0;" data-200p="opacity: 1"></div>
+	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1);" data-100p="opacity: 1" data-180p="opacity: 0;" data-190p="opacity: 0;"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -161,12 +162,12 @@ c2-transmission-2.JPG
 c2-transmission-3.JPG 
 -->
 <section style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);" 
-			data-310p="transform:translate(0,0%)"data-350p="transform:translate(0,-100%);">
-	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
+			data-310p="transform:translate(0,0%)" data-350p="transform:translate(0,-100%); display: block;" data-351p="display: none;">
+	<!-- div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
 		<div class="stage-item" id="chapter-1-bg" data-150p="transform: translate(-3%, 0); width: 120%;" data-400p="transform: translate(-1%, 0); width: 130%;"></div>
-		<div class="stage-item" id="chapter-1-kid" data-150p="transform: translate(10%, 0)" data-400p=" transform: translate(-5%, 0)"></div>
+		<div class="stage-item" id="chapter-1-kid" data-150p="transform: translate(10%, 0)" data-400p=" transform: translate(3%, 0)"></div>
 		<div class="stage-item" id="chapter-1-man" data-150p="transform: translate(-1%,0)" data-400p="transform:translate(2%, 0)"></div>
-	</div>
+	</div -->
 	<div class="container-fluid" data-250p="transform:translate(0,0%); opacity: 1;" data-300p="transform: translate(0,-100%);" style="width: 100% height: 100%;">
 		<div class="row">
 		<div class="col-md-4"></div>
@@ -186,6 +187,7 @@ fighting on the streets of the capital Juba. The violence quickly spread across 
 			data-300p="transform:translate(0,0%)" 
 			data-310p="transform:translate(0,0%)" 
 			data-350p="transform:translate(0,-100%);">
+	
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-4"></div>
@@ -213,14 +215,23 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 <!-- START OF SECTION 4 -->
 <section id="s4" data-299p="transform:translate(0,100%);" 
 	data-300p="transform:translate(0,0%); opacity: 0;" data-310p="opacity: 0;" data-350p="opacity: 1"
-	data-600p="transform:translate(0,0%);" data-650p="transform:translate(0,-100%);">
+	data-600p="transform:translate(0,0%);" 
+	data-650p="transform:translate(0,-100%);"
 
-	<div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
+	style="overflow: hidden;">
+
+	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
+	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
+		<div class="stage-item" id="chapter-1-military" style="background-position: -10% 20%" 
+		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"></div>
+
+		<div class="stage-item" id="chapter-1-johnmamer"></div>
+	</div>
 	<div class="container-fluid" data-400p="opacity: 1" data-450p="opacity: 0">
-		<div class="row">
+		<div class="row margin-top-150">
 			<div class="col-md-2"></div>
-			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"><img src="./img/s4-john-main.jpg" width="100%"/></div>
-			<div class="col-md-4 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1">
+			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
+			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" style="background-color: rgba(0,0,0,0.6)">
 				<p>Countless families across South Sudan have fled their homes. More than 1 million people are displaced 
 
 inside the country. Hundreds of thousands have left for the safety of neighbouring counties.
@@ -235,11 +246,16 @@ most of the town forced to flee.
 			</div>
 		</div>
 	</div>
+
+	<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
 	<div class="container-fluid" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
+		<div class="row margin-top-50">
+			<div class="col-md-12">
+				<h2>"The conflict we are facing today is man-made" - John's Story</h2>
+			</div>
+		</div>
 		<div class="row">
-			<div class="col-md-1"></div>
 			<div class="col-md-4" >
-				<h3>"The conflict we are facing today is man-made" - John's Story</h3>
 				<sub>Instruction: Listen to John as he remembers the night that Bor fell.</sub>
 				<div id="s4-viewport" style="position: relative;">
 					
@@ -249,9 +265,9 @@ most of the town forced to flee.
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<div class="margin-top-50">
-					<img src="./img/s5-center-img.JPG" width="100%"/>
+			<div class="col-md-8">
+				<div >
+					<img src="./img/s5-center-img.JPG" width="99%"/>
 				</div>
 			</div>
 		</div>
@@ -408,7 +424,7 @@ their seven children and their seven grandchildren.</p>
 			<div class="col-md-4"></div>
 			<div class="col-md-4 text-center">
 				<p>
-					<img src="./img/s10-center.PNG" width="100%"/>
+					<img src="./img/c2-mary-worries-about-food.jpg" width="100%"/>
 				</p>
 				<p>
 					Mary worries about food. Aid agencies are providing some but hunger is a growing concern.
@@ -771,6 +787,10 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
   <script src="js/jquery.slides.min.js"></script>
   <script src="js/jquery.colorbox-min.js"></script>
   <script src="js/skrollr.min.js"></script>
+  <!--[if lt IE 9]>
+	<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
+  <![endif]-->
+
   <script src="js/skrollr.menu.min.js"></script>
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script> 
