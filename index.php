@@ -222,16 +222,18 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 	data-600p="transform:translate(0,0%);" 
 	data-650p="transform:translate(0,-100%);"
 
-	style="overflow: hidden;">
+	style="overflow: hidden; position: relative;">
 
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
 	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
 		<div class="stage-item" id="chapter-1-military" style="background-position: -10% 20%" 
-		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"></div>
+		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
+		data-650p="display: block;" data-651p="display: none;"></div>
 
 		<div class="stage-item" id="chapter-1-johnmamer"></div>
 	</div>
-	<div class="container-fluid" data-400p="opacity: 1" data-450p="opacity: 0">
+	<div class="container-fluid" data-400p="opacity: 1" data-450p="opacity: 0"
+		data-650p="display: block;" data-651p="display: none;">
 		<div class="row margin-top-150">
 			<div class="col-md-2"></div>
 			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
