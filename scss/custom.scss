@@ -104,7 +104,7 @@ body
     }
 
     &#s11 > div.container-fluid { top: 30%; }
-    &#s12 > div.container-fluid { top: 50%; }
+    &#s12 > div.container-fluid { bottom: 10px; }
     &#s15 > div.container-fluid {bottom: 0;}
     &#s18 > div.container-fluid { top: 15%; }
 
@@ -238,7 +238,7 @@ nav
       font-size: 52px;
       margin-top: 8px;
     }
-    div.secondary-item { border-width: 0 0 0 1px; }
+    div.secondary-item { border-width: 0 0 0 1px; color: #333333;}
     span { padding: 10px; }
   }
 

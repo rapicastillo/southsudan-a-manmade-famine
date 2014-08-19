@@ -69,7 +69,7 @@ body > section {
   body > section#s11 > div.container-fluid {
     top: 30%; }
   body > section#s12 > div.container-fluid {
-    top: 50%; }
+    bottom: 10px; }
   body > section#s15 > div.container-fluid {
     bottom: 0; }
   body > section#s18 > div.container-fluid {
@@ -192,7 +192,8 @@ nav .nav.navbar-nav#navigation-area > li > a {
     font-size: 52px;
     margin-top: 8px; }
   #s1 .title-area div.secondary-item {
-    border-width: 0 0 0 1px; }
+    border-width: 0 0 0 1px;
+    color: #333333; }
   #s1 .title-area span {
     padding: 10px; }
   #s1 p {

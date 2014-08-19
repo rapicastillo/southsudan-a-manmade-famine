@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>tle>South Sudan - A manmade famine -- UN Office for the Coordination of Humanitarian Affairs</title>
+	<title></title>tle>South Sudan - A manmade catastrophe -- UN Office for the Coordination of Humanitarian Affairs</title>
 	<meta charset="utf-8">
 	<meta name="viewport" conelevent="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -86,7 +86,9 @@
 	SECTION 1
 -->
 <section id="s1" data--1p="transform: translate(0,0%);"	
-	data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);">
+	data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);" style="overflow: hidden">
+	
+	<video src="./video/IntoLoop-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
@@ -95,7 +97,7 @@
 				<div class="title-area"> 
 					<img src="./img/s1-food-icon.PNG" width="50px" ></img>
 					<div class="main-item">SOUTH SUDAN</div>
-					<div class="secondary-item">A manmade famine</div>
+					<div class="secondary-item">A manmade catastrophe</div>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -104,22 +106,24 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
-				<article>
+				<article data-30p="opacity: 0" data-50p="opacity: 1;">
 					<p class="orange-highlighter">Since December, South Sudan has been caught 
 						in the grip of a crisis defined by horrendous 
 						<strong>violence</strong>, massive <strong>displacement</strong> 
 						and now, the threat of terrible <strong>famine</strong>.
 					</p>
-					<p class="text-center">
-						<sub class="text-center">
-							Scroll<br/>
-							down <br/>
-							<img src="./img/s1-scroll-down.PNG" />
-						</sub>
-					</p>
 				</article>
 			</div>
 			<div class="col-md-3"></div>
+		</div>
+		<div class="row margin-top-150">
+			<p class="text-center">
+				<sub class="text-center">
+					Scroll<br/>
+					down <br/>
+					<img src="./img/s1-scroll-down.PNG" />
+				</sub>
+			</p>
 		</div>
 	<div>
 </section>
@@ -256,18 +260,24 @@ most of the town forced to flee.
 		</div>
 		<div class="row">
 			<div class="col-md-4" >
-				<sub>Instruction: Listen to John as he remembers the night that Bor fell.</sub>
+				<sub></sub>
 				<div id="s4-viewport" style="position: relative;">
 					
 					<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
 						<?php include("inc/johns-stories.inc"); ?>
 					</div>
 				</div>
+
+				<hr/>
+				<div>
+					<span class="glyphicon glyphicon-info-sign"></span>&nbsp;<span>Instruction: Listen to John as he remembers the night that Bor fell.</span>
+				</div>
 			</div>
+
 
 			<div class="col-md-8">
 				<div >
-					<img src="./img/s5-center-img.JPG" width="99%"/>
+					<iframe src="//player.vimeo.com/video/103761205" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -460,7 +470,7 @@ Mingkaman. “They took everything,” she says, of the armed groups that destro
 here we are living without shelter.”</p>
 			</div>
 			<div class="col-md-4">
-				<a class="ss-youtube" href="http://www.youtube.com/embed/j15ImqBUa-g?rel=0&amp;wmode=transparent&amp;autoplay=1">
+				<a class="ss-youtube" href="http://player.vimeo.com/video/103759213?rel=0&amp;wmode=transparent&amp;autoplay=1">
 				<img src="./img/s11-video-play.png" width="100%"/>
 				</a>
 			</div>
@@ -499,20 +509,24 @@ Sudan could face famine before the end of the year.
 <!-- END OF SECTION 11 -->
 
 <!-- SECTION 12 -->
-<section id="s12" data-1024p="transform:translate(0,100%);" 
+<section id="s12" 
+	style="overflow: hidden;"
+	data-1024p="transform:translate(0,100%);" 
 				data-1025p="transform:translate(0,0%); opacity: 0;"
 				data-1050p="transform:translate(0,0%); opacity: 1;"
 				data-1060p="transform:translate(0,0%);"
 				data-1100p="transform:translate(0,-100%)">
+			<video src="./video/flooding-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-9"></div>
-			<div class="col-md-3 text-right">
+			<div class="col-md-3 text-left">
 				<div class="well">
 					<h5>Chapter 3</h5>
 					<h1>The threat of famine</h1>
 				</div>
 			</div>
+			<div class="col-md-9"></div>
+			
 		</div>
 	</div>
 </section>
@@ -558,13 +572,18 @@ severe malnutrition and other diseases.
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
-			<div class="col-md-4" style="position: relative;">
-				<img src="./img/s14-center.PNG" width="100%" style="position: absolute; left: 0; top: 0" 
+			<div class="col-md-4" style="position: relative; overflow: hidden">
+				<video src="./video/babyloop2-SD.mp4" height="100%" autoplay muted loop>HTML 5 is needed</video>
+				<!-- img src="./img/s14-center.PNG" width="100%" style="position: absolute; left: 0; top: 0" 
 					data-1160p="opacity: 1" data-1180p="opacity: 0"/>
 				<img src="./img/s15-center.png" width="100%" style="position: absolute; left: 0; top: 0"
-					data-1160p="opacity: 0" data-1180p="opacity: 1"/>
+					data-1160p="opacity: 0" data-1180p="opacity: 1"/ -->
 			</div>
 			<div class="col-md-5 orange-highlighter">
+				<div>
+					<img src="./img/s14-center.PNG" width="30%" />
+					<br/><br/>
+				</div>
 				<div data-1175p="opacity: 1; display: block;" data-1180p="opacity: 0" data-1181p="display: none;">
 					<p>
 					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever
@@ -723,35 +742,39 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 				<div class="row">
 					<div class="col-md-12">
 						<div class="row text-center">
-							<div class="col-md-4 brown-background">
+							<div class="col-md-8 brown-background">
 								<div class="well">
 									<h3>Take a stand</h3>
 									<p class="text-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-									<img src="./img/s8-image-2.PNG" width="100%" />
+									<img src="./img/s18-1.PNG" width="100%" />
 
 									
 									<a href="javascript: void(0);" class="btn btn-default pull-right">Take a stand</a>
 									<div style="clear: both"></div>
 								</div>
 							</div>
-							<div class="col-md-4 brown-background">
-								<div class="well">
-									<h3>Make a Donation</h3>
-									<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
+							<div class="col-md-4">
+								<div class="row">
+									<div class="col-md-12 brown-background">
+										<div class="well">
+											<h3>Make a Donation</h3>
+											<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
 
-		people caught up in this manmade crisis.</p>
-									<img src="./img/s8-image-1.PNG" width="100%"/>
-									<a href="javascript: void(0);" class="btn btn-default pull-right">Donate</a>
-									<div style="clear: both"></div>
+				people caught up in this manmade crisis.</p>
+											<a href="javascript: void(0);" class="btn btn-default pull-right">Donate</a>
+											<div style="clear: both"></div>
+										</div>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-4 brown-background">
-								<div class="well">
-									<h3>Find out more</h3>
-									<p class="text-left">Visit OCHA’s South Sudan webpage to put the humanitarian crisis in context</p>
-									<img src="./img/s5-center-img.JPG" width="100%" />
-									<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
-									<div style="clear: both"></div>
+								<div class="row">
+									<div class="col-md-12 brown-background">
+										<div class="well">
+											<h3>Find out more</h3>
+											<p class="text-left">Visit OCHA’s South Sudan webpage to put the humanitarian crisis in context</p>
+											<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
+											<div style="clear: both"></div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

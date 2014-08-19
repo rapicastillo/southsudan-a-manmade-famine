@@ -8,6 +8,8 @@
 
     $("#s4-viewport").height($(window).height()  / 2);
     $("#s4-viewport").mCustomScrollbar();
+
+    $("#johns-story").height($(window).height()  * 3 / 4);
   });
 
   $(".map").height(screen.height * 0.60);
