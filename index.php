@@ -230,7 +230,7 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
 		data-650p="display: block;" data-651p="display: none;"></div>
 
-		<div class="stage-item" id="chapter-1-johnmamer"></div>
+		<div class="stage-item" id="chapter-1-johnmamer" data-650p="display: block;" data-651p="display: none;"></div>
 	</div>
 	<div class="container-fluid" data-400p="opacity: 1" data-450p="opacity: 0"
 		data-650p="display: block;" data-651p="display: none;">
