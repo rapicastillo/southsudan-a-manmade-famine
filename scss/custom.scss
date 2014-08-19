@@ -137,24 +137,24 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 
-    &#s1 { background-image: url(../img/s1-main.JPG); z-index: 50; }
-    &#s2 { background-image: url(../img/s2-main.JPG); z-index: 49; }
-    &#s3 { background-image: url(../img/c1-cover.jpg); z-index: 48; }
-    &#s4 { background-image: url(../img/s4-bg.jpg); z-index: 47;}
-    &#s5 { background-color: rgb(0,0,0); z-index: 46;}
-    &#s6 { background-image: url(../img/s5-bg.JPG); z-index: 45;}
-    &#s7 { background-image: url(../img/s7-main.JPG);z-index: 44;}
-    &#s8 { background-color: whitesmoke; z-index: 43;}
-    &#s9 { background-image: url(../img/s9-main.jpg); z-index: 42;}
-    &#s10 {  background-color: transparent; z-index: 41;}
-    &#s11 { background-image: url(../img/s11-bg.jpg); z-index: 40;}
-    &#s12 { background-image: url(../img/s12-main.jpg); z-index: 39;}
-    &#s13 { background-color: $dark_green; z-index: 38;}
-    &#s14 { background-color: $dark_green; z-index: 37;}
-    &#s15 { background-image: url(../img/s16-ss-1.JPG); z-index: 36;}
-    &#s16 { background-image: url(../img/s17-bg.JPG); z-index: 35;}
-    &#s17 { background-color: $dark_green; z-index: 34;}
-    &#s18 { background-image: url(../img/s-cta-bg.JPG); z-index: 33;}
+    &#s1 { background-image: url(../img/s1-main.JPG);  }
+    &#s2 { background-image: url(../img/s2-main.JPG);  }
+    &#s3 { background-image: url(../img/c1-cover.jpg);  }
+    &#s4 { background-image: url(../img/s4-bg.jpg); }
+    &#s5 { background-color: rgb(0,0,0); }
+    &#s6 { background-image: url(../img/s5-bg.JPG); }
+    &#s7 { background-image: url(../img/s7-main.JPG); }
+    &#s8 { background-color: whitesmoke; }
+    &#s9 { background-image: url(../img/s9-main.jpg); }
+    &#s10 {  background-color: transparent; }
+    &#s11 { background-image: url(../img/s11-bg.jpg); }
+    &#s12 { background-image: url(../img/s12-main.jpg); }
+    &#s13 { background-color: $dark_green; }
+    &#s14 { background-color: $dark_green; }
+    &#s15 { background-image: url(../img/s16-ss-1.JPG); }
+    &#s16 { background-image: url(../img/s17-bg.JPG); }
+    &#s17 { background-color: $dark_green; }
+    &#s18 { background-image: url(../img/s-cta-bg.JPG); }
   }
 }
 .black-overlay,

@@ -222,7 +222,7 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 	data-600p="transform:translate(0,0%);" 
 	data-650p="transform:translate(0,-100%);"
 
-	style="overflow: hidden; position: relative;">
+	style="overflow: hidden;">
 
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
 	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">

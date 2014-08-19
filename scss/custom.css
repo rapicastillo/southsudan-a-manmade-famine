@@ -85,59 +85,41 @@ body > section {
         list-style: none;
         margin-right: 10px; }
   body > section#s1 {
-    background-image: url(../img/s1-main.JPG);
-    z-index: 50; }
+    background-image: url(../img/s1-main.JPG); }
   body > section#s2 {
-    background-image: url(../img/s2-main.JPG);
-    z-index: 49; }
+    background-image: url(../img/s2-main.JPG); }
   body > section#s3 {
-    background-image: url(../img/c1-cover.jpg);
-    z-index: 48; }
+    background-image: url(../img/c1-cover.jpg); }
   body > section#s4 {
-    background-image: url(../img/s4-bg.jpg);
-    z-index: 47; }
+    background-image: url(../img/s4-bg.jpg); }
   body > section#s5 {
-    background-color: black;
-    z-index: 46; }
+    background-color: black; }
   body > section#s6 {
-    background-image: url(../img/s5-bg.JPG);
-    z-index: 45; }
+    background-image: url(../img/s5-bg.JPG); }
   body > section#s7 {
-    background-image: url(../img/s7-main.JPG);
-    z-index: 44; }
+    background-image: url(../img/s7-main.JPG); }
   body > section#s8 {
-    background-color: whitesmoke;
-    z-index: 43; }
+    background-color: whitesmoke; }
   body > section#s9 {
-    background-image: url(../img/s9-main.jpg);
-    z-index: 42; }
+    background-image: url(../img/s9-main.jpg); }
   body > section#s10 {
-    background-color: transparent;
-    z-index: 41; }
+    background-color: transparent; }
   body > section#s11 {
-    background-image: url(../img/s11-bg.jpg);
-    z-index: 40; }
+    background-image: url(../img/s11-bg.jpg); }
   body > section#s12 {
-    background-image: url(../img/s12-main.jpg);
-    z-index: 39; }
+    background-image: url(../img/s12-main.jpg); }
   body > section#s13 {
-    background-color: #635c45;
-    z-index: 38; }
+    background-color: #635c45; }
   body > section#s14 {
-    background-color: #635c45;
-    z-index: 37; }
+    background-color: #635c45; }
   body > section#s15 {
-    background-image: url(../img/s16-ss-1.JPG);
-    z-index: 36; }
+    background-image: url(../img/s16-ss-1.JPG); }
   body > section#s16 {
-    background-image: url(../img/s17-bg.JPG);
-    z-index: 35; }
+    background-image: url(../img/s17-bg.JPG); }
   body > section#s17 {
-    background-color: #635c45;
-    z-index: 34; }
+    background-color: #635c45; }
   body > section#s18 {
-    background-image: url(../img/s-cta-bg.JPG);
-    z-index: 33; }
+    background-image: url(../img/s-cta-bg.JPG); }
 
 .black-overlay,
 .brown-overlay,
