@@ -52,7 +52,7 @@
 				<li><a id="ocha-icon-area" href="http://www.unocha.org"><img src="./img/ocha-icon.PNG" /></a></li>
 				<li><a>
 						<span id="current-title-area" class="relative-but-children-abs">
-							<span id="part-1" data-240p="opacity: 1;" data-250p="opacity: 0;">A manmade famine</span>
+							<span id="part-1" data-240p="opacity: 1;" data-250p="opacity: 0;">A manmade catastrophe</span>
 							<span id="part-2" data-240p="opacity: 0;" data-250p="opacity: 1;"
 											  data-740p="opacity: 1;" data-750p="opacity: 0;" >The violence</span>
 							<span id="part-3" data-740p="opacity: 0;" data-750p="opacity: 1;"
@@ -66,7 +66,7 @@
 			</ul>
 
 			<ul class="nav navbar-nav navbar-right" id="navigation-area">
-				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A manmade famine"
+				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A manmade catastrophe"
 						data-toggle="tooltip"><img src="./img/nav-01.PNG" /></a></li>
 
 				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="./img/nav-02.PNG" /></a></li>
@@ -316,7 +316,6 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 
 		</div>
 		<div class="col-md-4">
-			<div><img src="./img/ssd_bormingkaman_map.png" /></div>
 			<h3>Interactive Map</h3>
 			<p style="font-size: 18px;">
 				John’s family fled <strong class="highlight">Bor</strong>, crossing the Nile River and finding safety in <strong class="highlight">Mingkaman</strong>.
@@ -360,12 +359,18 @@ fear, sickness, hunger, displacement and destitution.
 <!-- END OF SECTION 6 -->
 
 <!-- SECTION 7 -->
-<section id="s7" data-729p="transform:translate(0,100%);" data-730p="transform:translate(0,0%); 
-	opacity: 0;" data-750p="opacity:1;" 
+<section id="s7" 
+	data-729p="transform:translate(0,100%);" 
+	data-730p="transform:translate(0,0%); opacity: 0;" 
+	data-750p="opacity:1;" 
 	data-775p="transform:translate(0,-50%)"
-	data-825p="transform: translate(0,-50%); opacity: 1;" data-850p="opacity: 0" data-851p="transform: translate(0,-100%);">
+	data-825p="transform: translate(0,-50%); opacity: 1;" 
+	data-850p="opacity: 0" 
+	data-851p="transform: translate(0,-100%);">
 	<div class="stage">
-		<div class="stage-item" id="chapter-7-desat" data-750p="opacity: 0;" data-775p="opacity: 1;"></div>
+		<div class="stage-item" id="chapter-7-desat" 
+		data-749p="display: none;"
+		data-750p="display: block; opacity: 0;" data-760p="opacity: 1;"></div>
 	</div>
 	<div class="container-fluid">
 		<div class="row margin-top-50"></div>
@@ -575,7 +580,7 @@ severe malnutrition and other diseases.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-md-4" style="position: relative; overflow: hidden">
-				<video src="./video/babyloop2-SD.mp4" height="100%" autoplay muted loop>HTML 5 is needed</video>
+				<video src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop>HTML 5 is needed</video>
 				<!-- img src="./img/s14-center.PNG" width="100%" style="position: absolute; left: 0; top: 0" 
 					data-1160p="opacity: 1" data-1180p="opacity: 0"/>
 				<img src="./img/s15-center.png" width="100%" style="position: absolute; left: 0; top: 0"
@@ -653,7 +658,6 @@ treatment in time to save his life.
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-4 text-right">
-				<div><img src="./img/ssd_bormingkaman_inset_map.png" /></div>
 				<h3>A crisis of devastating proportions</h3>
 				<sub>Zoom out to see...</sub>
 				<p style="font-size: 18px;">

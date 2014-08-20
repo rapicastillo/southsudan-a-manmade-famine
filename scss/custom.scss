@@ -1,7 +1,7 @@
 /**
 #current-title-area  -- Title for the whole chapter to be shown in the top nav
 */
-@font-face { font-family: Avenir; src: url('../fonts/AvenirLTStd-Medium.otf'); }
+@font-face { font-family: Avenir; src: url('../fonts/AvenirLTStd-Medium.otf');}
 @font-face { font-family: AvenirHeavy; font-weight: 400; src: url('../fonts/AvenirLTStd-Heavy.otf'); }
 @font-face { font-family: AvenirBlack; font-weight: 800; src: url('../fonts/AvenirLTStd-Black.otf'); }
 
@@ -458,7 +458,7 @@ nav
     
   }
 
-  #chapter-7-desat { background-image: url(../img/s7-main-desat.JPG); }
+  #chapter-7-desat { background-image: url(../img/s7-main-desat-darker.JPG); }
 }
 
 .orange-highlighter {
