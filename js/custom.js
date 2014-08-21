@@ -1,4 +1,21 @@
-  $(function() {
+function findBootstrapEnvironment() {
+    var envs = ['xs', 'sm', 'md', 'lg'];
+
+    $el = $('<div>');
+    $el.appendTo($('body'));
+
+    for (var i = envs.length - 1; i >= 0; i--) {
+        var env = envs[i];
+
+        $el.addClass('hidden-'+env);
+        if ($el.is(':hidden')) {
+            $el.remove();
+            return env
+        }
+    };
+}  
+
+$(function() {
 
   $(window).resize(function() {
 
@@ -105,6 +122,10 @@
    /* LIGHTBOX */
    $(".ss-youtube").colorbox({iframe:true, innerWidth:740, innerHeight: 500});
 
+   var env = findBootstrapEnvironment();
+
+   if (env != "xs" && env != "sm")
+   {
    var s = skrollr.init({
       box: '200p'
    });
@@ -124,6 +145,24 @@
     }
 
    });
+   }
+   else
+   {
+     $("section").css("position", "relative");
+
+     $(".stage, .stage .stage-item").css("position", "absolute");
+
+     $("body > section").width("auto").height("auto");
+
+     $(".absolute-staging").css("position", "relative");  
+
+     $(".relative-but-children-abs *").css("position", "relative");
+  
+     $("body > section#s2 > div.container-fluid, body > section#s3 > div.container-fluid > .row, body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s15 > div.container-fluid, body > section#s18 > div.container-fluid").css("position", "relative");
+     $(".black-overlay").hide();
+
+     $("#s15 #captions-area").css("position", "relative");
+   }
 
 
    /*MAPBOX AREA*/

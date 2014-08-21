@@ -364,3 +364,14 @@ nav .nav.navbar-nav#navigation-area > li > a {
   bottom: 0;
   width: 95%;
   height: 500px; }
+
+
+.fixed {
+
+  position: fixed;
+}
+
+.absolute-staging
+{
+  position: absolute; top: 0; left: 0;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>tle>South Sudan - A manmade catastrophe -- UN Office for the Coordination of Humanitarian Affairs</title>
+	<title>South Sudan - A manmade catastrophe -- UN Office for the Coordination of Humanitarian Affairs</title>
 	<meta charset="utf-8">
 	<meta name="viewport" conelevent="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 
 <link rel="stylesheet" href="./css/colorbox.css">
 <link rel="stylesheet" href="./css/custom.css">
@@ -88,7 +89,7 @@
 <section id="s1" data--1p="transform: translate(0,0%);"	
 	data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);" style="overflow: hidden">
 	
-	<video src="./video/IntoLoop-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
+	<video src="./video/IntoLoop-SD.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
@@ -116,7 +117,7 @@
 			</div>
 			<div class="col-md-3"></div>
 		</div>
-		<div class="row margin-top-150">
+		<div class="row margin-top-150 hidden-xs hidden-sm">
 			<p class="text-center">
 				<sub class="text-center">
 					Scroll<br/>
@@ -146,7 +147,7 @@
 to happen; the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it 
 
 will also be man-made."</span>
-					<div style="position: absolute; top: 0; left: 0; " data-120p="opacity: 0" data-140p="opacity: 1">
+					<div class="hidden-xs hidden-sm" style="position: absolute; top: 0; left: 0; " data-120p="opacity: 0" data-140p="opacity: 1">
 					<p style="font-size: 36px">“Famine... If it comes, it will also be man-made.”</p>
 					</div>
 					</p>
@@ -333,7 +334,7 @@ South Sudan and in neighbouring countries.</p>
 
 	</div>
 </section>
-<section id="s6-transition" data-659p="transform: translate(0,100%); display: block;" data-660p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
+<section id="s6-transition" data-659p="transform: translate(0,100%); display: block;" data-661p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
 	<div class="white-overlay" style="rgba(255,255,255,0.8)"></div>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
@@ -391,18 +392,18 @@ fear, sickness, hunger, displacement and destitution.
 		data-851p="transform: translate(0,-100%);">
 	<div class="container-fluid">
 		<div class="row margin-top-25">
-			<div class="col-xs-1 col-md-1"></div>
-			<div class="col-xs-6 col-md-4" style="position: relative;">
-				<img src="./img/s8-image-1.PNG" width="100%" style="position: absolute; top: 0; left: 0"
+			<div class="col-md-1"></div>
+			<div class="col-xs-12 col-md-4" style="position: relative;">
+				<img src="./img/s8-image-1.PNG" width="100%" class="absolute-staging" 
 						data-775p="opacity: 1; display: block;" 
 						data-825p="opacity: 0;" data-826p="display: none;" 
 
 				/>
-				<img src="./img/s8-image-2.PNG" width="100%" style="position: absolute; top: 0; left: 0"
+				<img src="./img/s8-image-2.PNG" width="100%" class="absolute-staging" 
 					 data-775p="opacity:0;" data-825p="opacity:1;" 
 					 />
 			</div>
-			<div class="col-xs-5 col-md-5 orange-highlighter">
+			<div class="col-xs-12 col-md-5 orange-highlighter">
 				<p data-775p="opacity: 1; display: block;" 
 							data-800p="opacity: 0;" data-801p="display: none;">Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine 
 
@@ -523,7 +524,7 @@ Sudan could face famine before the end of the year.
 				data-1050p="transform:translate(0,0%); opacity: 1;"
 				data-1060p="transform:translate(0,0%);"
 				data-1100p="transform:translate(0,-100%)">
-			<video src="./video/flooding-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
+			<video class="hidden-xs hidden-sm" src="./video/flooding-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3 text-left">
@@ -580,7 +581,7 @@ severe malnutrition and other diseases.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-md-4" style="position: relative; overflow: hidden">
-				<video src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop>HTML 5 is needed</video>
+				<video class="hidden-xs hidden-sm" src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop>HTML 5 is needed</video>
 				<!-- img src="./img/s14-center.PNG" width="100%" style="position: absolute; left: 0; top: 0" 
 					data-1160p="opacity: 1" data-1180p="opacity: 0"/>
 				<img src="./img/s15-center.png" width="100%" style="position: absolute; left: 0; top: 0"
@@ -623,7 +624,7 @@ treatment in time to save his life.
 </section>
 
 <!-- SLIDE SHOW AREA -->
-<section id="s15" data-1119p="transform: translate(0,100%);" data-1200p="transform:translate(0,0%); opacity: 0;" data-1250p="opacity: 1" data-1255p="transform:translate(0,0%);" data-1300p="transform:translate(0,-100%);">
+<section id="s15" data-1200p="transform: translate(0,100%);" data-1201p="transform:translate(0,0%); opacity: 0;" data-1250p="opacity: 1" data-1255p="transform:translate(0,0%);" data-1300p="transform:translate(0,-100%);">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
@@ -643,7 +644,7 @@ treatment in time to save his life.
 		</div>
 		<div class="row" id="captions-area">
 			<div class="col-md-8"></div>
-			<div class="col-md-4 tranparent-brown" id="s15-caption-area">
+			<div class="col-md-4 col-xs-12 tranparent-brown" id="s15-caption-area">
 				<p></p>
 			</div>
 		</div>
@@ -823,8 +824,9 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
   <script src="js/skrollr.menu.min.js"></script>
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script> 
-  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' /> 
-
+<!--[if lt IE 9]>
+  <script src="js/respond.src.js"></script>
+<![endif]-->
   <script src="js/custom.js"></script>
 
   	<script type="text/javascript">
