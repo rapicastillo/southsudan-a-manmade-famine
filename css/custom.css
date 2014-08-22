@@ -3,6 +3,7 @@
 */
 @font-face {
   font-family: Avenir;
+  font-weight: normal;
   src: url("../fonts/AvenirLTStd-Medium.otf"); }
 @font-face {
   font-family: AvenirHeavy;
@@ -35,16 +36,21 @@ html body {
 
 body > section {
   position: fixed;
+  overflow: hidden;
   top: 0;
   left: 0;
   z-index: 50;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  /* &#s9 { background-image: url(../img/s9-main.jpg); } */ }
   body > section h1, body > section h2, body > section h3 {
-    font-family: AvenirHeavy, sans-serifv;
+    font-family: AvenirHeavy, sans-serif;
     color: #f9a319; }
+  body > section h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   body > section strong.highlight {
     color: #f9a319; }
   body > section > div.container-fluid .main-item {
@@ -53,7 +59,7 @@ body > section {
     font-size: 24px; }
   body > section p {
     font-size: 22px; }
-  body > section#s2 > div.container-fluid, body > section#s3 > div.container-fluid > .row, body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s15 > div.container-fluid, body > section#s18 > div.container-fluid {
+  body > section#s2 > div.container-fluid, body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s15 > div.container-fluid, body > section#s18 > div.container-fluid {
     position: absolute;
     width: 100%; }
   body > section#s3 > div.container-fluid {
@@ -96,22 +102,28 @@ body > section {
     background-color: black; }
   body > section#s6 {
     background-image: url(../img/s5-bg.JPG); }
+  body > section#s6-transition {
+    background-image: url(../img/c1-transition.jpg); }
+    body > section#s6-transition .container-fluid .col-md-8 p {
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
   body > section#s7 {
     background-image: url(../img/s7-main.JPG); }
+    body > section#s7 .container-fluid .col-md-8 p {
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
   body > section#s8 {
     background-color: whitesmoke; }
-  body > section#s9 {
-    background-image: url(../img/s9-main.jpg); }
   body > section#s10 {
-    background-color: transparent; }
+    background-image: url(../img/c2-mary-worries-about-food.jpg); }
   body > section#s11 {
     background-image: url(../img/s11-bg.jpg); }
+  body > section#s11-transition {
+    background-image: url(../img/s11-transition-image.jpg); }
   body > section#s12 {
     background-image: url(../img/s12-main.jpg); }
   body > section#s13 {
-    background-color: #635c45; }
+    background-image: url(../img/s13-main.jpg); }
   body > section#s14 {
-    background-color: #635c45; }
+    background-image: url(../img/s14-nyagol-main.jpg); }
   body > section#s15 {
     background-image: url(../img/s16-ss-1.JPG); }
   body > section#s16 {
@@ -129,6 +141,18 @@ body > section {
   position: absolute;
   top: 0;
   left: 0; }
+
+.well.translucent-black-bg, .well.translucent-white-bg {
+  background: none;
+  background-image: none;
+  border: none; }
+
+.well.translucent-black-bg {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.well.translucent-white-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
 
 .black-overlay {
   background-color: rgba(0, 0, 0, 0.8); }
@@ -187,7 +211,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
   color: #c5c3bc; }
   #s1 .title-area div.main-item {
     color: #f9a319;
-    font-family: AvenirHeavy;
+    font-family: AvenirHeavy, sans-serif;
     letter-spacing: 11px;
     font-size: 52px;
     margin-top: 8px; }
@@ -204,16 +228,18 @@ nav .nav.navbar-nav#navigation-area > li > a {
   #s2 p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
 
-#s3 .content-item {
-  background-color: rgba(0, 0, 0, 0.8); }
-
-#s3, #s3-transition {
+#s3 {
   color: #c5c3bc; }
-  #s3 h5, #s3 p, #s3-transition h5, #s3-transition p {
+  #s3 h5, #s3 p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
 
+#s3-transition h5, #s3-transition p {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+  color: #333333; }
+
 #s3-transition {
-  background-color: rgba(0, 0, 0, 0.8); }
+  /* background-color: rgba(0,0,0,0.8);  */
+  background-image: url(../img/c1-before-john.jpg); }
 
 #s4 {
   color: #c5c3bc; }
@@ -302,7 +328,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
     color: #fffeed;
     font-size: 20px;
     font-weight: normal;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     text-shadow: none;
     border: none;
     margin-top: 10px; }
@@ -362,16 +388,10 @@ nav .nav.navbar-nav#navigation-area > li > a {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 95%;
-  height: 500px; }
+  width: 100%;
+  height: 100% !important; }
 
-
-.fixed {
-
-  position: fixed;
-}
-
-.absolute-staging
-{
-  position: absolute; top: 0; left: 0;
-}
+.absolute-staging {
+  position: absolute;
+  top: 0;
+  left: 0; }

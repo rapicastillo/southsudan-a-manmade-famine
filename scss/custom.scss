@@ -1,7 +1,7 @@
 /**
 #current-title-area  -- Title for the whole chapter to be shown in the top nav
 */
-@font-face { font-family: Avenir; src: url('../fonts/AvenirLTStd-Medium.otf');}
+@font-face { font-family: Avenir; font-weight: normal; src: url('../fonts/AvenirLTStd-Medium.otf');}
 @font-face { font-family: AvenirHeavy; font-weight: 400; src: url('../fonts/AvenirLTStd-Heavy.otf'); }
 @font-face { font-family: AvenirBlack; font-weight: 800; src: url('../fonts/AvenirLTStd-Black.otf'); }
 
@@ -41,6 +41,7 @@ body
   {
 
     position: fixed;
+    overflow: hidden;
     top: 0;
     left: 0;
     z-index: 50; 
@@ -48,6 +49,11 @@ body
     h1, h2, h3 {
       font-family: AvenirHeavy, sans-serif;
       color: $highlight_color;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
     strong.highlight
@@ -79,7 +85,7 @@ body
       font-size: 22px;
     }
 
-    &#s2 > div.container-fluid, &#s3 > div.container-fluid > .row,
+    &#s2 > div.container-fluid, 
     &#s4 > div.container-fluid, &#s11 > div.container-fluid,
     &#s12 > div.container-fluid, &#s15 > div.container-fluid,
     &#s18 > div.container-fluid
@@ -143,14 +149,27 @@ body
     &#s4 { background-image: url(../img/s4-bg.jpg); }
     &#s5 { background-color: rgb(0,0,0); }
     &#s6 { background-image: url(../img/s5-bg.JPG); }
-    &#s7 { background-image: url(../img/s7-main.JPG); }
+    &#s6-transition { 
+      background-image: url(../img/c1-transition.jpg); 
+      .container-fluid .col-md-8 p
+      {
+        text-shadow: 1px 1px 1px rgba(255,255,255, 0.8);
+      }
+    }
+    &#s7 { background-image: url(../img/s7-main.JPG); 
+      .container-fluid .col-md-8 p
+      {
+        text-shadow: 1px 1px 1px rgba(255,255,255, 0.8);
+      }
+    }
     &#s8 { background-color: whitesmoke; }
-    &#s9 { background-image: url(../img/s9-main.jpg); }
-    &#s10 {  background-color: transparent; }
+    /* &#s9 { background-image: url(../img/s9-main.jpg); } */
+    &#s10 {  background-image: url(../img/c2-mary-worries-about-food.jpg); }
     &#s11 { background-image: url(../img/s11-bg.jpg); }
+    &#s11-transition { background-image: url(../img/s11-transition-image.jpg); }
     &#s12 { background-image: url(../img/s12-main.jpg); }
-    &#s13 { background-color: $dark_green; }
-    &#s14 { background-color: $dark_green; }
+    &#s13 { background-image: url(../img/s13-main.jpg); }
+    &#s14 { background-image: url(../img/s14-nyagol-main.jpg); }
     &#s15 { background-image: url(../img/s16-ss-1.JPG); }
     &#s16 { background-image: url(../img/s17-bg.JPG); }
     &#s17 { background-color: $dark_green; }
@@ -165,6 +184,14 @@ body
   position: absolute;
   top: 0; left: 0;
 }
+
+.well.translucent-black-bg, .well.translucent-white-bg
+{
+  background: none; background-image: none;
+  border: none;
+}
+.well.translucent-black-bg {  background-color: rgba(0,0,0, 0.6); }
+.well.translucent-white-bg {  background-color: rgba(255,255,255, 0.8); text-shadow: 1px 1px 1px rgba(255,255,255, 0.8);}
 .black-overlay { background-color: rgba(0,0,0, .8); }
 .white-overlay { background-color: rgba(255,255,255, 1); }
 .brown-overlay { background-color: #635c45; }
@@ -253,23 +280,27 @@ nav
   p { text-shadow: 1px 1px 1px rgba(0,0,0, 0.8); }
 }
 
-#s3
-{
-  .content-item
-  {
-    background-color: rgba(0,0,0, 0.8);
-  }
-}
-#s3, #s3-transition {
+#s3 {
   color: $chapter1_font_color;
 
-  h5, p { text-shadow: 1px 1px 1px rgba(0,0,0, 0.8); }
+  h5, p { 
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.8); 
+    
+  }
  
+}
+
+#s3-transition {
+h5, p { 
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); 
+    color: #333333;
+  }
 }
 
 #s3-transition
 {
-  background-color: rgba(0,0,0,0.8);  
+  /* background-color: rgba(0,0,0,0.8);  */
+  background-image: url(../img/c1-before-john.jpg);
 }
 
 #s4 {
@@ -481,8 +512,8 @@ nav
 
  .map { 
     position:absolute; top:0; bottom:0; 
-    width:95%; 
-    height: 500px;
+    width:100%; 
+    height: 100% !important;
 }
 
 .absolute-staging {

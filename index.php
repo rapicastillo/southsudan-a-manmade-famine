@@ -87,7 +87,9 @@
 	SECTION 1
 -->
 <section id="s1" data--1p="transform: translate(0,0%);"	
-	data-50p="transform: translate(0,0%)" data-100p="transform: translate(0,-100%);" style="overflow: hidden">
+	data-50p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
+	data-101p="transform: translate(0,-100%);"
+	style="overflow: hidden">
 	
 	<video src="./video/IntoLoop-SD.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
@@ -136,7 +138,10 @@
 <!-- 
 	SECTION 2
 -->
-<section style="z-index: 20;"  id="s2" data-50p="transform:translate(0,100%);" data-100p="transform: translate(0, 0%)" data-150p="transform: translate(0, 0%)" data-199p="transform: translate(0,-100%); display: block" data-200p="display: none">
+<section style="z-index: 20;"  id="s2" data-49p="transform:translate(0,100%);" 
+		data-50p="transform: translate(0, 0%);opacity: 0;" data-100p="opacity: 1; transform: translate(0, 0%)" 
+		data-150p="opacity: 1; transform: translate(0, 0%)"
+		data-199p="transform: translate(0,-100%); display: block" data-200p="display: none">
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1);" data-100p="opacity: 1" data-180p="opacity: 0;" data-190p="opacity: 0;"></div>
 	<div class="container-fluid">
 		<div class="row">
@@ -147,7 +152,8 @@
 to happen; the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it 
 
 will also be man-made."</span>
-					<div class="hidden-xs hidden-sm" style="position: absolute; top: 0; left: 0; " data-120p="opacity: 0" data-140p="opacity: 1">
+					<div class="hidden-xs hidden-sm" style="position: absolute; top: 0; left: 0; " 
+						data-120p="opacity: 0" data-140p="opacity: 1">
 					<p style="font-size: 36px">“Famine... If it comes, it will also be man-made.”</p>
 					</div>
 					</p>
@@ -173,12 +179,12 @@ c2-transmission-3.JPG
 		<div class="stage-item" id="chapter-1-kid" data-150p="transform: translate(10%, 0)" data-400p=" transform: translate(3%, 0)"></div>
 		<div class="stage-item" id="chapter-1-man" data-150p="transform: translate(-1%,0)" data-400p="transform:translate(2%, 0)"></div>
 	</div -->
-	<div class="container-fluid" data-250p="transform:translate(0,0%); opacity: 1;" data-300p="transform: translate(0,-100%);" style="width: 100% height: 100%;">
-		<div class="row">
-		<div class="col-md-4"></div>
-		<div class="col-md-4 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
+	<div class="container-fluid">
+		<div class="row margin-top-100">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
 			<h5>Chapter 1<h5>
-			<h1>The violence</h1>
+			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
 			<p>The crisis in South Sudan started on 15 December 2013. Political tensions spilled over, and there was 
 
 fighting on the streets of the capital Juba. The violence quickly spread across the country.
@@ -188,15 +194,16 @@ fighting on the streets of the capital Juba. The violence quickly spread across 
 	</div>
 </section>
 
-<section id="s3-transition" data-250p="transform:translate(0,100%)" 
-			data-300p="transform:translate(0,0%)" 
-			data-310p="transform:translate(0,0%)" 
-			data-350p="transform:translate(0,-100%);">
+<section id="s3-transition" data-249p="transform:translate(0,100%)" 
+			data-250p="transform:translate(0,0%); opacity: 0;"
+			data-300p="opacity: 1;" 
+			data-320p="transform:translate(0,0%); opacity: 1" 
+			data-350p="transform:translate(0,-100%); opacity: 0">
 	
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-			<div class="col-md-4"></div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
 				<p> Within weeks, thousands of people had been killed or wounded. Aid groups received horrific reports of 
 
 innocent civilians murdered in their homes or in hospitals, of unspeakable violence against women and 
@@ -218,8 +225,8 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 
 
 <!-- START OF SECTION 4 -->
-<section id="s4" data-299p="transform:translate(0,100%);" 
-	data-300p="transform:translate(0,0%); opacity: 0;" data-310p="opacity: 0;" data-350p="opacity: 1"
+<section id="s4" data-319p="transform:translate(0,100%);" 
+	data-320p="transform:translate(0,0%); opacity: 0;" data-350p="opacity: 1"
 	data-600p="transform:translate(0,0%);" 
 	data-650p="transform:translate(0,-100%);"
 
@@ -238,18 +245,20 @@ Sudan – the world’s youngest country – has turned into a nightmare.</p>
 		<div class="row margin-top-150">
 			<div class="col-md-2"></div>
 			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
-			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" style="background-color: rgba(0,0,0,0.6)">
-				<p>Countless families across South Sudan have fled their homes. More than 1 million people are displaced 
+			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
+				<div class="well translucent-black-bg">
+					<p>Countless families across South Sudan have fled their homes. More than 1 million people are displaced 
 
-inside the country. Hundreds of thousands have left for the safety of neighbouring counties.
-				</p>
-				<p>
-<strong>John Mamer</strong> lived with his family in Bor, right in the centre of the country on the eastern bank of the Nile
+	inside the country. Hundreds of thousands have left for the safety of neighbouring counties.
+					</p>
+					<p>
+	<strong>John Mamer</strong> lived with his family in Bor, right in the centre of the country on the eastern bank of the Nile
 
-River. Soon after the conflict started in Juba, Bor exploded into violence. Hundreds of people were killed, 
+	River. Soon after the conflict started in Juba, Bor exploded into violence. Hundreds of people were killed, 
 
-most of the town forced to flee.
-				</p>
+	most of the town forced to flee.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -297,27 +306,12 @@ most of the town forced to flee.
 
 <!-- SECTION 6 MAP 1-->
 <section id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0;">
-	<div class="black-overlay"></div>
+	<div id='map-one' class='map'> </div> 
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-		<div class="col-md-8" style="height: 100%; position: relative;">
-			<div id='map-one' class='map'> </div> 
-			<div id="map-one-shadow"></div>
-			<sub>Instruction: Instructions for the
-
-map (zoom out to see... hover over xx to yy) </sub>
-<br/>
-				<sub>Disclaimer:
-
-"The boundaries and names shown and the designations used on this map do not imply official endorsement 
-
-or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
-
-South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."</sub>
-
-		</div>
-		<div class="col-md-4">
-			<h3>Interactive Map</h3>
+		<div class="col-md-4" >
+			<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
+			<h1 style="color: white">Mapping the violence</h1>
 			<p style="font-size: 18px;">
 				John’s family fled <strong class="highlight">Bor</strong>, crossing the Nile River and finding safety in <strong class="highlight">Mingkaman</strong>.
 			</p>
@@ -328,24 +322,30 @@ out to see where violent incidents have been reported, and to see where people h
 South Sudan and in neighbouring countries.</p>
 			
 <br/>
-			<br/>
+			<sub><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Instruction: Instructions for the
+
+map (zoom out to see... hover over xx to yy) </sub>
+<br/>
+				<sub>Disclaimer:
+
+"The boundaries and names shown and the designations used on this map do not imply official endorsement 
+
+or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
+
+South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."</sub>
+			</div>
+		</div>
 		</div>
 		</div>
 
 	</div>
 </section>
-<section id="s6-transition" data-659p="transform: translate(0,100%); display: block;" data-661p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
-	<div class="white-overlay" style="rgba(255,255,255,0.8)"></div>
+<section id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
 	<div class="container-fluid">
-		<div class="row margin-top-100">
-			<div class="col-md-4"></div>
-			<div class="col-md-4 text-center">
-				<p>
-					<img src="./img/c2-transmission-1.JPG" width="30%"/>&nbsp;
-					<img src="./img/c2-transmission-2.JPG" width="30%"/>&nbsp;
-					<img src="./img/c2-transmission-3.JPG" width="30%"/>
-				</p>
-				<p>&nbsp;</p>
+		<div class="row margin-top-150">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-8 text-center">
 				<p>
 				More than 1.5 million people have been displaced from their homes. Over 400,000 have left South Sudan, 
 
@@ -364,22 +364,27 @@ fear, sickness, hunger, displacement and destitution.
 	data-729p="transform:translate(0,100%);" 
 	data-730p="transform:translate(0,0%); opacity: 0;" 
 	data-750p="opacity:1;" 
-	data-775p="transform:translate(0,-50%)"
-	data-825p="transform: translate(0,-50%); opacity: 1;" 
-	data-850p="opacity: 0" 
-	data-851p="transform: translate(0,-100%);">
+	data-800p="transform: translate(0,0%); opacity: 1;"
+	data-825p="transform: translate(0,-50%); opacity: 1;"
+	data-875p="opacity: 1"
+	data-900p="opacity: 0" 
+	data-901p="transform: translate(0,-100%);">
 	<div class="stage">
 		<div class="stage-item" id="chapter-7-desat" 
-		data-749p="display: none;"
-		data-750p="display: block; opacity: 0;" data-760p="opacity: 1;"></div>
+		data-759p="display: none;"
+		data-760p="display: block; opacity: 0;" data-780p="opacity: 1;"></div>
 	</div>
 	<div class="container-fluid">
 		<div class="row margin-top-50"></div>
 		<div class="row margin-top-50"></div>
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
 				<h5>Chapter 2</h5>
-				<h1>Displacement</h1>
+				<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
+				<p>
+					Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, and only be able to take with you the few things you are able to carry.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -387,41 +392,35 @@ fear, sickness, hunger, displacement and destitution.
 <!-- SECTION 7 -->
 
 <!-- SECTION 8 -->
-<section id="s8" data-750p="transform:translate(0,100%);" data-775p="transform:translate(0,50%)" 
-		data-825p="transform: translate(0,50%); opacity: 1;" data-850p="opacity: 0" 
-		data-851p="transform: translate(0,-100%);">
+<section id="s8" data-800p="transform:translate(0,100%);" data-825p="transform:translate(0,50%)" 
+		data-850p="transform: translate(0,50%); opacity: 1;" data-875p="opacity: 1"
+		data-900p="opacity: 0;" 
+		data-901p="transform: translate(0,-100%);">
 	<div class="container-fluid">
 		<div class="row margin-top-25">
-			<div class="col-md-1"></div>
 			<div class="col-xs-12 col-md-4" style="position: relative;">
-				<img src="./img/s8-image-1.PNG" width="100%" class="absolute-staging" 
-						data-775p="opacity: 1; display: block;" 
-						data-825p="opacity: 0;" data-826p="display: none;" 
-
-				/>
-				<img src="./img/s8-image-2.PNG" width="100%" class="absolute-staging" 
-					 data-775p="opacity:0;" data-825p="opacity:1;" 
-					 />
+				<img src="./img/s8-image-1.jpg" width="100%" />
 			</div>
-			<div class="col-xs-12 col-md-5 orange-highlighter">
-				<p data-775p="opacity: 1; display: block;" 
-							data-800p="opacity: 0;" data-801p="display: none;">Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine 
-
-having to run from your home, and only be able to take with you the few things you are able to carry.</p>
-
-				<p data-800p="opacity:0;" data-825p="opacity:1;" >John’s family now lives in Mingkaman, in the largest IDP site in South Sudan. <strong>Mary</strong>, his wife lives with six of
+			<div class="col-xs-12 col-md-4">
+				<img src="./img/s8-image-2.PNG" width="100%"/>
+			</div>
+			<div class="col-xs-12 col-md-3 orange-highlighter text-left">
+				<p style="padding: 40px;">John’s family now lives in Mingkaman, in the largest IDP site in South Sudan. <strong>Mary</strong>, his wife lives with six of
 
 their seven children and their seven grandchildren.</p>
 			</div>
 		</div>
 	</div>
 </section>
+
+
 <!-- END OF SECTION 8 -->
 
 <!-- SECTION 9 -->
-<section id="s9" data-824p="transform:translate(0,100%);" data-825p="transform:translate(0,0%); opacity: 0;" 
-	data-850p="opacity: 1; transform:translate(0,0%);"
-	data-900p="transform:translate(0,-100%);"
+<?php /* 
+<section id="s9" data-874p="transform:translate(0,100%);" data-875p="transform:translate(0,0%); opacity: 0;" 
+	data-925p="opacity: 1; transform:translate(0,0%);"
+	data-950p="transform:translate(0,-100%);"
 	>
 	<div class="container-fluid">
 		<div class="row margin-top-150"></div>
@@ -432,29 +431,30 @@ their seven children and their seven grandchildren.</p>
 		</div>
 	</div>
 </section>
+<?php */ ?>
 <!-- END OF SECTION 9 -->
 
 <!-- SECTION 10 -->
-<section id="s10" data-850p="transform:translate(0,100%);" data-900p="transform:translate(0,0%); opacity: 1;"
+<section id="s10" data-849p="transform:translate(0,100%); opacity: 0;" 
+		data-850p="transform: translate(0,0%); opacity: 0;" data-900p="transform:translate(0,0%); opacity: 1;"
+		data-910p="transform:translate(0,0%); opacity: 1;"
 		data-950p="transform:translate(0,-100%); opacity: 0;">
 	<div class="container-fluid">
-		<div class="row margin-top-50">
-			<div class="col-md-4"></div>
-			<div class="col-md-4 text-center">
-				<p>
-					<img src="./img/c2-mary-worries-about-food.jpg" width="100%"/>
-				</p>
-				<p>
-					Mary worries about food. Aid agencies are providing some but hunger is a growing concern.
-				</p>
-				<p>
-	The displaced people living here in Mingkaman – and in sites throughout the country – have not been able 
+		<div class="row margin-top-150">
+			<div class="col-md-8"></div>
+			<div class="col-md-3 text-left">
+				<div class="well translucent-white-bg">
+					<p>
+						Mary worries about food. Aid agencies are providing some but hunger is a growing concern.
+					</p>
+					<p>
+		The displaced people living here in Mingkaman – and in sites throughout the country – have not been able 
 
-to sow their fields. Now that the rains have arrived, the window of opportunity for growing food this year has 
+	to sow their fields. Now that the rains have arrived, the window of opportunity for growing food this year has 
 
-closed.
-				</p>
-
+	closed.
+					</p>
+				</div>
 			</div>
 			<div class="col-md-4">
 			</div>
@@ -492,17 +492,10 @@ here we are living without shelter.”</p>
 	data-990p="opacity: 1" data-1000p="opacity: 1"
 	data-1050p="opacity: 0;" data-1051p="display: none;">
 
-	<div class="brown-overlay"></div>
 	<div class="container-fluid">
-		<div class="row margin-top-100">
-			<div class="col-md-4"></div>
-			<div class="col-md-4 text-center">
-				<p>
-					<img src="./img/c3-transition-1.PNG" width="30%"/>&nbsp;
-					<img src="./img/c3-transition-2.PNG" width="30%"/>&nbsp;
-					<img src="./img/c3-transition-3.PNG" width="30%"/>
-				</p>
-				<p>&nbsp;</p>
+		<div class="row margin-top-150">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
 				<p>
 				The violence and displacement that has swept across South Sudan prevented farmers from sowing crops.
 
@@ -527,10 +520,15 @@ Sudan could face famine before the end of the year.
 			<video class="hidden-xs hidden-sm" src="./video/flooding-SD.mp4" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 text-left">
+			<div class="col-md-6 text-left">
 				<div class="well">
 					<h5>Chapter 3</h5>
-					<h1>The threat of famine</h1>
+					<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
+					<p>
+					Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
+
+some - given way to the reality of starvation.
+				</p>
 				</div>
 			</div>
 			<div class="col-md-9"></div>
@@ -542,19 +540,14 @@ Sudan could face famine before the end of the year.
 
 
 <!-- SECTION 13 -->
-<section id="s13" data-1060p="transform:translate(0,100%);" data-1100p="transform:translate(0,-0%)" data-1150p="transform:translate(0,-100%)">
+<section id="s13" data-1060p="transform:translate(0,100%);" data-1100p="transform:translate(0,-0%)" data-1110p="transform:translate(0,0%); opacity: 1;" data-1150p="transform:translate(0,0%); opacity: 0;"
+	data-1151p="transform:translate(0,-100%);"
+>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 text-center">
-				<p>
-					<img src="./img/s13-center.PNG" width="50%" />
-				</p>
-				<p>
-					Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
-
-some - given way to the reality of starvation.
-				</p>
+			<div class="col-md-8"></div>
+			<div class="col-md-4 text-right">
+				
 				<p>
 
 To make matters even worse, the rainy season has brought with it flooding, worsening sanitation and
@@ -575,24 +568,21 @@ severe malnutrition and other diseases.
 </section>
 <!-- END OF SECTION 13 -->
 
-<section id="s14" data-1100p="transform:translate(0,100%);" data-1150p="transform:translate(0,0%);" 
+<section id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;" 
 		data-1200p="transform:translate(0,0%); opacity: 1;" data-1250p="transform:translate(0,-100%); opacity: 0">
-	<div class="container-fluid">
+	<video class="hidden-xs hidden-sm" 
+		src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop
+
+		data-1180p="opacity: 0;" data-1190p="opacity: 1;"
+		style="position: absolute; top: 0; left: 0;"
+		>HTML 5 is needed</video>
+	<div class="container-fluid" 
+		data-1175p="opacity: 1; display: block;"
+		data-1180p="opacity: 0" data-1181p="display: none;">
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
-			<div class="col-md-4" style="position: relative; overflow: hidden">
-				<video class="hidden-xs hidden-sm" src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop>HTML 5 is needed</video>
-				<!-- img src="./img/s14-center.PNG" width="100%" style="position: absolute; left: 0; top: 0" 
-					data-1160p="opacity: 1" data-1180p="opacity: 0"/>
-				<img src="./img/s15-center.png" width="100%" style="position: absolute; left: 0; top: 0"
-					data-1160p="opacity: 0" data-1180p="opacity: 1"/ -->
-			</div>
 			<div class="col-md-5 orange-highlighter">
-				<div>
-					<img src="./img/s14-center.PNG" width="30%" />
-					<br/><br/>
-				</div>
-				<div data-1175p="opacity: 1; display: block;" data-1180p="opacity: 0" data-1181p="display: none;">
+				<div >
 					<p>
 					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever
 
@@ -605,18 +595,24 @@ they could find to eat along the way.
 others were walking. We walked for five days to get here.”
 					</p>
 				</div>
-				<div data-1185p="opacity: 0;" data-1190p="opacity: 1">
-					<p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" data-1180p="opacity: 0;" data-1190p="opacity: 1">
+		<div class="row margin-top-100">
+			<div class="col-md-3">
+				<div>
+									<p>
 
-	Nyagol’s one-and-a-half year old daughter, Nyataba is being treated for malnutrition.
+					Nyagol’s one-and-a-half year old daughter, Nyataba is being treated for malnutrition.
 
-					</p>
+									</p>
 
-					<p>
-	She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her young brother did not receive 
+									<p>
+					She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her young brother did not receive 
 
-treatment in time to save his life.
-					</p>
+				treatment in time to save his life.
+									</p>
 				</div>
 			</div>
 		</div>
@@ -656,34 +652,33 @@ treatment in time to save his life.
 <section id="s16" data-1255p="transform:translate(0,100%);" data-1300p="transform:translate(0,0%);" 
 				  data-1305p="transform:translate(0,0%);  opacity: 1" data-1350p=" opacity: 0;" data-1351p="transform:translate(0,-100%);">
 
+	<div id='map-two' class='map' > </div>
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-			<div class="col-md-4 text-right">
-				<h3>A crisis of devastating proportions</h3>
-				<sub>Zoom out to see...</sub>
-				<p style="font-size: 18px;">
-					This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as 
+			<div class="col-md-3 text-left">
+				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 0 20px 20px 20px; ">
+					<h1>A crisis of devastating proportions</h3>
+					<sub>Zoom out to see...</sub>
+					<p style="font-size: 18px;">
+						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as 
 
-being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households
+	being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households
 
-face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
-				</p>
-				<p style="font-size: 18px;">
-					In some areas, however, there are reports that as much as 50 per cent of the children are severely 
+	face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
+					</p>
+					<p style="font-size: 18px;">
+						In some areas, however, there are reports that as much as 50 per cent of the children are severely 
 
-malnourished.
-				</p>
-				
-			</div>
-			<div class="col-md-8" style="height: 100%">
-				<div id='map-two' class='map'> </div>
-				<div id="map-two-shadow"></div>
-				<sub>Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement 
+	malnourished.
+					</p>
+					<sub>Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement 
 
 or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
 
 South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."</sub>
+					</div>
 			</div>
+			
 			
 		</div>
 		<div class="row">
