@@ -59,23 +59,20 @@ body > section {
     font-size: 24px; }
   body > section p {
     font-size: 22px; }
-  body > section#s2 > div.container-fluid, body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s15 > div.container-fluid, body > section#s18 > div.container-fluid {
+  body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s18 > div.container-fluid {
     position: absolute;
     width: 100%; }
   body > section#s3 > div.container-fluid {
     position: relative;
     width: 100%;
     height: 100%; }
-  body > section#s2 > div.container-fluid {
-    bottom: 30%;
-    left: 0px; }
   body > section#s3 > div.container-fluid .row {
     bottom: 0px;
     left: 0px; }
   body > section#s11 > div.container-fluid {
     top: 30%; }
   body > section#s12 > div.container-fluid {
-    bottom: 10px; }
+    top: 20%; }
   body > section#s15 > div.container-fluid {
     bottom: 0; }
   body > section#s18 > div.container-fluid {
@@ -95,7 +92,7 @@ body > section {
   body > section#s2 {
     background-image: url(../img/s2-main.JPG); }
   body > section#s3 {
-    background-image: url(../img/c1-cover.jpg); }
+    background-image: url(../img/c1-before-john.jpg); }
   body > section#s4 {
     background-image: url(../img/s4-bg.jpg); }
   body > section#s5 {
@@ -128,10 +125,15 @@ body > section {
     background-image: url(../img/s16-ss-1.JPG); }
   body > section#s16 {
     background-image: url(../img/s17-bg.JPG); }
-  body > section#s17 {
-    background-color: #635c45; }
+  body > section#s17 footer {
+    position: absolute;
+    bottom: 0; }
+  body > section#s17 p {
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    color: whitesmoke; }
   body > section#s18 {
-    background-image: url(../img/s-cta-bg.JPG); }
+    background-image: url(../img/c5-what-can-you-do.jpg); }
 
 .black-overlay,
 .brown-overlay,
@@ -228,10 +230,9 @@ nav .nav.navbar-nav#navigation-area > li > a {
   #s2 p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
 
-#s3 {
-  color: #c5c3bc; }
-  #s3 h5, #s3 p {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+#s3 h5, #s3 p {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+  color: #333333; }
 
 #s3-transition h5, #s3-transition p {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
@@ -275,6 +276,9 @@ nav .nav.navbar-nav#navigation-area > li > a {
     width: 100%; }
   #s15 .col-md-12 {
     padding: 0; }
+  #s15 .col-md-6 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
   #s15 .tranparent-brown {
     background-color: rgba(99, 92, 79, 0.7);
     padding: 20px;
@@ -319,7 +323,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
 #s18 .brown-background .well {
   background-image: none;
   background: none;
-  background-color: #ffdfa2;
+  background-color: rgba(240, 240, 240, 0.8);
   border: none;
   padding-bottom: 15px; }
   #s18 .brown-background .well a.btn.btn-default {

@@ -85,9 +85,9 @@ body
       font-size: 22px;
     }
 
-    &#s2 > div.container-fluid, 
+
     &#s4 > div.container-fluid, &#s11 > div.container-fluid,
-    &#s12 > div.container-fluid, &#s15 > div.container-fluid,
+    &#s12 > div.container-fluid, 
     &#s18 > div.container-fluid
     {
       position: absolute;
@@ -99,7 +99,7 @@ body
       width: 100%;
       height: 100%;
     }
-    &#s2 > div.container-fluid {bottom: 30%; left: 0px; }
+  
     &#s3 > div.container-fluid .row {bottom: 0px; left: 0px; }
     &#s4 > div.container-fluid { 
      
@@ -110,7 +110,7 @@ body
     }
 
     &#s11 > div.container-fluid { top: 30%; }
-    &#s12 > div.container-fluid { bottom: 10px; }
+    &#s12 > div.container-fluid { top: 20%; }
     &#s15 > div.container-fluid {bottom: 0;}
     &#s18 > div.container-fluid { top: 15%; }
 
@@ -145,7 +145,7 @@ body
 
     &#s1 { background-image: url(../img/s1-main.JPG);  }
     &#s2 { background-image: url(../img/s2-main.JPG);  }
-    &#s3 { background-image: url(../img/c1-cover.jpg);  }
+    &#s3 { background-image: url(../img/c1-before-john.jpg);  }
     &#s4 { background-image: url(../img/s4-bg.jpg); }
     &#s5 { background-color: rgb(0,0,0); }
     &#s6 { background-image: url(../img/s5-bg.JPG); }
@@ -172,8 +172,21 @@ body
     &#s14 { background-image: url(../img/s14-nyagol-main.jpg); }
     &#s15 { background-image: url(../img/s16-ss-1.JPG); }
     &#s16 { background-image: url(../img/s17-bg.JPG); }
-    &#s17 { background-color: $dark_green; }
-    &#s18 { background-image: url(../img/s-cta-bg.JPG); }
+    &#s17 {  
+
+      footer {
+        position: absolute;
+        bottom: 0;
+      }
+
+      p 
+      {
+        font-size: 32px;
+        text-shadow: 1px 1px 1px rgba(0,0,0, 0.8);
+        color: whitesmoke;
+      }
+    }
+    &#s18 { background-image: url(../img/c5-what-can-you-do.jpg); }
   }
 }
 .black-overlay,
@@ -281,10 +294,10 @@ nav
 }
 
 #s3 {
-  color: $chapter1_font_color;
 
   h5, p { 
-    text-shadow: 1px 1px 1px rgba(0,0,0, 0.8); 
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); 
+    color: #333333;
     
   }
  
@@ -353,6 +366,11 @@ h5, p {
 
   .col-md-12 { padding : 0;}
 
+  .col-md-6
+  {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.8);
+  }
   .tranparent-brown
   {
     background-color: rgba(99,92,79, 0.7);
@@ -428,7 +446,7 @@ h5, p {
   {
     background-image: none;
     background: none;
-    background-color: #ffdfa2;
+    background-color: rgba(240,240,240,0.8);
     border: none;
 
     a.btn.btn-default {

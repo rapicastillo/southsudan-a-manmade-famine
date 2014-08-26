@@ -27,6 +27,28 @@ $(function() {
     $("#s4-viewport").mCustomScrollbar();
 
     $("#johns-story").height($(window).height()  * 3 / 4);
+
+
+    $("video").each(function(i, item) {
+
+      
+      var $this = $(this);
+
+      $this.width($(window).width());
+      $this.height("auto");
+      $this.css("margin-left", "0");
+
+      if ($this.height() < $(window).height())
+      {
+        console.log("ENTERED HERE");
+        $this.height($(window).height());
+        $this.width("auto");
+        $this.css("margin-left", 0 - ($this.width() - $(window).width())/2 );
+        //$(this).width("100%");
+      }
+
+      
+    });
   });
 
   $(".map").height(screen.height * 0.60);
