@@ -244,6 +244,11 @@ nav .nav.navbar-nav#navigation-area > li > a {
 
 #s4 {
   color: #c5c3bc; }
+  #s4 .well {
+    border: none;
+    background: none; }
+  #s4 #john-mamer-intro {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
   #s4 #s4-scroller p {
     font-size: 16px; }
 
@@ -258,8 +263,6 @@ nav .nav.navbar-nav#navigation-area > li > a {
 #s6 {
   color: #c5c3bc; }
 
-#s12 h1 {
-  color: #600a0d; }
 #s12 .well {
   background-color: none;
   border: none;

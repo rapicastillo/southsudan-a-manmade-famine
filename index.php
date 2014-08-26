@@ -295,7 +295,7 @@ into a nightmare.</p>
 			<div class="col-md-2"></div>
 			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
 			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
-				<div class="well translucent-black-bg">
+				<div class="well" id="john-mamer-intro">
 					<p>
 	<strong>John Mamer</strong> lived with his
 
@@ -437,7 +437,7 @@ fear, sickness, hunger, displacement and destitution.
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
-				<h5>Chapter 2</h5>
+				<h5>Mary's Story</h5>
 				<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
 				<p>
 					Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, and only be able to take with you the few things you are able to carry.
@@ -704,7 +704,7 @@ others were walking. We walked for five days to get here.”
 		<div class="row margin-top-100">
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
-				<div data-1250p="opacity: 1" data-1270p="opacity: 1" data-1280p="opacity: 0">
+				<div data-1260p="opacity: 0" data-1270p="opacity: 1" data-1280p="opacity: 1" data-1290p="opacity: 0">
 			<p>The humanitarian crisis in 
 
 South Sudan has caused 
@@ -725,8 +725,6 @@ spilling into famine is high
 
 and increasing every day.
 			</p>
-		</div>
-		<div data-1270p="opacity: 0" data-1280p="opacity: 1">
 			<p>
 				If people had been able to
 
@@ -738,6 +736,9 @@ threat of famine could have
 
 been avoided.
 			</p>
+		</div>
+		<div data-1280p="opacity: 0" data-1290p="opacity: 1">
+			
 			<p class="orange-highlighter">
 				<strong>This is a man-made 
 

@@ -319,6 +319,14 @@ h5, p {
 #s4 {
   color: $chapter1_font_color;
 
+  .well {
+    border: none;
+    background: none;
+  }
+  #john-mamer-intro {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+  }
+
   #s4-scroller
   {
     p { font-size: 16px; }
@@ -342,7 +350,6 @@ h5, p {
 
 #s12
 {
-  h1 { color: #600a0d; }
 
   .well {
     background-color: none;
