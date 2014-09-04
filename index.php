@@ -49,7 +49,7 @@
 		<div class="container-fluid">
 			
 			<ul class="nav navbar-nav">
-				<li><a href="#">{ Messengers of Humanity }</a></li>
+				<li><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
 				<li><a id="south-sudan-title" href="#">SOUTH SUDAN</a></li>
 				
 				<li><a>
@@ -110,7 +110,7 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
-				<article data-30p="opacity: 0" data-50p="opacity: 1;">
+				<article data-20p="opacity: 0" data-40p="opacity: 1;">
 					<p>
 						Last December, a political 
 
