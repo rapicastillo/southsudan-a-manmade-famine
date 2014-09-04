@@ -12,7 +12,7 @@ port. </p>
 
 Mingkaman.</p>
 
-<p>That same day I returned to Bor to check on my home and property. I couldn’t help but cry. There were dead 
+<p>The day I returned to Bor to check on my home and property. I couldn’t help but cry. There were dead 
 
 bodies lying all over the town. Everything was burnt to ashes.</p>
 

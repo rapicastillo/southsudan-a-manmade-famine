@@ -34,6 +34,11 @@ html body
 #s2,#s5,#s8,#s11,#s14,#s17 { background-color: whitesmoke; }
 #s3,#s6,#s9,#s12,#s15,#s18 {  background-color: rgb(152, 194, 207); }
 
+/* OVERRIDES*/
+.navbar-brand:hover, .navbar-nav>li>a:hover
+{
+  background: none;
+}
 
 body  
 {
@@ -187,6 +192,11 @@ body
       }
     }
     &#s18 { background-image: url(../img/c5-what-can-you-do.jpg); }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
   }
 }
 .black-overlay,
@@ -533,7 +543,7 @@ h5, p {
   }
 }
 
-#current-title-area.relative-but-children-abs * { width: 150px; }
+#current-title-area.relative-but-children-abs * { width: 170px; }
 
  .map { 
     position:absolute; top:0; bottom:0; 

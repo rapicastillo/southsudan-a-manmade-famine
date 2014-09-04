@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>South Sudan - A man-made catastrophe -- UN Office for the Coordination of Humanitarian Affairs</title>
+	<title>South Sudan - A man-made catastrophe</title>
 	<meta charset="utf-8">
 	<meta name="viewport" conelevent="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">
 
 <!-- Navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm" role="navigation">
+	<nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation">
 		<div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
 			<div id="progress-bar-color"
 				data-0p="background-color: rgb(221,238,220);"
@@ -49,8 +49,9 @@
 		<div class="container-fluid">
 			
 			<ul class="nav navbar-nav">
+				<li><a href="#">{ Messengers of Humanity }</a></li>
 				<li><a id="south-sudan-title" href="#">SOUTH SUDAN</a></li>
-				<li><a id="ocha-icon-area" href="http://www.unocha.org"><img src="./img/ocha-icon.PNG" /></a></li>
+				
 				<li><a>
 						<span id="current-title-area" class="relative-but-children-abs">
 							<span id="part-1" data-240p="opacity: 1;" data-250p="opacity: 0;">A man-made catastrophe</span>
@@ -100,7 +101,7 @@
 				<div class="title-area"> 
 					<img src="./img/s1-food-icon.PNG" width="50px" ></img>
 					<div class="main-item">A MAN-MADE CATASTROPHE</div>
-					<div class="secondary-item">A multimedia journey of South Sudan</div>
+					<div class="secondary-item">A multimedia journey through South Sudan</div>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -164,7 +165,7 @@
 
 						and there was fighting on the 
 
-						streets of the capital Juba. The 
+						streets Juba, the capital city. The 
 
 						violence quickly spread across 
 
@@ -218,7 +219,7 @@ horrific reports of innocent
 
 civilians murdered in their 
 
-homes or in hospitals, of 
+homes and in hospitals, of 
 
 unspeakable violence against 
 
@@ -239,21 +240,8 @@ women and children.
 		<div class="row margin-top-100">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
-				<p> Hundreds of thousands of 
+				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and almost 450,000 have left for the the safety of neighbouring countries.
 
-people have been forced from 
-
-their homes. More than 1 
-
-million people are displaced 
-
-inside the country. Hundreds 
-
-of thousands have left for 
-
-the safety of neighbouring 
-
-counties.
 		</p>
 
 		<p>Within months, the dream of 
@@ -297,17 +285,7 @@ into a nightmare.</p>
 			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 				<div class="well" id="john-mamer-intro">
 					<p>
-	<strong>John Mamer</strong> lived with his
-
-family in Bor, right in the 
-
-centre of the country on the 
-
-eastern bank of the Nile River. 
-
-Soon after the conflict started 
-
-in Juba, Bor exploded into 
+	<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
 
 violence. Hundreds of people 
 
@@ -324,27 +302,24 @@ town forced to flee.
 	<div class="container-fluid" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
 		<div class="row margin-top-50">
 			<div class="col-md-12">
-				<h2>"The conflict we are facing today is man-made" - John's Story</h2>
+				<h2>John's Story: "The conflict we are facing today is man-made"</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4" >
-				<sub></sub>
+			<div class="col-md-4 col-lg-3" >
+				<div style="font-size: 16px"><strong class="highlight">Listen to John as he remembers the night that Bor fell.</strong></div>
+				<div><sub>TRANSCRIPT</sub></div>
 				<div id="s4-viewport" style="position: relative;">
 					
 					<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
+						
 						<?php include("inc/johns-stories.inc"); ?>
 					</div>
-				</div>
-
-				<hr/>
-				<div>
-					<span class="glyphicon glyphicon-info-sign"></span>&nbsp;<span>Instruction: Listen to John as he remembers the night that Bor fell.</span>
 				</div>
 			</div>
 
 
-			<div class="col-md-8">
+			<div class="col-md-8 col-lg-9">
 				<div >
 					<iframe src="//player.vimeo.com/video/103761205" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
@@ -370,32 +345,38 @@ town forced to flee.
 			<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
 			<h1 style="color: white">Mapping the violence</h1>
 			<p style="font-size: 18px;">
-				John’s family fled <strong class="highlight">Bor</strong>, crossing the Nile River and finding safety in <strong class="highlight">Mingkaman</strong>.
+				John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
 			</p>
-			<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. Scroll 
+			<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. Zoom 
 
 out to see where violent incidents have been reported, and to see where people have sought refuge within 
 
 South Sudan and in neighbouring countries.</p>
-			
-<br/>
-			<sub><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Instruction: Instructions for the
-
-map (zoom out to see... hover over xx to yy) </sub>
-<br/>
-				<sub style="font-size: 9px;">Disclaimer:
-
-"The boundaries and names shown and the designations used on this map do not imply official endorsement 
-
-or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
-
-South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."</sub>
+				
 			</div>
 		</div>
 		</div>
 		</div>
 
 	</div>
+
+<footer class="container-fluid" style="font-size: 10px;">
+	
+
+
+		<div class="row">
+			<div class="col-md-8">Disclaimer:
+
+"The boundaries and names shown and the designations used on this map do not imply official endorsement 
+
+or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
+
+South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
+			</div>
+		</div>
+	
+</footer>
+
 </section>
 <section id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
 	<div class="container-fluid">
@@ -404,12 +385,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 			<div class="col-md-8 text-center">
 				<p>
-				More than 1.5 million people have been displaced from their homes. Over 400,000 have left South Sudan, 
-
-seeking refuge in neighbouring countries. Eight months of violence has exposed so many families to a life of 
-
-fear, sickness, hunger, displacement and destitution.
-				</p>
+				Nine months of violence has exposed many families to a life of fear, sickness, hunger, displacement and destitution.				</p>
 			</div>
 		</div>
 	</div>
@@ -440,7 +416,7 @@ fear, sickness, hunger, displacement and destitution.
 				<h5>Mary's Story</h5>
 				<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
 				<p>
-					Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, and only be able to take with you the few things you are able to carry.
+					Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, taking with you only the few things you are able to carry.
 				</p>
 			</div>
 		</div>
@@ -462,9 +438,8 @@ fear, sickness, hunger, displacement and destitution.
 				<img src="./img/s8-image-2.PNG" width="100%"/>
 			</div>
 			<div class="col-xs-12 col-md-4 orange-highlighter text-left">
-				<p style="padding: 40px;">John’s family now lives in Mingkaman, in the largest IDP site in South Sudan. <strong>Mary</strong>, his wife lives with six of
-
-their seven children and their seven grandchildren.</p>
+				<p style="padding: 40px;">John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
+</p>
 			</div>
 		</div>
 	</div>
@@ -502,14 +477,13 @@ their seven children and their seven grandchildren.</p>
 			<div class="col-md-3 text-left">
 				<div class="well translucent-white-bg">
 					<p>
-						Mary worries about food. Aid agencies are providing some but hunger is a growing concern.
+						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
 					</p>
 					<p>
-		The displaced people living here in Mingkaman – and in sites throughout the country – have not been able 
-
-	to sow their fields. Now that the rains have arrived, the window of opportunity for growing food this year has 
-
-	closed.
+						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
+					</p>
+					<p>
+						To complicate matters, floods, continued violence, and lack of funds are making it harder for aid agencies to deliver.
 					</p>
 				</div>
 			</div>
@@ -527,12 +501,10 @@ their seven children and their seven grandchildren.</p>
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
-				<h3>“If everything goes back to normal we will return home” - Mary’s story</h3>
-				<p>Watch as Mary talks of her frustration and fear about living in the displacement site at
-
-Mingkaman. “They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now,
-
-here we are living without shelter.”</p>
+				<h3>Watch as Mary talks of her frustration about and fear of living in the displacement site at Mingkaman.</h3>
+				<p>
+					“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
+</p>
 			</div>
 			<div class="col-md-4">
 				<a class="ss-youtube" href="http://player.vimeo.com/video/103759213?rel=0&amp;wmode=transparent&amp;autoplay=1">
@@ -605,14 +577,14 @@ some - given way to the reality of starvation.
 				
 				<p>
 
-To make matters even worse, the rainy season has brought with it flooding, worsening sanitation and
+To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
 
 exposing malnourished children to diseases like cholera and diarrhoea.
 
 				</p>
 
 				<p>
-Aid groups working in Bentiu, the state capital of Unity, say that children are now dying every day because of
+Aid groups working in Bentiu, the capital of Unity State, say that children are now dying every day because of
 
 severe malnutrition and other diseases.
 				</p>
@@ -639,15 +611,12 @@ severe malnutrition and other diseases.
 			<div class="col-md-5 orange-highlighter">
 				<div >
 					<p>
-					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever
-
-they could find to eat along the way.
+					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever they could find along the way.
 					</p>
 
 					<p>
-	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the 
+	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the others were walking. We walked for five days to get here.”
 
-others were walking. We walked for five days to get here.”
 					</p>
 				</div>
 			</div>
@@ -659,14 +628,13 @@ others were walking. We walked for five days to get here.”
 				<div>
 									<p>
 
-					Nyagol’s one-and-a-half year old daughter, Nyataba is being treated for malnutrition.
+					Nyagol’s one-and-a-half year old daughter, Nyataba, is being treated for malnutrition.
 
 									</p>
 
 									<p>
-					She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her young brother did not receive 
+					She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her younger brother did not receive treatment in time to save his life.
 
-				treatment in time to save his life.
 									</p>
 				</div>
 			</div>
@@ -721,20 +689,13 @@ population – don't have
 
 enough to eat. The risk of this 
 
-spilling into famine is high 
+turning into widespread famine is high 
 
 and increasing every day.
 			</p>
 			<p>
-				If people had been able to
+				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided. 
 
-plant their crops, if markets 
-
-hadn’t been destroyed, the 
-
-threat of famine could have 
-
-been avoided.
 			</p>
 		</div>
 		<div data-1280p="opacity: 0" data-1290p="opacity: 1">
@@ -759,25 +720,13 @@ catastrophe.</strong></p>
 		<div class="row margin-top-100">
 			<div class="col-md-4 text-left">
 				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 0 20px 20px 20px; ">
-					<h1>A crisis of devastating proportions</h3>
-					<sub>Zoom out to see...</sub>
+					<h3>A CRISIS OF DEVASTATING PROPORTIONS</h3>
 					<p style="font-size: 18px;">
-						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as 
-
-	being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households
-
-	face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
+						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
 					</p>
 					<p style="font-size: 18px;">
-						In some areas, however, there are reports that as much as 50 per cent of the children are severely 
-
-	malnourished.
-					</p>
-					<sub>Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement 
-
-or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
-
-South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."</sub>
+						In some areas, however, there are reports that as much as 50 per cent of the children are severely malnourished.
+					</p>					
 					</div>
 			</div>
 			
@@ -787,6 +736,16 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			<div class="col-md-4"></div>
 			<div class="col-md-8">
 
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid" style="font-size: 10px;">
+	
+
+
+		<div class="row">
+			<div class="col-md-8">
+				Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
 			</div>
 		</div>
 	</div>
@@ -905,7 +864,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 					</ul>
 				</nav>
 				<div class="clear" style="clear: both;"></div>
-				<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNCIEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
+				<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
 				
 			</div>
 		</div>

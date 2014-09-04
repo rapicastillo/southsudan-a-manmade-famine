@@ -34,6 +34,10 @@ html body {
 #s3, #s6, #s9, #s12, #s15, #s18 {
   background-color: #98c2cf; }
 
+/* OVERRIDES*/
+.navbar-brand:hover, .navbar-nav > li > a:hover {
+  background: none; }
+
 body > section {
   position: fixed;
   overflow: hidden;
@@ -134,6 +138,9 @@ body > section {
     color: whitesmoke; }
   body > section#s18 {
     background-image: url(../img/c5-what-can-you-do.jpg); }
+body footer {
+  position: absolute;
+  bottom: 0; }
 
 .black-overlay,
 .brown-overlay,
@@ -389,7 +396,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
     width: 100%; }
 
 #current-title-area.relative-but-children-abs * {
-  width: 150px; }
+  width: 170px; }
 
 .map {
   position: absolute;
