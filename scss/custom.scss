@@ -557,3 +557,29 @@ position: absolute;
 top: 0;
 left: 0;
 } 
+
+
+.circle
+{
+  background: #fff url("../img/twitter-back.png");
+
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-size: cover;
+  overflow: hidden;
+
+  display: inline-block;
+  position: relative;
+
+  .circle-child
+  {
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+  }
+}

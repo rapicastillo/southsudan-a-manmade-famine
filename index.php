@@ -829,10 +829,41 @@ catastrophe.</strong></p>
 								<div class="well">
 									<h3>Take a stand</h3>
 									<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
-									<img src="./img/s18-1.PNG" width="100%" />
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-4">
+												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
+													<span class="circle">
+														<span class="circle-child">
+															Stop the fighting. RT if you agree, #SouthSudan deserves better. 
+														</span>
+													</span>
+												</a>
+											</div>
+											<div class="col-md-4">
+												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
+													<span class="circle">
+														<span class="circle-child">
+															The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine 
+														<span>
+													</span>
+												</a>
+											</div>
+											<div class="col-md-4">
+												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood ">
+													<span class="circle">
+														<span class="circle-child">
+															Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood 
+														</span>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
 
-									
+									<!--
 									<a href="javascript: void(0);" class="btn btn-default pull-right twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">Take a stand</a>
+									-->
 									<div style="clear: both"></div>
 								</div>
 							</div>
