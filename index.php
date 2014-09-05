@@ -299,7 +299,7 @@ town forced to flee.
 
 	<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
 	<div class="container-fluid" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
-		<div class="row margin-top-50">
+		<div class="row margin-top-100">
 			<div class="col-md-4 col-lg-3" >
 				<h2>Listen to John as he remembers the night that Bor fell.</h2>
 				<div><sub>TRANSCRIPT</sub></div>
