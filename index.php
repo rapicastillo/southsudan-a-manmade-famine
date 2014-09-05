@@ -88,18 +88,17 @@
 	SECTION 1
 -->
 <section id="s1" data--1p="transform: translate(0,0%);"	
-	data-50p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
+	data-70p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
 	
 	<video src="./video/IntoLoop-SD.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
-	<div class="container-fluid">
+	<div class="container-fluid" data-60p="opacity: 1;" data-70p="opacity: 0;">
 		<div class="row margin-top-100">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<div class="title-area"> 
-					<img src="./img/s1-food-icon.PNG" width="50px" ></img>
 					<div class="main-item">A MAN-MADE CATASTROPHE</div>
 					<div class="secondary-item">A multimedia journey through South Sudan</div>
 					<p>&nbsp;</p>
@@ -177,7 +176,7 @@
 						Since then, South Sudan has been caught 
 						in the grip of a crisis defined by horrendous 
 						<strong>violence</strong>, massive <strong>displacement</strong> 
-						and now, the threat of terrible <strong>famine</strong>.
+						and now, the threat of terrible <strong>famine in 2015</strong>.
 
 					</p>
 					</div>
@@ -197,16 +196,16 @@ c2-transmission-2.JPG
 c2-transmission-3.JPG 
 -->
 <section style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);" 
-			data-310p="transform:translate(0,0%)" data-350p="transform:translate(0,-100%); display: block;" data-351p="display: none;">
+			data-310p="transform:translate(0,-100%); display: block;" data-311p="display: none;">
 	<!-- div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
 		<div class="stage-item" id="chapter-1-bg" data-150p="transform: translate(-3%, 0); width: 120%;" data-400p="transform: translate(-1%, 0); width: 130%;"></div>
 		<div class="stage-item" id="chapter-1-kid" data-150p="transform: translate(10%, 0)" data-400p=" transform: translate(3%, 0)"></div>
 		<div class="stage-item" id="chapter-1-man" data-150p="transform: translate(-1%,0)" data-400p="transform:translate(2%, 0)"></div>
 	</div -->
-	<div class="container-fluid">
+	<div class="container-fluid" data-250p="opacity: 1" data-260p="opacity: 0">
 		<div class="row margin-top-100">
 		<div class="col-md-1"></div>
-		<div class="col-md-10 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
+		<div class="col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
 			<h5>John's Story<h5>
 			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
 			<p>Within weeks, thousands of 
@@ -231,15 +230,15 @@ women and children.
 </section>
 
 <section id="s3-transition" data-249p="transform:translate(0,100%)" 
-			data-250p="transform:translate(0,0%); opacity: 0;"
-			data-300p="opacity: 1;" 
+			data-265p="transform:translate(0,0%); opacity: 0;"
+			data-275p="opacity: 1;" 
 			data-320p="transform:translate(0,0%); opacity: 1" 
 			data-350p="transform:translate(0,-100%); opacity: 0">
 	
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-			<div class="col-md-2"></div>
-			<div class="col-md-8 text-center">
+			<div class="col-md-1"></div>
+			<div class="col-md-5 text-center">
 				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and almost 450,000 have left for the the safety of neighbouring countries.
 
 		</p>
@@ -271,7 +270,7 @@ into a nightmare.</p>
 
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
 	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
-		<div class="stage-item" id="chapter-1-military" style="background-position: -10% 20%" 
+		<div class="stage-item" id="chapter-1-military" style="background-position: -10% 60%" 
 		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
 		data-650p="display: block;" data-651p="display: none;"></div>
 
@@ -379,7 +378,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 
 </section>
 <section id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
-	<div class="container-fluid">
+	<div class="container-fluid" data-705p="opacity: 0" data-715p="opacity: 1" data-725p="opacity: 1">
 		<div class="row margin-top-150">
 			<div class="col-md-2">
 			</div>
@@ -469,9 +468,9 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 <!-- SECTION 10 -->
 <section id="s10" data-849p="transform:translate(0,100%); opacity: 0;" 
 		data-850p="transform: translate(0,0%); opacity: 0;" data-900p="transform:translate(0,0%); opacity: 1;"
-		data-910p="transform:translate(0,0%); opacity: 1;"
+		data-935p="transform:translate(0,0%); opacity: 1;"
 		data-950p="transform:translate(0,-100%); opacity: 0;">
-	<div class="container-fluid">
+	<div class="container-fluid" data-915p="opacity: 0" data-925p="opacity:1">
 		<div class="row margin-top-150">
 			<div class="col-md-8"></div>
 			<div class="col-md-3 text-left">
@@ -495,7 +494,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 <!-- END OF SECTION 10 -->
 
 <!-- SECTION 11 -->
-<section id="s11" data-924p="transform:translate(0,100%);" data-925p="transform:translate(0,0%); opacity: 0;"
+<section id="s11" data-924p="transform:translate(0,100%);" data-935p="transform:translate(0,0%); opacity: 0;"
 	data-950p="opacity: 1;" data-975p="opacity: 1;" data-990p="opacity: 0" data-1001p="transform:translate(0,-100%)">
 	<div class="container-fluid">
 		<div class="row">
@@ -521,7 +520,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 	data-990p="opacity: 1" data-1000p="opacity: 1"
 	data-1050p="opacity: 0;" data-1051p="display: none;">
 
-	<div class="container-fluid">
+	<div class="container-fluid" data-995p="opacity: 0" data-1005p="opacity: 1">
 		<div class="row margin-top-150">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
@@ -698,7 +697,7 @@ and increasing every day.
 
 			</p>
 		</div>
-		<div data-1280p="opacity: 0" data-1290p="opacity: 1">
+		<div data-1290p="opacity: 0" data-1300p="opacity: 1">
 			
 			<p class="orange-highlighter">
 				<strong>This is a man-made 
@@ -795,9 +794,23 @@ catastrophe.</strong></p>
 
 <section id="s18" data-1450p="transform:translate(0,100%);" data-1500p="transform:translate(0,0%);">
 
-	<div class="container">
+	<div class="container-fluid" data-1510p="opacity: 0" data-1520p="opacity: 1" data-1540p="opacity: 1" data-1550p="opacity: 0">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<p class="text-left" style="font-size: 200%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3);">
+				"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
+				</p>
+				<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
+					- Toby Lanzer, Resident and Humanitarian Coordinator, South Sudan
+				</p>
+			</div>
+		</div>
+	</div>
 
-		<div class="row margin-top-100">
+	<div class="container" data-1550p="opacity: 0" data-1610p="opacity: 1">
+
+		<div class="row margin-top-50">
 			<div class="col-md-1"></div>
 			<div class="col-md-10 text-center">
 				<h1>
@@ -817,11 +830,11 @@ catastrophe.</strong></p>
 							<div class="col-md-8 brown-background">
 								<div class="well">
 									<h3>Take a stand</h3>
-									<p class="text-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+									<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
 									<img src="./img/s18-1.PNG" width="100%" />
 
 									
-									<a href="javascript: void(0);" class="btn btn-default pull-right">Take a stand</a>
+									<a href="javascript: void(0);" class="btn btn-default pull-right twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">Take a stand</a>
 									<div style="clear: both"></div>
 								</div>
 							</div>
@@ -833,7 +846,7 @@ catastrophe.</strong></p>
 											<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
 
 				people caught up in this man-made crisis.</p>
-											<a href="javascript: void(0);" class="btn btn-default pull-right">Donate</a>
+											<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
 											<div style="clear: both"></div>
 										</div>
 									</div>

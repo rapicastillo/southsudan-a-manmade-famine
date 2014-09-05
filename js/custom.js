@@ -16,7 +16,7 @@ function findBootstrapEnvironment() {
 }  
 
 $(function() {
-
+  var win;
   $(window).resize(function() {
 
 	  $("body > section")
@@ -57,7 +57,7 @@ $(function() {
 
 
   /* Incorporate Slide shows*/
-  var win;
+  
   $("#s15-slides").slidesjs({
     width: screen.width,
     height: screen.height,
@@ -221,5 +221,29 @@ $(function() {
     $("#navigation-area a").tooltip();
 
      
+    $("a.twitter-caller").bind("click", function() {
+
+          if (win)
+          {
+            win.close();
+          }
+
+          show_text = $(this).attr("twitter-msg");
+
+          var param = $.param({
+            url: "http://bit.ly/SthSudan", 
+            /*via: "unocha",*/
+            /*hashtags: "SouthSudan", */
+            text: show_text,
+            lang: 'en'
+          });
+
+          win = window.open("https://twitter.com/intent/tweet?" + param, "twitter", "height=300,width=600,modal=yes,alwaysRaised=yes");
+          win.focus();
+
+          $("#s15-slides").slidesjs("start");
+    });   
+
+
 
 });

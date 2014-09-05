@@ -96,7 +96,8 @@ body > section {
   body > section#s2 {
     background-image: url(../img/s2-main.JPG); }
   body > section#s3 {
-    background-image: url(../img/c1-before-john.jpg); }
+    background-image: url(../img/c1-main.jpg);
+    background-size: cover; }
   body > section#s4 {
     background-image: url(../img/s4-bg.jpg); }
   body > section#s5 {
@@ -137,7 +138,7 @@ body > section {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     color: whitesmoke; }
   body > section#s18 {
-    background-image: url(../img/c5-what-can-you-do.jpg); }
+    background-image: url(../img/c5-toby-quote.jpg); }
 body footer {
   position: absolute;
   bottom: 0; }
@@ -247,7 +248,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
 
 #s3-transition {
   /* background-color: rgba(0,0,0,0.8);  */
-  background-image: url(../img/c1-before-john.jpg); }
+  background-image: url(../img/c1-main.jpg); }
 
 #s4 {
   color: #c5c3bc; }
@@ -376,7 +377,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
   .stage #chapter-1-kid {
     background-image: url(../img/chapter1-kid.png); }
   .stage #chapter-1-military {
-    background-image: url(../img/c1-military.JPG); }
+    background-image: url(../img/c1-john-bg.jpg); }
   .stage #chapter-1-johnmamer {
     background-image: url(../img/c1-john-mamer.png);
     background-size: auto 75%;
