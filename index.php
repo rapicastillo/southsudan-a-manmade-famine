@@ -300,13 +300,8 @@ town forced to flee.
 	<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
 	<div class="container-fluid" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
 		<div class="row margin-top-50">
-			<div class="col-md-12">
-				<h2>John's Story: "The conflict we are facing today is man-made"</h2>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-4 col-lg-3" >
-				<div style="font-size: 16px"><strong class="highlight">Listen to John as he remembers the night that Bor fell.</strong></div>
+				<h2>Listen to John as he remembers the night that Bor fell.</h2>
 				<div><sub>TRANSCRIPT</sub></div>
 				<div id="s4-viewport" style="position: relative;">
 					
@@ -378,7 +373,8 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 
 </section>
 <section id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
-	<div class="container-fluid" data-705p="opacity: 0" data-715p="opacity: 1" data-725p="opacity: 1">
+	<div class="container-fluid" data-705p="opacity: 0" data-715p="opacity: 1" data-725p="opacity: 1"
+		data-730p="opacity: 0" data-735p="opacity: 0;">
 		<div class="row margin-top-150">
 			<div class="col-md-2">
 			</div>
@@ -807,8 +803,12 @@ catastrophe.</strong></p>
 			</div>
 		</div>
 	</div>
+	
+</section>
 
-	<div class="container" data-1550p="opacity: 0" data-1610p="opacity: 1">
+<section id="s19" data-1449p="transform:translate(0,100%);" data-1550p="opacity: 0; transform:translate(0,0%);" data-1610p="opacity: 1">
+
+	<div class="container">
 
 		<div class="row margin-top-50">
 			<div class="col-md-1"></div>
@@ -821,8 +821,6 @@ catastrophe.</strong></p>
 		</div>
 		<!-- FOR CALL TO ACTIONS -->
 		<div class="row">
-
-			<div class="col-md-2"></div>
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-12">
@@ -867,22 +865,30 @@ catastrophe.</strong></p>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<nav>
-					<ul>
-						<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
-						<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
-						<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org/"><img src="./img/s-cta-moh.PNG" height="30px" /></a></li>
-					</ul>
-				</nav>
-				<div class="clear" style="clear: both;"></div>
-				<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
-				
-			</div>
-		</div>
 
 	</div>
+
+	<footer class="container-fluid">
+		<div class="row">
+
+							<div class="col-md-1"></div>
+							<div class="col-md-10 brown-background">
+								
+										<nav>
+											<ul>
+												<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
+												<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
+												<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org/"><img src="./img/s-cta-moh.PNG" height="30px" /></a></li>
+											</ul>
+										</nav>
+										<div class="clear" style="clear: both;"></div>
+										<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
+										
+									
+							</div>
+
+		</div>
+	</footer>
 
 	
 </section>

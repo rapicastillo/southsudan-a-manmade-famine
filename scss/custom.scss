@@ -93,7 +93,7 @@ body
 
     &#s4 > div.container-fluid, &#s11 > div.container-fluid,
     &#s12 > div.container-fluid, 
-    &#s18 > div.container-fluid
+    &#s18 > div.container-fluid, &#s19 > div.container-fluid
     {
       position: absolute;
       width: 100%;
@@ -119,7 +119,7 @@ body
     &#s15 > div.container-fluid {bottom: 0;}
     &#s18 > div.container-fluid { top: 15%; }
 
-    &#s18 {
+    &#s18, &#s19 {
       bottom: 0; 
 
       nav {
@@ -192,6 +192,7 @@ body
       }
     }
     &#s18 { background-image: url(../img/c5-toby-quote.jpg); }
+    &#s19 { background-image: url(../img/c5-what-can-you-do.jpg); }
   }
 
   footer {
@@ -450,7 +451,7 @@ h5, p {
   color: $chapter3_font_color;
 }
 
-#s18
+#s18, #s19
 {
   p {
     font-size: 16px;

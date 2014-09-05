@@ -63,7 +63,7 @@ body > section {
     font-size: 24px; }
   body > section p {
     font-size: 22px; }
-  body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s18 > div.container-fluid {
+  body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s18 > div.container-fluid, body > section#s19 > div.container-fluid {
     position: absolute;
     width: 100%; }
   body > section#s3 > div.container-fluid {
@@ -81,13 +81,13 @@ body > section {
     bottom: 0; }
   body > section#s18 > div.container-fluid {
     top: 15%; }
-  body > section#s18 {
+  body > section#s18, body > section#s19 {
     bottom: 0; }
-    body > section#s18 nav li, body > section#s18 nav a:hover {
+    body > section#s18 nav li, body > section#s18 nav a:hover, body > section#s19 nav li, body > section#s19 nav a:hover {
       background-color: none; }
-    body > section#s18 nav ul {
+    body > section#s18 nav ul, body > section#s19 nav ul {
       margin: 0; }
-      body > section#s18 nav ul li {
+      body > section#s18 nav ul li, body > section#s19 nav ul li {
         list-style-type: none;
         list-style: none;
         margin-right: 10px; }
@@ -139,6 +139,8 @@ body > section {
     color: whitesmoke; }
   body > section#s18 {
     background-image: url(../img/c5-toby-quote.jpg); }
+  body > section#s19 {
+    background-image: url(../img/c5-what-can-you-do.jpg); }
 body footer {
   position: absolute;
   bottom: 0; }
@@ -326,18 +328,19 @@ nav .nav.navbar-nav#navigation-area > li > a {
 #s13, #s14, #s17, #s16 {
   color: #222222; }
 
-#s18 p {
+#s18 p, #s19 p {
   font-size: 16px; }
 #s18 ul.nav :hover,
-#s18 ul.nav :hover * {
+#s18 ul.nav :hover *, #s19 ul.nav :hover,
+#s19 ul.nav :hover * {
   background-color: none; }
-#s18 .brown-background .well {
+#s18 .brown-background .well, #s19 .brown-background .well {
   background-image: none;
   background: none;
   background-color: rgba(240, 240, 240, 0.8);
   border: none;
   padding-bottom: 15px; }
-  #s18 .brown-background .well a.btn.btn-default {
+  #s18 .brown-background .well a.btn.btn-default, #s19 .brown-background .well a.btn.btn-default {
     background-image: none;
     background-color: #474030;
     color: #fffeed;
@@ -347,11 +350,11 @@ nav .nav.navbar-nav#navigation-area > li > a {
     text-shadow: none;
     border: none;
     margin-top: 10px; }
-  #s18 .brown-background .well h3 {
+  #s18 .brown-background .well h3, #s19 .brown-background .well h3 {
     text-align: left;
     color: #2f291D;
     margin-top: 0; }
-#s18 sub {
+#s18 sub, #s19 sub {
   color: #F1F1F1; }
 
 .stage {
