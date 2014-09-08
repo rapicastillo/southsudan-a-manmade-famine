@@ -15,10 +15,22 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 
+
+
+<!--[if !IE]>
+	<link rel="stylesheet" href="./css/fonts.css">
+<![endif]-->
+
 <link rel="stylesheet" href="./css/colorbox.css">
 <link rel="stylesheet" href="./css/custom.css">
 <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css" />
 <!-- Latest compiled and minified JavaScript -->
+
+
+<!--[if IE]>
+	<link rel="stylesheet" href="./css/custom-ie.css">
+<![endif]-->
+
 
 </head>
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">

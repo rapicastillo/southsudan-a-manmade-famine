@@ -40,7 +40,6 @@ $(function() {
 
       if ($this.height() < $(window).height())
       {
-        console.log("ENTERED HERE");
         $this.height($(window).height());
         $this.width("auto");
         $this.css("margin-left", 0 - ($this.width() - $(window).width())/2 );
@@ -112,7 +111,6 @@ $(function() {
 
 			var _caption = $("#s15-slides [ind=" + number + "]").attr("title");
     		$("#s15-caption-area p").html(_caption + "<br/><a href='javascript: void(0);' class='tweet-button'><img src='./img/tweet.png' height='25px' /></a>");
-    		//console.log($("#s15-caption-area").width());
 
         $("#s15-caption-area p a").bind("click", function() {
           if (win)
@@ -159,7 +157,6 @@ $(function() {
 
         //By default, the duration is hardcoded at 500ms.
         var dura = Math.abs(currentTop - targetTop) * 0.8;
-        console.log(currentTop, targetTop, "DURATION :: ", dura);
         return dura;
 
         //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
