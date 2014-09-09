@@ -34,6 +34,10 @@ html body {
 #s3, #s6, #s9, #s12, #s15, #s18 {
   background-color: #98c2cf; }
 
+#s1 {
+  background-color: black;
+  z-index: 10000; }
+
 /* OVERRIDES*/
 .navbar-brand:hover, .navbar-nav > li > a:hover {
   background: none; }
@@ -55,7 +59,8 @@ body > .section {
       position: relative; }
   body > .section h1, body > .section h2, body > .section h3 {
     font-family: AvenirHeavy, sans-serif;
-    color: #f9a319; }
+    color: #f9a319;
+    font-weight: 800; }
   body > .section h1 {
     text-transform: uppercase;
     letter-spacing: 2px; }

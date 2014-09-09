@@ -34,6 +34,8 @@ html body
 #s2,#s5,#s8,#s11,#s14,#s17 { background-color: whitesmoke; }
 #s3,#s6,#s9,#s12,#s15,#s18 {  background-color: rgb(152, 194, 207); }
 
+
+#s1 { background-color: black; z-index: 10000; }
 /* OVERRIDES*/
 .navbar-brand:hover, .navbar-nav>li>a:hover
 {
@@ -64,6 +66,7 @@ body
     h1, h2, h3 {
       font-family: AvenirHeavy, sans-serif;
       color: $highlight_color;
+      font-weight: 800;
     }
 
     h1 {

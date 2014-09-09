@@ -17,8 +17,8 @@
 
 <meta property="og:title" content="A Man Made Catastrophe | A multimedia journey through South Sudan" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.staging.unocha.org/a-manmade-famine/ssfamine" />
-<meta property="og:image" content="http://www.staging.unocha.org/a-manmade-famine/ssfamine/cover.jpg" />
+<meta property="og:url" content="http://southsudan.messengersofhumanity.org" />
+<meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
 <meta property="og:site_name" content="UNOCHA interactive" />
 <meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />
 
@@ -89,10 +89,10 @@
 
 			<ul class="nav navbar-nav navbar-right main-nav-area" id="navigation-area">
 				<li class="faded-item"><a href="javascript: void();" class="nav-share-button twitter-caller" twitter-msg="New interactive website! Visit, then help tell the world about what's happening in #SouthSudan RT!">
-					<img src="img/s-tweet.png" />
+					<img src="img/s-tweet.gif" />
 				</a></li>
 				<li class="faded-item"><a href="javascript: void();" class="nav-share-button facebook-caller" >
-					<img src="img/f-share.png" />
+					<img src="img/f-share.gif" />
 				</a></li>
 				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
 						data-toggle="tooltip"><img src="./img/nav-01.PNG" /></a></li>
