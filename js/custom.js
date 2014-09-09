@@ -25,6 +25,8 @@ $(function() {
     var video_baby = document.getElementById("video-baby");
       video_baby.volume = 0.0;
 
+
+
    $(".faded-item").bind("mouseenter mouseleave", function(e) {
 
       console.log(e);

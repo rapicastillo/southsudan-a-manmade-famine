@@ -219,7 +219,9 @@ body
 
 .well.translucent-black-bg, .well.translucent-white-bg
 {
-  background: none; background-image: none;
+  background: none !important; 
+  background-image: none !important;
+  background-color: transparent !important;
   border: none;
 }
 .well.translucent-black-bg {  background-color: rgba(0,0,0, 0.6); }
@@ -513,7 +515,7 @@ h5, p {
 }
 .stage
 {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

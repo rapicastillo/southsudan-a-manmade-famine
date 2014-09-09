@@ -164,8 +164,9 @@ body footer {
   left: 0; }
 
 .well.translucent-black-bg, .well.translucent-white-bg {
-  background: none;
-  background-image: none;
+  background: none !important;
+  background-image: none !important;
+  background-color: transparent !important;
   border: none; }
 
 .well.translucent-black-bg {
@@ -376,7 +377,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
   height: 100%; }
 
 .stage {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

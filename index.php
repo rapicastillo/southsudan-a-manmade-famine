@@ -340,9 +340,17 @@ into a nightmare.</p>
 				</div>
 
 
+				
+
 				<div class="col-md-8 col-lg-9">
-					<div >
-						<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div>
+						<!--[if lte IE 9 ]>
+							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" data-499p="transform: translate(100%, 0);" data-500p="transform: translate(0%, 0);" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<![endif]-->
+
+						<!--[if (gt IE 9)|!(IE)]><!--> 
+							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<!--<![endif]-->
 					</div>
 				</div>
 			</div>
@@ -920,7 +928,7 @@ and increasing every day.
 											<div class="well">
 												<h3>Find out more</h3>
 												<p class="text-left">Visit OCHA’s South Sudan website to put the humanitarian crisis in context</p>
-												<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
+												<a href="http://www.unocha.org/south-sudan" target="_blank" class="btn btn-default pull-right">Visit Website</a>
 												<div style="clear: both"></div>
 											</div>
 										</div>
