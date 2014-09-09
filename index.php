@@ -321,7 +321,7 @@ into a nightmare.</p>
 				<div class="col-md-2"></div>
 				<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
 				<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
-					<div class="well" id="john-mamer-intro">
+					<div class="well remove-bg" id="john-mamer-intro">
 						<p>
 		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
 
