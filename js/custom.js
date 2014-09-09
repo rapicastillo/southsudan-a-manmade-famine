@@ -61,7 +61,7 @@ $(function() {
       $this.width($(window).width());
       $this.height("auto");
       $this.css("margin-left", "0");
-
+/*
       if ($this.height() < $(window).height())
       {
         $this.height($(window).height());
@@ -77,6 +77,7 @@ $(function() {
         //$this.css("margin-left", 0 - ($this.height() - $(window).height())/2 );
         //$(this).width("100%");
       }
+      */
       
     });
   });
