@@ -42,7 +42,7 @@ $(function() {
       {
         $this.height($(window).height());
         $this.width("auto");
-        $this.css("margin-left", 0 - ($this.width() - $(window).width())/2 );
+        //$this.css("margin-left", 0 - ($this.width() - $(window).width())/2 );
         //$(this).width("100%");
       }
 
@@ -50,7 +50,7 @@ $(function() {
       {
         $this.width($(window).width());
         $this.height("auto");
-        $this.css("margin-left", 0 - ($this.height() - $(window).height())/2 );
+        //$this.css("margin-left", 0 - ($this.height() - $(window).height())/2 );
         //$(this).width("100%");
       }
       
