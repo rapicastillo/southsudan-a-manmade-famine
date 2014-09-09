@@ -787,8 +787,8 @@ and increasing every day.
 	data-1354p="transforma:translate(0,100%);" data-1355p="transform:translate(0,0%);  opacity: 0" data-1400p=" opacity: 1;"
 	data-1450p="transform:translate(0,0%);" data-1500p="transform:translate(0,-100%);"
 	>
-	<div class="stage-container">
-		<div class="stage" data-1354p="transforma:translate(0,100%);" data-1355p="transform:translate(0,0%);">
+	<div class="stage-container" >
+		<div class="stage" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);">
 			<img class="stage-item" src="./img/s18-img-1.png" width="100%" data-1417p="opacity: 1;"/>
 			<img class="stage-item" src="./img/s18-img-2.png" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
 			<img class="stage-item" src="./img/s18-img-3.png" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
