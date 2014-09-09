@@ -229,7 +229,7 @@ nav .nav.navbar-nav#navigation-area > li > a {
     margin-top: 8px; }
   #s1 .title-area div.secondary-item {
     border-width: 0 0 0 1px;
-    color: #333333; }
+    color: #000000; }
   #s1 .title-area span {
     padding: 10px; }
   #s1 p {
@@ -271,7 +271,8 @@ nav .nav.navbar-nav#navigation-area > li > a {
   color: #c5c3bc; }
 
 #s6 {
-  color: #c5c3bc; }
+  color: #c5c3bc;
+  z-index: 1000; }
 
 #s12 .well {
   background-color: none;
@@ -327,6 +328,9 @@ nav .nav.navbar-nav#navigation-area > li > a {
 
 #s13, #s14, #s17, #s16 {
   color: #222222; }
+
+#s16 {
+  z-index: 1000; }
 
 #s18 p, #s19 p {
   font-size: 16px; }

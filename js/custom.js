@@ -185,26 +185,71 @@ $(function() {
 
 
    /*MAPBOX AREA*/
-   L.mapbox.accessToken = 'pk.eyJ1IjoicmVsaWVmd2ViIiwiYSI6IldYR2ZuV3cifQ.eSPZMZWE6UyLtO0OH_-qrw'; 
+L.mapbox.accessToken = 'pk.eyJ1IjoicmVsaWVmd2ViIiwiYSI6IldYR2ZuV3cifQ.eSPZMZWE6UyLtO0OH_-qrw';
+var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
+        minZoom: 6, maxZoom: 7, attributionControl: false,
+        infoControl:true, doubleClickZoom: false, zoomControl: false 
+    }).setView([8.545, 26.422], 6);
 
-    var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', { minZoom: 6, attributionControl: false, 
+  map1.on('dblclick', function (e) {
+    console.log("ZOOM :: " , map1.getZoom());
+
+    if (map1.getZoom() == 6)
+    {
+      map1.setView(e.latlng, map1.getZoom() + 1);
+      $("#map1-instruction").html('Double click on map to <strong class="highlight">zoom out</strong>');
+    } 
+    else if (map1.getZoom() == 7)
+    {
+      map1.setView(e.latlng, map1.getZoom() - 1);
+      $("#map1-instruction").html('Double click on map to <strong class="highlight">zoom in</strong>');
+    }
+
+    
+  }); 
+  map1.gridControl.options.follow = true;
+  map1.scrollWheelZoom.disable();
+
+  /*  var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', { minZoom: 6, attributionControl: false, 
         infoControl:true, zoomControl: false }); 
 
-        map1.gridControl.options.follow = true; 
+        map1.gridControl.options.follow = true; */
 
-    new L.Control.Zoom({ position: 'bottomright' }).addTo(map1);
+//    new L.Control.Zoom({ position: 'bottomright' }).addTo(map1);
 
+    
+    var map2 = L.mapbox.map('map-two', 'reliefweb.j62j4f22', {
+            minZoom: 6, maxZoom: 7, attributionControl: false,
+            infoControl:true, zoomControl: false 
+        }).setView([8.545, 26.422], 6);
+    map2.gridControl.options.follow = true;
+
+    map2.on('dblclick', function (e) {
+
+    if (map2.getZoom() == 6)
+    {
+      map2.setView(e.latlng, map2.getZoom() + 1);
+      $("#map2-instruction").html('Double click on map to <strong class="highlight">zoom out</strong>');
+    } 
+    else if (map2.getZoom() == 7)
+    {
+      map2.setView(e.latlng, map2.getZoom() - 1);
+      $("#map2-instruction").html('Double click on map to <strong class="highlight">zoom in</strong>');
+    }
+
+    
+  }); 
+/*
     var map2 = L.mapbox.map('map-two', 'reliefweb.j62j4f22', { 
             minZoom: 6, attributionControl: false, 
             infoControl:true , zoomControl: false 
         }).setView([7.542,29.399], 6); 
   
-        map2.gridControl.options.follow = true; 
+    map2.gridControl.options.follow = true; */
     
-    map1.scrollWheelZoom.disable();
     map2.scrollWheelZoom.disable();
 
-    new L.Control.Zoom({ position: 'bottomright' }).addTo(map2);
+//    new L.Control.Zoom({ position: 'bottomright' }).addTo(map2);
 
     $("#map-one-shadow").height($("#map-one").height());
     $("#map-two-shadow").height($("#map-two").height());

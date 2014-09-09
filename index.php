@@ -36,7 +36,7 @@
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">
 
 <!-- Navbar -->
-	<nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation">
+	<!-- nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation">
 		<div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
 			<div id="progress-bar-color"
 				data-0p="background-color: rgb(221,238,220);"
@@ -90,7 +90,7 @@
 			</ul>
 			
 		</div>
-	</nav>
+	</nav -->
 <!-- End of nav bar -->
 
 
@@ -176,7 +176,7 @@
 
 						and there was fighting on the 
 
-						streets Juba, the capital city. The 
+						streets of Juba, the capital city. The 
 
 						violence quickly spread across 
 
@@ -343,23 +343,24 @@ town forced to flee.
 <!-- END OF SECTION 5 -->
 
 <!-- SECTION 6 MAP 1-->
-<section id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0;">
+<section id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0; transform:translate(0,0%);" data-701p="transform:translate(0, -100%);">
 	<div id='map-one' class='map'> </div> 
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 		<div class="col-md-4" >
 			<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
-			<h1 style="color: white">Mapping the violence</h1>
+			<h1 style="color: white">Interactive Map</h1>
 			<p style="font-size: 18px;">
 				John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
 			</p>
-			<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. Zoom 
-
-out to see where violent incidents have been reported, and to see where people have sought refuge within 
-
-South Sudan and in neighbouring countries.</p>
-				
+			<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
+			
+			<p style="font-size: 18px">
+				<span class="glyphicon glyphicon-info-sign"></span> 
+				<span id="map1-instruction">Double click to on map to <strong class="highlight">zoom in</strong><span>.
+			</p>	
 			</div>
+
 		</div>
 		</div>
 		</div>
@@ -487,9 +488,6 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
 					</p>
 					<p>
-						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
-					</p>
-					<p>
 						To complicate matters, floods, continued violence, and lack of funds are making it harder for aid agencies to deliver.
 					</p>
 				</div>
@@ -529,7 +527,7 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 	data-1050p="opacity: 0;" data-1051p="display: none;">
 
 	<div class="container-fluid" data-995p="opacity: 0" data-1005p="opacity: 1">
-		<div class="row margin-top-150">
+		<div class="row margin-top-50">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<p>
@@ -733,7 +731,11 @@ catastrophe.</strong></p>
 					</p>
 					<p style="font-size: 18px;">
 						In some areas, however, there are reports that as much as 50 per cent of the children are severely malnourished.
-					</p>					
+					</p>	
+					<p style="font-size: 18px">
+						<span class="glyphicon glyphicon-info-sign"></span> 
+						<span id="map2-instruction">Double click to on map to <strong class="highlight">zoom in</strong><span>.
+					</p>				
 					</div>
 			</div>
 			
@@ -833,8 +835,7 @@ catastrophe.</strong></p>
 		</div>
 		<!-- FOR CALL TO ACTIONS -->
 		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
+			
 					<div class="col-md-12">
 						<div class="row text-center">
 							<div class="col-md-8 brown-background">
@@ -906,8 +907,7 @@ catastrophe.</strong></p>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			
 
 	</div>
 
@@ -915,15 +915,19 @@ catastrophe.</strong></p>
 		<div class="row">
 
 							<div class="col-md-1"></div>
-							<div class="col-md-10 brown-background">
+							<div class="col-md-10 brown-background" >
 								
+										<div style="position: relative;">
 										<nav>
-											<ul>
+											<ul style="padding: 0;">
+												<li class="pull-left"><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
 												<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
 												<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
-												<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org/"><img src="./img/s-cta-moh.PNG" height="30px" /></a></li>
+
 											</ul>
 										</nav>
+										</div>
+
 										<div class="clear" style="clear: both;"></div>
 										<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
 										

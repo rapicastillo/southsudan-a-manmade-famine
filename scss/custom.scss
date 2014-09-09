@@ -290,7 +290,7 @@ nav
       font-size: 52px;
       margin-top: 8px;
     }
-    div.secondary-item { border-width: 0 0 0 1px; color: #333333;}
+    div.secondary-item { border-width: 0 0 0 1px; color: #000000;}
     span { padding: 10px; }
   }
 
@@ -357,6 +357,7 @@ h5, p {
 
 #s6 {
   color: $chapter1_font_color;
+  z-index: 1000;
 }
 
 #s12
@@ -451,6 +452,10 @@ h5, p {
   color: $chapter3_font_color;
 }
 
+#s16
+{
+  z-index: 1000;
+}
 #s18, #s19
 {
   p {
