@@ -330,7 +330,7 @@ into a nightmare.</p>
 
 				<div class="col-md-8 col-lg-9">
 					<div >
-						<iframe src="//player.vimeo.com/video/103761205" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -518,7 +518,7 @@ into a nightmare.</p>
 	</p>
 				</div>
 				<div class="col-md-4">
-					<a class="ss-youtube" href="http://player.vimeo.com/video/103759213?rel=0&amp;wmode=transparent&amp;autoplay=1">
+					<a class="ss-youtube" href="http://player.vimeo.com/video/105393643?rel=0&amp;wmode=transparent&amp;autoplay=1">
 					<img src="./img/s11-video-play.png" width="100%"/>
 					</a>
 				</div>
@@ -873,7 +873,7 @@ and increasing every day.
 													</a>
 												</div>
 												<div class="col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood ">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
 														<span class="circle">
 															<span class="circle-child">
 																Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood 
@@ -907,7 +907,7 @@ and increasing every day.
 										<div class="col-md-12 brown-background">
 											<div class="well">
 												<h3>Find out more</h3>
-												<p class="text-left">Visit OCHA’s South Sudan webpage to put the humanitarian crisis in context</p>
+												<p class="text-left">Visit OCHA’s South Sudan website to put the humanitarian crisis in context</p>
 												<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
 												<div style="clear: both"></div>
 											</div>
