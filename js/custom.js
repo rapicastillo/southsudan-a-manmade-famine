@@ -18,6 +18,13 @@ function findBootstrapEnvironment() {
 $(function() {
   var win;
 
+    /*VIDEO MUTE*/
+    var video_cover = document.getElementById("video-cover");
+      video_cover.volume = 0.0;
+
+    var video_baby = document.getElementById("video-baby");
+      video_baby.volume = 0.0;
+
    $(".faded-item").bind("mouseenter mouseleave", function(e) {
 
       console.log(e);

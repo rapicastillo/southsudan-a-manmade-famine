@@ -117,7 +117,7 @@
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
 	
-	<video src="./video/IntoLoop-SD.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
+	<video id="video-cover" src="./video/IntoLoop-SD.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid" data-60p="opacity: 1;" data-70p="opacity: 0;">
 		<div class="row margin-top-100">
@@ -625,7 +625,7 @@ Sudan could face famine.
 
 <div class="section"  id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;" 
 		data-1200p="transform:translate(0,0%); opacity: 1;" data-1250p="transform:translate(0,-100%); opacity: 0">
-	<video class="hidden-xs hidden-sm" 
+	<video id="video-baby" class="hidden-xs hidden-sm" 
 		src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop
 
 		data-1180p="opacity: 0;" data-1190p="opacity: 1;"
