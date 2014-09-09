@@ -46,6 +46,13 @@ $(function() {
         //$(this).width("100%");
       }
 
+      if ($this.width() < $(window).width())
+      {
+        $this.width($(window).width());
+        $this.height("auto");
+        $this.css("margin-left", 0 - ($this.height() - $(window).height())/2 );
+        //$(this).width("100%");
+      }
       
     });
   });
