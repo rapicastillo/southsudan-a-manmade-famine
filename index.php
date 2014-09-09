@@ -111,7 +111,7 @@
 				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="./img/nav-02.PNG" /></a></li>
 				<li><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="./img/nav-03.PNG" /></a></li>
 				<li><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="./img/nav-04.PNG" /></a></li>
-				<li><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1450p" title="What can you do?"><img src="./img/nav-05.PNG" /></a></li>
+				<li><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="./img/c5-nav.png" /></a></li>
 			</ul>
 			
 		</div>
@@ -379,7 +379,7 @@ into a nightmare.</p>
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-md-4" >
-				<div class="well remove-bg" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
+				<div class="well remove-bg" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; ">
 				<h1 style="color: white">Interactive Map</h1>
 				<p style="font-size: 18px;">
 					John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
@@ -758,7 +758,7 @@ and increasing every day.
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-md-4 text-left">
-				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 0 20px 20px 20px; ">
+				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 20px 20px 20px 20px; ">
 					<h3>A CRISIS OF DEVASTATING PROPORTIONS</h3>
 					<p style="font-size: 18px;">
 						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
@@ -957,7 +957,7 @@ and increasing every day.
 											<div style="position: relative;">
 											<nav>
 												<ul style="padding: 0;">
-													<li class="pull-left"><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
+													<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
 													<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
 													<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
 
