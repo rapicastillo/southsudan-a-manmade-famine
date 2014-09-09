@@ -38,7 +38,7 @@ html body {
 .navbar-brand:hover, .navbar-nav > li > a:hover {
   background: none; }
 
-body > section {
+body > .section {
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -49,97 +49,101 @@ body > section {
   background-repeat: no-repeat;
   background-size: cover;
   /* &#s9 { background-image: url(../img/s9-main.jpg); } */ }
-  body > section h1, body > section h2, body > section h3 {
+  body > .section > .div.container-fluid {
+    position: relative; }
+    body > .section > .div.container-fluid > .row {
+      position: relative; }
+  body > .section h1, body > .section h2, body > .section h3 {
     font-family: AvenirHeavy, sans-serif;
     color: #f9a319; }
-  body > section h1 {
+  body > .section h1 {
     text-transform: uppercase;
     letter-spacing: 2px; }
-  body > section strong.highlight {
+  body > .section strong.highlight {
     color: #f9a319; }
-  body > section > div.container-fluid .main-item {
+  body > .section > div.container-fluid .main-item {
     font-size: 48px; }
-  body > section > div.container-fluid .secondary-item {
+  body > .section > div.container-fluid .secondary-item {
     font-size: 24px; }
-  body > section p {
+  body > .section p {
     font-size: 22px; }
-  body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s18 > div.container-fluid, body > section#s19 > div.container-fluid {
+  body > .section#s4 > div.container-fluid, body > .section#s11 > div.container-fluid, body > .section#s12 > div.container-fluid, body > .section#s18 > div.container-fluid, body > .section#s19 > div.container-fluid {
     position: absolute;
     width: 100%; }
-  body > section#s3 > div.container-fluid {
+  body > .section#s3 > div.container-fluid {
     position: relative;
     width: 100%;
     height: 100%; }
-  body > section#s3 > div.container-fluid .row {
+  body > .section#s3 > div.container-fluid .row {
     bottom: 0px;
     left: 0px; }
-  body > section#s11 > div.container-fluid {
+  body > .section#s11 > div.container-fluid {
     top: 30%; }
-  body > section#s12 > div.container-fluid {
+  body > .section#s12 > div.container-fluid {
     top: 20%; }
-  body > section#s15 > div.container-fluid {
+  body > .section#s15 > div.container-fluid {
     bottom: 0; }
-  body > section#s18 > div.container-fluid {
+  body > .section#s18 > div.container-fluid {
     top: 15%; }
-  body > section#s18, body > section#s19 {
+  body > .section#s18, body > .section#s19 {
     bottom: 0; }
-    body > section#s18 nav li, body > section#s18 nav a:hover, body > section#s19 nav li, body > section#s19 nav a:hover {
+    body > .section#s18 nav li, body > .section#s18 nav a:hover, body > .section#s19 nav li, body > .section#s19 nav a:hover {
       background-color: none; }
-    body > section#s18 nav ul, body > section#s19 nav ul {
+    body > .section#s18 nav ul, body > .section#s19 nav ul {
       margin: 0; }
-      body > section#s18 nav ul li, body > section#s19 nav ul li {
+      body > .section#s18 nav ul li, body > .section#s19 nav ul li {
         list-style-type: none;
         list-style: none;
         margin-right: 10px; }
-  body > section#s1 {
+  body > .section#s1 {
     background-image: url(../img/s1-main.JPG); }
-  body > section#s2 {
+  body > .section#s2 {
     background-image: url(../img/s2-main.JPG); }
-  body > section#s3 {
+  body > .section#s3 {
     background-image: url(../img/c1-main.jpg);
     background-size: cover; }
-  body > section#s4 {
+  body > .section#s4 {
     background-image: url(../img/s4-bg.jpg); }
-  body > section#s5 {
+  body > .section#s5 {
     background-color: black; }
-  body > section#s6 {
+  body > .section#s6 {
     background-image: url(../img/s5-bg.JPG); }
-  body > section#s6-transition {
+  body > .section#s6-transition {
     background-image: url(../img/c1-transition.jpg); }
-    body > section#s6-transition .container-fluid .col-md-8 p {
+    body > .section#s6-transition .container-fluid .col-md-8 p {
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
-  body > section#s7 {
+  body > .section#s7 {
     background-image: url(../img/s7-main.JPG); }
-    body > section#s7 .container-fluid .col-md-8 p {
+    body > .section#s7 .container-fluid .col-md-8 p {
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
-  body > section#s8 {
+  body > .section#s8 {
     background-color: whitesmoke; }
-  body > section#s10 {
+  body > .section#s10 {
     background-image: url(../img/c2-mary-worries-about-food.jpg); }
-  body > section#s11 {
+  body > .section#s11 {
     background-image: url(../img/s11-bg.jpg); }
-  body > section#s11-transition {
+  body > .section#s11-transition {
     background-image: url(../img/s11-transition-image.jpg); }
-  body > section#s12 {
+  body > .section#s12 {
     background-image: url(../img/s12-main.jpg); }
-  body > section#s13 {
+  body > .section#s13 {
     background-image: url(../img/s13-main.jpg); }
-  body > section#s14 {
+  body > .section#s14 {
     background-image: url(../img/s14-nyagol-main.jpg); }
-  body > section#s15 {
+  body > .section#s15 {
     background-image: url(../img/s16-ss-1.JPG); }
-  body > section#s16 {
+  body > .section#s16 {
     background-image: url(../img/s17-bg.JPG); }
-  body > section#s17 footer {
+  body > .section#s17 footer {
     position: absolute;
     bottom: 0; }
-  body > section#s17 p {
+  body > .section#s17 p {
     font-size: 32px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     color: whitesmoke; }
-  body > section#s18 {
+  body > .section#s18 {
     background-image: url(../img/c5-toby-quote.jpg); }
-  body > section#s19 {
+  body > .section#s19 {
     background-image: url(../img/c5-what-can-you-do.jpg); }
 body footer {
   position: absolute;

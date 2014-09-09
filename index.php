@@ -99,7 +99,7 @@
 
 	SECTION 1
 -->
-<section id="s1" data--1p="transform: translate(0,0%);"	
+<div class="section"  id="s1" data--1p="transform: translate(0,0%);"	
 	data-70p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
@@ -144,8 +144,8 @@
 				</sub>
 			</p>
 		</div>
-	<div>
-</section>
+	</div>
+</div>
 <!--
 	END OF SECTION 1
 -->
@@ -154,7 +154,7 @@
 <!-- 
 	SECTION 2
 -->
-<section style="z-index: 20;"  id="s2" data-49p="transform:translate(0,100%);" 
+<div class="section"  style="z-index: 20;"  id="s2" data-49p="transform:translate(0,100%);" 
 		data-50p="transform: translate(0, 0%);opacity: 0;" data-100p="opacity: 1; transform: translate(0, 0%)" 
 		data-150p="opacity: 1; transform: translate(0, 0%)"
 		data-199p="transform: translate(0,-100%); display: block" data-200p="display: none">
@@ -188,7 +188,7 @@
 						Since then, South Sudan has been caught 
 						in the grip of a crisis defined by horrendous 
 						<strong>violence</strong>, massive <strong>displacement</strong> 
-						and now, the threat of terrible <strong>famine in 2015</strong>.
+						and now, the threat of terrible <strong>famine</strong>.
 
 					</p>
 					</div>
@@ -197,7 +197,7 @@
 		</div>
 		<div class="col-md-1"></div>
 	</div>
-</section>
+</div>
 <!--
 	END OF SECTION 2
 -->
@@ -207,7 +207,7 @@
 c2-transmission-2.JPG
 c2-transmission-3.JPG 
 -->
-<section style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);" 
+<div class="section"  style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);" 
 			data-310p="transform:translate(0,-100%); display: block;" data-311p="display: none;">
 	<!-- div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
 		<div class="stage-item" id="chapter-1-bg" data-150p="transform: translate(-3%, 0); width: 120%;" data-400p="transform: translate(-1%, 0); width: 130%;"></div>
@@ -239,9 +239,9 @@ women and children.
 		</div>
 		</div>
 	</div>
-</section>
+</div>
 
-<section id="s3-transition" data-249p="transform:translate(0,100%)" 
+<div class="section"  id="s3-transition" data-249p="transform:translate(0,100%)" 
 			data-265p="transform:translate(0,0%); opacity: 0;"
 			data-275p="opacity: 1;" 
 			data-320p="transform:translate(0,0%); opacity: 1" 
@@ -266,14 +266,14 @@ into a nightmare.</p>
 			<div class="col-md-4"></div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- 
 	END OF SECTION 3
 -->
 
 
 <!-- START OF SECTION 4 -->
-<section id="s4" data-319p="transform:translate(0,100%);" 
+<div class="section"  id="s4" data-319p="transform:translate(0,100%);" 
 	data-320p="transform:translate(0,0%); opacity: 0;" data-350p="opacity: 1"
 	data-600p="transform:translate(0,0%);" 
 	data-650p="transform:translate(0,-100%);"
@@ -332,60 +332,58 @@ town forced to flee.
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 4 -->
 
 <!-- SECTION 5 -->
 <!-- section id="s5">
 	<div class="black-overlay"></div>
 		
-</section -->
+</div -->
 <!-- END OF SECTION 5 -->
 
 <!-- SECTION 6 MAP 1-->
-<section id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0; transform:translate(0,0%);" data-701p="transform:translate(0, -100%);">
+<div class="section"  id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0; transform:translate(0,0%);" data-701p="transform:translate(0, -100%);">
 	<div id='map-one' class='map'> </div> 
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-		<div class="col-md-4" >
-			<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
-			<h1 style="color: white">Interactive Map</h1>
-			<p style="font-size: 18px;">
-				John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
-			</p>
-			<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
-			
-			<p style="font-size: 18px">
-				<span class="glyphicon glyphicon-info-sign"></span> 
-				<span id="map1-instruction">Double click to on map to <strong class="highlight">zoom in</strong><span>.
-			</p>	
+			<div class="col-md-4" >
+				<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
+				<h1 style="color: white">Interactive Map</h1>
+				<p style="font-size: 18px;">
+					John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
+				</p>
+				<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
+				
+				<p style="font-size: 18px">
+					<span class="glyphicon glyphicon-info-sign"></span> 
+					<span id="map1-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
+				</p>	
+				</div>
+
 			</div>
-
 		</div>
-		</div>
-		</div>
-
 	</div>
 
-<footer class="container-fluid" style="font-size: 10px;">
-	
+	<footer class="container-fluid" style="font-size: 10px;">
+		
 
 
-		<div class="row">
-			<div class="col-md-8">Disclaimer:
+			<div class="row">
+				<div class="col-md-8">Disclaimer:
 
-"The boundaries and names shown and the designations used on this map do not imply official endorsement 
+	"The boundaries and names shown and the designations used on this map do not imply official endorsement 
 
-or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
+	or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
 
-South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
+	South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
+				</div>
 			</div>
-		</div>
-	
-</footer>
+		
+	</footer>
 
-</section>
-<section id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
+</div>
+<div class="section"  id="s6-transition" data-664p="transform: translate(0,100%); display: block;" data-665p="transform:translate(0,0%); opacity: 0;" data-700p="opacity: 1" data-730p="opacity: 1" data-750p="opacity: 0;" data-751p="display: none;">
 	<div class="container-fluid" data-705p="opacity: 0" data-715p="opacity: 1" data-725p="opacity: 1"
 		data-730p="opacity: 0" data-735p="opacity: 0;">
 		<div class="row margin-top-150">
@@ -397,11 +395,11 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 6 -->
 
 <!-- SECTION 7 -->
-<section id="s7" 
+<div class="section"  id="s7" 
 	data-729p="transform:translate(0,100%);" 
 	data-730p="transform:translate(0,0%); opacity: 0;" 
 	data-750p="opacity:1;" 
@@ -429,11 +427,11 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- SECTION 7 -->
 
 <!-- SECTION 8 -->
-<section id="s8" data-800p="transform:translate(0,100%);" data-825p="transform:translate(0,50%)" 
+<div class="section"  id="s8" data-800p="transform:translate(0,100%);" data-825p="transform:translate(0,50%)" 
 		data-850p="transform: translate(0,50%); opacity: 1;" data-875p="opacity: 1"
 		data-900p="opacity: 0;" 
 		data-901p="transform: translate(0,-100%);">
@@ -451,14 +449,14 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 
 <!-- END OF SECTION 8 -->
 
 <!-- SECTION 9 -->
 <?php /* 
-<section id="s9" data-874p="transform:translate(0,100%);" data-875p="transform:translate(0,0%); opacity: 0;" 
+<div class="section"  id="s9" data-874p="transform:translate(0,100%);" data-875p="transform:translate(0,0%); opacity: 0;" 
 	data-925p="opacity: 1; transform:translate(0,0%);"
 	data-950p="transform:translate(0,-100%);"
 	>
@@ -470,12 +468,12 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <?php */ ?>
 <!-- END OF SECTION 9 -->
 
 <!-- SECTION 10 -->
-<section id="s10" data-849p="transform:translate(0,100%); opacity: 0;" 
+<div class="section"  id="s10" data-849p="transform:translate(0,100%); opacity: 0;" 
 		data-850p="transform: translate(0,0%); opacity: 0;" data-900p="transform:translate(0,0%); opacity: 1;"
 		data-935p="transform:translate(0,0%); opacity: 1;"
 		data-950p="transform:translate(0,-100%); opacity: 0;">
@@ -496,11 +494,11 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 10 -->
 
 <!-- SECTION 11 -->
-<section id="s11" data-924p="transform:translate(0,100%);" data-935p="transform:translate(0,0%); opacity: 0;"
+<div class="section"  id="s11" data-924p="transform:translate(0,100%);" data-935p="transform:translate(0,0%); opacity: 0;"
 	data-950p="opacity: 1;" data-975p="opacity: 1;" data-990p="opacity: 0" data-1001p="transform:translate(0,-100%)">
 	<div class="container-fluid">
 		<div class="row">
@@ -519,9 +517,9 @@ South Sudan has not yet been determined. Final status of the Abyei area is not y
 		</div>
 
 	</div>
-</section>
+</div>
 
-<section id="s11-transition"
+<div class="section"  id="s11-transition"
 	data-974p="transform: translate(0,100%); display: block;" data-975p="transform:translate(0,0%); opacity: 0;" 
 	data-990p="opacity: 1" data-1000p="opacity: 1"
 	data-1050p="opacity: 0;" data-1051p="display: none;">
@@ -540,11 +538,11 @@ Sudan could face famine before the end of the year.
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 11 -->
 
 <!-- SECTION 12 -->
-<section id="s12" 
+<div class="section"  id="s12" 
 	style="overflow: hidden;"
 	data-1024p="transform:translate(0,100%);" 
 				data-1025p="transform:translate(0,0%); opacity: 0;"
@@ -567,12 +565,12 @@ some - given way to the reality of starvation.
 			
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 12 -->
 
 
 <!-- SECTION 13 -->
-<section id="s13" data-1060p="transform:translate(0,100%);" data-1100p="transform:translate(0,-0%)" data-1110p="transform:translate(0,0%); opacity: 1;" data-1150p="transform:translate(0,0%); opacity: 0;"
+<div class="section"  id="s13" data-1060p="transform:translate(0,100%);" data-1100p="transform:translate(0,-0%)" data-1110p="transform:translate(0,0%); opacity: 1;" data-1150p="transform:translate(0,0%); opacity: 0;"
 	data-1151p="transform:translate(0,-100%);"
 >
 	<div class="container-fluid">
@@ -597,10 +595,10 @@ severe malnutrition and other diseases.
 			<div class="col-md-3"></div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- END OF SECTION 13 -->
 
-<section id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;" 
+<div class="section"  id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;" 
 		data-1200p="transform:translate(0,0%); opacity: 1;" data-1250p="transform:translate(0,-100%); opacity: 0">
 	<video class="hidden-xs hidden-sm" 
 		src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop
@@ -645,10 +643,10 @@ severe malnutrition and other diseases.
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 <!-- SLIDE SHOW AREA -->
-<section id="s15" data-1200p="transform: translate(0,100%);" data-1201p="transform:translate(0,0%); opacity: 0;" data-1250p="opacity: 1" data-1305p="transform:translate(0,0%);" data-1350p="transform:translate(0,-100%);">
+<div class="section"  id="s15" data-1200p="transform: translate(0,100%);" data-1201p="transform:translate(0,0%); opacity: 0;" data-1250p="opacity: 1" data-1305p="transform:translate(0,0%);" data-1350p="transform:translate(0,-100%);">
 	<div class="container-fluid">
 		<?php /*
 		<div class="row">
@@ -713,11 +711,11 @@ catastrophe.</strong></p>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 
 <!-- SECTION 16 MAP AREA -->
-<section id="s16" data-1305p="transform:translate(0,100%);" data-1350p="transform:translate(0,0%);" 
+<div class="section"  id="s16" data-1305p="transform:translate(0,100%);" data-1350p="transform:translate(0,0%);" 
 				  data-1355p="transform:translate(0,0%);  opacity: 1" data-1400p=" opacity: 0;" data-1401p="transform:translate(0,-100%);">
 
 	<div id='map-two' class='map' > </div>
@@ -734,7 +732,7 @@ catastrophe.</strong></p>
 					</p>	
 					<p style="font-size: 18px">
 						<span class="glyphicon glyphicon-info-sign"></span> 
-						<span id="map2-instruction">Double click to on map to <strong class="highlight">zoom in</strong><span>.
+						<span id="map2-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
 					</p>				
 					</div>
 			</div>
@@ -757,11 +755,11 @@ catastrophe.</strong></p>
 				Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
 			</div>
 		</div>
-	</div>
-</section>
+	</footer>
+</div>
 <!-- END OF SECTION 16 -->
 
-<section id="s17" data--1p="transform:translate(0,100%);"
+<div class="section"  id="s17" data--1p="transform:translate(0,100%);"
 	data-1354p="transforma:translate(0,100%);" data-1355p="transform:translate(0,0%);  opacity: 0" data-1400p=" opacity: 1;"
 	data-1450p="transform:translate(0,0%);" data-1500p="transform:translate(0,-100%);"
 	>
@@ -792,17 +790,15 @@ catastrophe.</strong></p>
 
 				<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
 				
-				
-				<div>
 			</div>
 		</div>
 	</div>
 	<footer>
 		<sub style="margin-top: 100px;">Disclaimer: This image has been digitally altered. See the original: [link]</sub>
 	</footer>
-</section>
+</div>
 
-<section id="s18" data-1450p="transform:translate(0,100%);" data-1500p="transform:translate(0,0%);">
+<div class="section"  id="s18" data-1450p="transform:translate(0,100%);" data-1500p="transform:translate(0,0%);">
 
 	<div class="container-fluid" data-1510p="opacity: 0" data-1520p="opacity: 1" data-1540p="opacity: 1" data-1550p="opacity: 0">
 		<div class="row">
@@ -818,9 +814,9 @@ catastrophe.</strong></p>
 		</div>
 	</div>
 	
-</section>
+</div>
 
-<section id="s19" data-1449p="transform:translate(0,100%);" data-1550p="opacity: 0; transform:translate(0,0%);" data-1610p="opacity: 1">
+<div class="section"  id="s19" data-1449p="transform:translate(0,100%);" data-1550p="opacity: 0; transform:translate(0,0%);" data-1610p="opacity: 1">
 
 	<div class="container">
 
@@ -938,7 +934,7 @@ catastrophe.</strong></p>
 	</footer>
 
 	
-</section>
+</div>
 
 
 <!-- Scripts -->

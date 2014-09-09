@@ -19,7 +19,7 @@ $(function() {
   var win;
   $(window).resize(function() {
 
-	  $("body > section")
+	  $("body > .section")
 	  	.width($(window).width())
 	  	.height($(window).height());
 
@@ -167,17 +167,24 @@ $(function() {
    }
    else
    {
-     $("section").css("position", "relative");
+     $(".section").css("position", "relative");
 
      $(".stage, .stage .stage-item").css("position", "absolute");
 
-     $("body > section").width("auto").height("auto");
+     $("body > .section").width("auto").height("auto");
 
      $(".absolute-staging").css("position", "relative");  
 
      $(".relative-but-children-abs *").css("position", "relative");
   
-     $("body > section#s2 > div.container-fluid, body > section#s3 > div.container-fluid > .row, body > section#s4 > div.container-fluid, body > section#s11 > div.container-fluid, body > section#s12 > div.container-fluid, body > section#s15 > div.container-fluid, body > section#s18 > div.container-fluid").css("position", "relative");
+  /*
+     $("body > #s2 > div.container-fluid, 
+        body > #s3 > div.container-fluid > .row, 
+        body > #s4 > div.container-fluid, 
+        body > #s11 > div.container-fluid, 
+        body > #s12 > div.container-fluid, 
+        body > #s15 > div.container-fluid, 
+        body > #s18 > div.container-fluid").css("position", "relative"); */
      $(".black-overlay").hide();
 
      $("#s15 #captions-area").css("position", "relative");
@@ -197,12 +204,12 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
     if (map1.getZoom() == 6)
     {
       map1.setView(e.latlng, map1.getZoom() + 1);
-      $("#map1-instruction").html('Double click on map to <strong class="highlight">zoom out</strong>');
+      $("#map1-instruction").html('Double click on the map to <strong class="highlight">zoom out</strong>');
     } 
     else if (map1.getZoom() == 7)
     {
       map1.setView(e.latlng, map1.getZoom() - 1);
-      $("#map1-instruction").html('Double click on map to <strong class="highlight">zoom in</strong>');
+      $("#map1-instruction").html('Double click on the map to <strong class="highlight">zoom in</strong>');
     }
 
     
