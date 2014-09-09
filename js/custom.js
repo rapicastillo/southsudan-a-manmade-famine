@@ -270,10 +270,12 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
         map2.setView(e.latlng, 7);
         $("#map2-instruction").html('Double click on the map to <strong class="highlight">zoom out</strong>');
         console.log("ZOOM", map2.getZoom());
+
       } 
       else if (map2.getZoom() == 7)
       {
-        map2.setView(e.latlng, 6);
+        map2.zoomOut(1);
+        //map2.setView(e.latlng, 6);
         $("#map2-instruction").html('Double click on the map to <strong class="highlight">zoom in</strong>');
         console.log("ZOOM", map2.getZoom());
       }
