@@ -156,7 +156,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 
-    &#s1 { background-image: url(../img/s1-main.JPG);  }
+  
     &#s2 { background-image: url(../img/s2-main.JPG);  }
     &#s3 { background-image: url(../img/c1-main.jpg); background-size: cover; }
     &#s4 { background-image: url(../img/s4-bg.jpg); }
@@ -217,12 +217,17 @@ body
   top: 0; left: 0;
 }
 
+.well
+{
+  background: none; 
+  background-image: none;
+  background-color: transparent;
+  border: none;
+}
+
 .well.translucent-black-bg, .well.translucent-white-bg
 {
-  background: none !important; 
-  background-image: none !important;
-  background-color: transparent !important;
-  border: none;
+  
 }
 .well.translucent-black-bg {  background-color: rgba(0,0,0, 0.6); }
 .well.translucent-white-bg {  background-color: rgba(255,255,255, 0.8); text-shadow: 1px 1px 1px rgba(255,255,255, 0.8);}
@@ -346,6 +351,8 @@ h5, p {
   }
   #john-mamer-intro {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    border: 0;
+    box-shadow: none;
   }
 
   #s4-scroller

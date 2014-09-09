@@ -100,8 +100,6 @@ body > .section {
         list-style-type: none;
         list-style: none;
         margin-right: 10px; }
-  body > .section#s1 {
-    background-image: url(../img/s1-main.JPG); }
   body > .section#s2 {
     background-image: url(../img/s2-main.JPG); }
   body > .section#s3 {
@@ -163,10 +161,10 @@ body footer {
   top: 0;
   left: 0; }
 
-.well.translucent-black-bg, .well.translucent-white-bg {
-  background: none !important;
-  background-image: none !important;
-  background-color: transparent !important;
+.well {
+  background: none;
+  background-image: none;
+  background-color: transparent;
   border: none; }
 
 .well.translucent-black-bg {
@@ -268,7 +266,9 @@ nav .nav.navbar-nav#navigation-area > li > a {
     border: none;
     background: none; }
   #s4 #john-mamer-intro {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    border: 0;
+    box-shadow: none; }
   #s4 #s4-scroller p {
     font-size: 16px; }
 
