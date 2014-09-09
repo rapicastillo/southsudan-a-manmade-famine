@@ -364,7 +364,7 @@ into a nightmare.</p>
 <!-- SECTION 6 MAP 1-->
 <div class="section"  id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0; transform:translate(0,0%);" data-701p="transform:translate(0, -100%);">
 	<div id='map-one' class='map'> </div> 
-	<div class="container-fluid">
+	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-md-4" >
 				<div class="well" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 0 20px 20px 20px; ">
@@ -743,7 +743,7 @@ and increasing every day.
 				  data-1355p="transform:translate(0,0%);  opacity: 1" data-1400p=" opacity: 0;" data-1401p="transform:translate(0,-100%);">
 
 	<div id='map-two' class='map' > </div>
-	<div class="container-fluid">
+	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-md-4 text-left">
 				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 0 20px 20px 20px; ">
