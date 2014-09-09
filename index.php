@@ -117,7 +117,7 @@
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
 	
-	<video id="video-cover" src="./video/LoopFirstScreen_prores_Mp4_1080.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
+	<video id="video-cover" src="./video/LoopFirstScreen_prores_mp4 DI.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid" data-60p="opacity: 1;" data-70p="opacity: 0;">
 		<div class="row margin-top-100">
