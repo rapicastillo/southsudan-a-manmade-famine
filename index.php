@@ -349,7 +349,7 @@ into a nightmare.</p>
 						<![endif]-->
 
 						<!--[if (gt IE 9)|!(IE)]><!--> 
-							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" allowTransparency="true" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						<!--<![endif]-->
 					</div>
 				</div>
@@ -793,7 +793,7 @@ and increasing every day.
 	data-1450p="transform:translate(0,0%);" data-1500p="transform:translate(0,-100%);"
 	>
 	<div class="stage-container">
-		<div class="stage">
+		<div class="stage" data-1354p="transforma:translate(0,100%);" data-1355p="transform:translate(0,0%);">
 			<img class="stage-item" src="./img/s18-img-1.png" width="100%" data-1417p="opacity: 1;"/>
 			<img class="stage-item" src="./img/s18-img-2.png" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
 			<img class="stage-item" src="./img/s18-img-3.png" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
@@ -896,7 +896,7 @@ and increasing every day.
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
 														<span class="circle">
 															<span class="circle-child">
-																Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood 
+																Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood 
 															</span>
 														</span>
 													</a>
