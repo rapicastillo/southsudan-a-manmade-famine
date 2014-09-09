@@ -15,6 +15,13 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 
+<meta property="og:title" content="A Man Made Catastrophe | A multimedia journey through South Sudan" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.staging.unocha.org/a-manmade-famine/ssfamine" />
+<meta property="og:image" content="http://www.staging.unocha.org/a-manmade-famine/ssfamine/cover.jpg" />
+<meta property="og:site_name" content="UNOCHA interactive" />
+<meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />
+
 
 
 <!--[if !IE]>
@@ -36,7 +43,7 @@
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">
 
 <!-- Navbar -->
-	<nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation" data-40p="opacity: 0;" data-60p="opacity: 1;">
+	<nav id="top-nav" class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation" data-40p="opacity: 0;" data-60p="opacity: 1;">
 		<!--div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
 			<div id="progress-bar-color"
 				data-0p="background-color: rgb(221,238,220);"
@@ -80,10 +87,15 @@
 				</li>
 			</ul> -->
 
-			<ul class="nav navbar-nav navbar-right" id="navigation-area">
+			<ul class="nav navbar-nav navbar-right main-nav-area" id="navigation-area">
+				<li class="faded-item"><a href="javascript: void();" class="nav-share-button twitter-caller" twitter-msg="New interactive website! Visit, then help tell the world about what's happening in #SouthSudan RT!">
+					<img src="img/s-tweet.png" />
+				</a></li>
+				<li class="faded-item"><a href="javascript: void();" class="nav-share-button facebook-caller" >
+					<img src="img/f-share.png" />
+				</a></li>
 				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
 						data-toggle="tooltip"><img src="./img/nav-01.PNG" /></a></li>
-
 				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="./img/nav-02.PNG" /></a></li>
 				<li><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="./img/nav-03.PNG" /></a></li>
 				<li><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="./img/nav-04.PNG" /></a></li>

@@ -17,6 +17,21 @@ function findBootstrapEnvironment() {
 
 $(function() {
   var win;
+
+   $(".faded-item").bind("mouseenter mouseleave", function(e) {
+
+      console.log(e);
+      if (e.type == "mouseenter")
+      {
+        $(this).stop(true, true).animate({"opacity" : 1}, "fast");
+      }
+      else
+      {
+        $(this).stop(true, true).animate({"opacity" : 0.5}, "fast");
+      }
+    });
+
+
   $(window).resize(function() {
 
 	  $("body > .section")
@@ -299,6 +314,28 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
 
           $("#s15-slides").slidesjs("start");
     });   
+
+    $("a.facebook-caller").bind("click", function() {
+          if (win)
+          {
+            win.close();
+          }
+
+          show_text = $(this).attr("facebook-msg");
+
+          var param = $.param({
+            u: "http://bit.ly/SthSudan", 
+            /*via: "unocha",*/
+            /*hashtags: "SouthSudan", */
+            text: show_text,
+            lang: 'en'
+          });
+
+          win = window.open("https://www.facebook.com/sharer/sharer.php?" + param, "facebook", "height=300,width=600,modal=yes,alwaysRaised=yes");
+          win.focus();
+
+          $("#s15-slides").slidesjs("start");
+    });
 
 
 

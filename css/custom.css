@@ -447,3 +447,9 @@ nav .nav.navbar-nav#navigation-area > li > a {
 
 .navbar-nav.navbar-right:last-child {
   margin-right: 20px; }
+
+.nav-share-button img {
+  height: 40px; }
+
+.faded-item {
+  opacity: 0.5; }
