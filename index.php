@@ -17,7 +17,7 @@
 
 <meta property="og:title" content="A Man Made Catastrophe | A multimedia journey through South Sudan" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://bit.ly/SthSudan" />
+<meta property="og:url" content="http://southsudan.messengersofhumanity.org" />
 <meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
 <meta property="og:site_name" content="UNOCHA interactive" />
 <meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />

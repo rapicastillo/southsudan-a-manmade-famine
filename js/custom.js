@@ -334,7 +334,7 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
           show_text = $(this).attr("facebook-msg");
 
           var param = $.param({
-            u: "http://bit.ly/SthSudan", 
+            u: "http://southsudan.messengersofhumanity.org", 
             /*via: "unocha",*/
             /*hashtags: "SouthSudan", */
             text: show_text,
