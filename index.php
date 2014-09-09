@@ -801,11 +801,11 @@ and increasing every day.
 	>
 	<div class="stage-container" >
 		<div class="stage" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);">
-			<img class="stage-item" src="./img/s18-img-1.png" width="100%" data-1417p="opacity: 1;"/>
-			<img class="stage-item" src="./img/s18-img-2.png" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
-			<img class="stage-item" src="./img/s18-img-3.png" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
-			<img class="stage-item" src="./img/s18-img-4.png" width="100%" data-1430p="opacity: 0;" data-1437p="opacity: 0;" data-1445p="opacity: 1;" />
-			<img class="stage-item" src="./img/s18-img-4.png" width="100%" style="position: relative; opacity: 0;"/>
+			<img class="stage-item" src="./img/s18-img-1.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" data-1417p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-2.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-3.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-4.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" data-1430p="opacity: 0;" data-1437p="opacity: 0;" data-1445p="opacity: 1;" />
+			<img class="stage-item" src="./img/s18-img-4.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" style="position: relative; opacity: 0;"/>
 		</div>
 	
 		<div class="container-fluid">
