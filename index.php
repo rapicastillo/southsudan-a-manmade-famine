@@ -503,7 +503,7 @@ into a nightmare.</p>
 		<div class="row margin-top-150">
 			<div class="col-md-8"></div>
 			<div class="col-md-3 text-left">
-				<div class="well translucent-white-bg">
+				<div class="well remove-bg translucent-white-bg">
 					<p>
 						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
 					</p>
@@ -579,7 +579,7 @@ Sudan could face famine.
 			<div class="row">
 				<div class="col-md-6"></div>
 				<div class="col-md-6 text-right">
-					<div class="well">
+					<div class="well remove-bg">
 						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
 						<p>
 						Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
@@ -604,7 +604,7 @@ Sudan could face famine.
 		<div class="row margin-top-100">
 			<div class="col-md-8"></div>
 			<div class="col-md-4 text-right">
-				<div class="well" style="background: none; border: none; box-shadow: none;">
+				<div class="well remove-bg" style="background: none; border: none; box-shadow: none;">
 					<p>
 
 	To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
