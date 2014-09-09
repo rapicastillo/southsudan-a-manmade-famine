@@ -29,7 +29,7 @@ $(function() {
 
    $(".faded-item").bind("mouseenter mouseleave", function(e) {
 
-      console.log(e);
+      //console.log(e);
       if (e.type == "mouseenter")
       {
         $(this).stop(true, true).animate({"opacity" : 1}, "fast");
@@ -231,7 +231,7 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
     }).setView([8.545, 26.422], 6);
 
   map1.on('dblclick', function (e) {
-    console.log("ZOOM :: " , map1.getZoom());
+//    console.log("ZOOM :: " , map1.getZoom());
 
     if (map1.getZoom() == 6)
     {
