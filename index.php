@@ -308,7 +308,7 @@ into a nightmare.</p>
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
 	<div class="stage-container">
 		<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
-			<div class="stage-item" id="chapter-1-military" style="background-position: -10% 60%" 
+			<div class="stage-item" id="chapter-1-military" style="background-position: -10% 30%" 
 			data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
 			data-650p="display: block;" data-651p="display: none;"></div>
 
