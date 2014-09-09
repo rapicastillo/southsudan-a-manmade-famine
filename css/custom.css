@@ -67,7 +67,7 @@ body > .section {
     font-size: 24px; }
   body > .section p {
     font-size: 22px; }
-  body > .section#s4 > div.container-fluid, body > .section#s11 > div.container-fluid, body > .section#s12 > div.container-fluid, body > .section#s18 > div.container-fluid, body > .section#s19 > div.container-fluid {
+  body > .section#s4 div.container-fluid.absolute-position-content, body > .section#s11 div.container-fluid.absolute-position-content, body > .section#s12 div.container-fluid.absolute-position-content, body > .section#s18 div.container-fluid.absolute-position-content, body > .section#s19 div.container-fluid.absolute-position-content {
     position: absolute;
     width: 100%; }
   body > .section#s3 > div.container-fluid {
@@ -77,13 +77,13 @@ body > .section {
   body > .section#s3 > div.container-fluid .row {
     bottom: 0px;
     left: 0px; }
-  body > .section#s11 > div.container-fluid {
+  body > .section#s11 div.container-fluid.absolute-position-content {
     top: 30%; }
-  body > .section#s12 > div.container-fluid {
+  body > .section#s12 div.container-fluid.absolute-position-content {
     top: 20%; }
-  body > .section#s15 > div.container-fluid {
+  body > .section#s15 div.container-fluid.absolute-position-content {
     bottom: 0; }
-  body > .section#s18 > div.container-fluid {
+  body > .section#s18 div.container-fluid.absolute-position-content {
     top: 15%; }
   body > .section#s18, body > .section#s19 {
     bottom: 0; }
@@ -365,6 +365,11 @@ nav .nav.navbar-nav#navigation-area > li > a {
 #s18 sub, #s19 sub {
   color: #F1F1F1; }
 
+.stage-container {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
 .stage {
   position: fixed;
   top: 0;
@@ -439,3 +444,6 @@ nav .nav.navbar-nav#navigation-area > li > a {
     width: 80%;
     top: 20%;
     left: 10%; }
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: 20px; }

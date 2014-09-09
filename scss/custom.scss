@@ -101,9 +101,11 @@ body
     }
 
 
-    &#s4 > div.container-fluid, &#s11 > div.container-fluid,
-    &#s12 > div.container-fluid, 
-    &#s18 > div.container-fluid, &#s19 > div.container-fluid
+    &#s4 div.container-fluid.absolute-position-content, 
+    &#s11 div.container-fluid.absolute-position-content,
+    &#s12 div.container-fluid.absolute-position-content, 
+    &#s18 div.container-fluid.absolute-position-content, 
+    &#s19 div.container-fluid.absolute-position-content
     {
       position: absolute;
       width: 100%;
@@ -116,18 +118,11 @@ body
     }
   
     &#s3 > div.container-fluid .row {bottom: 0px; left: 0px; }
-    &#s4 > div.container-fluid { 
-     
-    }
 
-    &#s4 > div#s4-speech.container-fluid { 
-     
-    }
-
-    &#s11 > div.container-fluid { top: 30%; }
-    &#s12 > div.container-fluid { top: 20%; }
-    &#s15 > div.container-fluid {bottom: 0;}
-    &#s18 > div.container-fluid { top: 15%; }
+    &#s11 div.container-fluid.absolute-position-content { top: 30%; }
+    &#s12 div.container-fluid.absolute-position-content { top: 20%; }
+    &#s15 div.container-fluid.absolute-position-content {bottom: 0;}
+    &#s18 div.container-fluid.absolute-position-content { top: 15%; }
 
     &#s18, &#s19 {
       bottom: 0; 
@@ -508,6 +503,11 @@ h5, p {
   sub { color: #F1F1F1; }
 }
 
+.stage-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 .stage
 {
   position: fixed;
@@ -597,4 +597,9 @@ left: 0;
     top: 20%;
     left: 10%;
   }
+}
+
+.navbar-nav.navbar-right:last-child
+{
+  margin-right: 20px;
 }

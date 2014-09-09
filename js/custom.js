@@ -236,12 +236,12 @@ var map1 = L.mapbox.map('map-one', 'reliefweb.j5j9a8aa', {
     if (map2.getZoom() == 6)
     {
       map2.setView(e.latlng, map2.getZoom() + 1);
-      $("#map2-instruction").html('Double click on map to <strong class="highlight">zoom out</strong>');
+      $("#map2-instruction").html('Double click on the map to <strong class="highlight">zoom out</strong>');
     } 
     else if (map2.getZoom() == 7)
     {
       map2.setView(e.latlng, map2.getZoom() - 1);
-      $("#map2-instruction").html('Double click on map to <strong class="highlight">zoom in</strong>');
+      $("#map2-instruction").html('Double click on the map to <strong class="highlight">zoom in</strong>');
     }
 
     

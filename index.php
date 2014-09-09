@@ -36,8 +36,8 @@
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">
 
 <!-- Navbar -->
-	<!-- nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation">
-		<div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
+	<nav class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation" data-40p="opacity: 0;" data-60p="opacity: 1;">
+		<!--div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
 			<div id="progress-bar-color"
 				data-0p="background-color: rgb(221,238,220);"
 				data-250p="background-color: rgb(248,234,23);"
@@ -45,21 +45,22 @@
 				data-1050p="background-color: rgb(201,28,34);"
 				data-1450p="background-color: rgb(96,10,13);"
 				></div>
-		</div>
+		</div-->
 		<div id="chapter-bar-color"
-				data-0p="right: 217px; background-color: rgb(221,238,220);"
-				data-230p="right: 217px; background-color: rgb(221,238,220);"
-				data-250p="right: 163px; background-color: rgb(248,234,23);"
-				data-730p="right: 163px; background-color: rgb(248,234,23);"
-				data-750p="right: 110px; background-color: rgb(230,121,38);"
-				data-1030p="right: 110px; background-color: rgb(230,121,38);"
-				data-1050p="right: 57px; background-color: rgb(201,28,34);"
-				data-1430p="right: 57px; background-color: rgb(201,28,34);"
-				data-1450p="right: 6px; background-color: rgb(96,10,13);"
+				data-0p="right: 237px; background-color: rgb(221,238,220);"
+				data-150p="right: 237px; background-color: rgb(221,238,220);"
+				data-170p="right: 183px; background-color: rgb(248,234,23);"
+				data-730p="right: 183px; background-color: rgb(248,234,23);"
+				data-750p="right: 130px; background-color: rgb(230,121,38);"
+				data-1030p="right: 130px; background-color: rgb(230,121,38);"
+				data-1050p="right: 77px; background-color: rgb(201,28,34);"
+				data-1430p="right: 77px; background-color: rgb(201,28,34);"
+				data-1450p="right: 26px; background-color: rgb(96,10,13);"
 				
-		></div>
+		></div
+		
 		<div class="container-fluid">
-			
+			<!--
 			<ul class="nav navbar-nav">
 				<li><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
 				<li><a id="south-sudan-title" href="#">SOUTH SUDAN</a></li>
@@ -77,7 +78,7 @@
 						</span>
 					</a>
 				</li>
-			</ul>
+			</ul> -->
 
 			<ul class="nav navbar-nav navbar-right" id="navigation-area">
 				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
@@ -90,7 +91,7 @@
 			</ul>
 			
 		</div>
-	</nav -->
+	</nav>
 <!-- End of nav bar -->
 
 
@@ -251,7 +252,7 @@ women and children.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-md-5 text-center">
-				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and almost 450,000 have left for the the safety of neighbouring countries.
+				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the the safety of neighbouring countries.
 
 		</p>
 
@@ -281,53 +282,56 @@ into a nightmare.</p>
 	style="overflow: hidden;">
 
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
-	<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
-		<div class="stage-item" id="chapter-1-military" style="background-position: -10% 60%" 
-		data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
-		data-650p="display: block;" data-651p="display: none;"></div>
+	<div class="stage-container">
+		<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
+			<div class="stage-item" id="chapter-1-military" style="background-position: -10% 60%" 
+			data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
+			data-650p="display: block;" data-651p="display: none;"></div>
 
-		<div class="stage-item" id="chapter-1-johnmamer" data-650p="display: block;" data-651p="display: none;"></div>
-	</div>
-	<div class="container-fluid" data-400p="opacity: 1" data-450p="opacity: 0"
-		data-650p="display: block;" data-651p="display: none;">
-		<div class="row margin-top-150">
-			<div class="col-md-2"></div>
-			<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
-			<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
-				<div class="well" id="john-mamer-intro">
-					<p>
-	<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
-
-violence. Hundreds of people 
-
-were killed, and most of the 
-
-town forced to flee.
-					</p>
-				</div>
-			</div>
+			<div class="stage-item" id="chapter-1-johnmamer" data-650p="display: block;" data-651p="display: none;"></div>
 		</div>
-	</div>
+	
+		<div class="container-fluid absolute-position-content" data-400p="opacity: 1" data-450p="opacity: 0"
+			data-650p="display: block;" data-651p="display: none;">
+			<div class="row margin-top-150">
+				<div class="col-md-2"></div>
+				<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
+				<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
+					<div class="well" id="john-mamer-intro">
+						<p>
+		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
 
-	<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
-	<div class="container-fluid" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
-		<div class="row margin-top-100">
-			<div class="col-md-4 col-lg-3" >
-				<h2>Listen to John as he remembers the night that Bor fell.</h2>
-				<div><sub>TRANSCRIPT</sub></div>
-				<div id="s4-viewport" style="position: relative;">
-					
-					<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
-						
-						<?php include("inc/johns-stories.inc"); ?>
+	violence. Hundreds of people 
+
+	were killed, and most of the 
+
+	town forced to flee.
+						</p>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
+		<div class="container-fluid absolute-position-content" id="s4-speech" data-450p="display: block; opacity: 0;" data-500p="opacity: 1">
+			<div class="row margin-top-100">
+				<div class="col-md-4 col-lg-3" >
+					<h2>Listen to John as he remembers the night that Bor fell.</h2>
+					<div><sub>TRANSCRIPT</sub></div>
+					<div id="s4-viewport" style="position: relative;">
+						
+						<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
+							
+							<?php include("inc/johns-stories.inc"); ?>
+						</div>
+					</div>
+				</div>
 
 
-			<div class="col-md-8 col-lg-9">
-				<div >
-					<iframe src="//player.vimeo.com/video/103761205" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="col-md-8 col-lg-9">
+					<div >
+						<iframe src="//player.vimeo.com/video/103761205" id="johns-story" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -408,22 +412,25 @@ town forced to flee.
 	data-875p="opacity: 1"
 	data-900p="opacity: 0" 
 	data-901p="transform: translate(0,-100%);">
-	<div class="stage">
-		<div class="stage-item" id="chapter-7-desat" 
-		data-759p="display: none;"
-		data-760p="display: block; opacity: 0;" data-780p="opacity: 1;"></div>
-	</div>
-	<div class="container-fluid">
-		<div class="row margin-top-50"></div>
-		<div class="row margin-top-50"></div>
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8 text-center">
-				<h5>Mary's Story</h5>
-				<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
-				<p>
-					Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, taking with you only the few things you are able to carry.
-				</p>
+	<div class="stage-container">
+		<div class="stage">
+			<div class="stage-item" id="chapter-7-desat" 
+			data-759p="display: none;"
+			data-760p="display: block; opacity: 0;" data-780p="opacity: 1;"></div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row margin-top-50"></div>
+			<div class="row margin-top-50"></div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center">
+					<h5>Mary's Story</h5>
+					<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
+					<p>
+						Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, taking with you only the few things you are able to carry.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -500,22 +507,24 @@ town forced to flee.
 <!-- SECTION 11 -->
 <div class="section"  id="s11" data-924p="transform:translate(0,100%);" data-935p="transform:translate(0,0%); opacity: 0;"
 	data-950p="opacity: 1;" data-975p="opacity: 1;" data-990p="opacity: 0" data-1001p="transform:translate(0,-100%)">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-4">
-				<h3>Watch as Mary talks of her frustration about and fear of living in the displacement site at Mingkaman.</h3>
-				<p>
-					“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
-</p>
+	<div class="stage-container">
+		<div class="container-fluid absolute-position-content">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h3>Watch as Mary talks about life in the displacement site at Mingkaman.</h3>
+					<p>
+						“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
+	</p>
+				</div>
+				<div class="col-md-4">
+					<a class="ss-youtube" href="http://player.vimeo.com/video/103759213?rel=0&amp;wmode=transparent&amp;autoplay=1">
+					<img src="./img/s11-video-play.png" width="100%"/>
+					</a>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<a class="ss-youtube" href="http://player.vimeo.com/video/103759213?rel=0&amp;wmode=transparent&amp;autoplay=1">
-				<img src="./img/s11-video-play.png" width="100%"/>
-				</a>
-			</div>
-		</div>
 
+		</div>
 	</div>
 </div>
 
@@ -533,7 +542,7 @@ town forced to flee.
 
 Now that the rains have arrived, it is too late. The UN and its partners now fear that large swathes of South 
 
-Sudan could face famine before the end of the year.
+Sudan could face famine.
 				</p>
 			</div>
 		</div>
@@ -549,20 +558,23 @@ Sudan could face famine before the end of the year.
 				data-1050p="transform:translate(0,0%); opacity: 1;"
 				data-1060p="transform:translate(0,0%);"
 				data-1100p="transform:translate(0,-100%)">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6"></div>
-			<div class="col-md-6 text-right">
-				<div class="well">
-					<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
-					<p>
-					Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
 
-some - given way to the reality of starvation.
-				</p>
+	<div class="stage-container">
+		<div class="container-fluid absolute-position-content">
+			<div class="row">
+				<div class="col-md-6"></div>
+				<div class="col-md-6 text-right">
+					<div class="well">
+						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
+						<p>
+						Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
+
+	some – given way to the reality of starvation.
+					</p>
+					</div>
 				</div>
+				
 			</div>
-			
 		</div>
 	</div>
 </div>
@@ -577,20 +589,21 @@ some - given way to the reality of starvation.
 		<div class="row margin-top-100">
 			<div class="col-md-8"></div>
 			<div class="col-md-4 text-right">
-				
-				<p>
+				<div class="well" style="background: none; border: none; box-shadow: none;">
+					<p>
 
-To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
+	To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
 
-exposing malnourished children to diseases like cholera and diarrhoea.
+	exposing malnourished children to diseases like cholera.
 
-				</p>
+					</p>
 
-				<p>
-Aid groups working in Bentiu, the capital of Unity State, say that children are now dying every day because of
+					<p>
+	Aid groups working in Bentiu, the capital of Unity State, say that children are now dying every day because of
 
-severe malnutrition and other diseases.
-				</p>
+	severe malnutrition and other diseases.
+					</p>
+				</div>
 			</div>
 			<div class="col-md-3"></div>
 		</div>
@@ -618,7 +631,7 @@ severe malnutrition and other diseases.
 					</p>
 
 					<p>
-	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the others were walking. We walked for five days to get here.”
+	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the others were walking. We walked for five days to get here,” she said.
 
 					</p>
 				</div>
@@ -631,7 +644,7 @@ severe malnutrition and other diseases.
 				<div>
 									<p>
 
-					Nyagol’s one-and-a-half year old daughter, Nyataba, is being treated for malnutrition.
+					Nyagol’s one-and-a-half year old daughter, <strong class="highlight">Nyataba</strong>, is being treated for malnutrition.
 
 									</p>
 
@@ -696,17 +709,13 @@ turning into widespread famine is high
 
 and increasing every day.
 			</p>
-			<p>
-				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided. 
-
-			</p>
+			
 		</div>
 		<div data-1290p="opacity: 0" data-1300p="opacity: 1">
 			
-			<p class="orange-highlighter">
-				<strong>This is a man-made 
-
-catastrophe.</strong></p>
+			<p>
+				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided. 
+			</p>
 </div>
 			</div>
 		</div>
@@ -728,7 +737,7 @@ catastrophe.</strong></p>
 						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
 					</p>
 					<p style="font-size: 18px;">
-						In some areas, however, there are reports that as much as 50 per cent of the children are severely malnourished.
+						In some areas, however, there are reports that as many as 50 per cent of children are severely malnourished.
 					</p>	
 					<p style="font-size: 18px">
 						<span class="glyphicon glyphicon-info-sign"></span> 
@@ -763,53 +772,57 @@ catastrophe.</strong></p>
 	data-1354p="transforma:translate(0,100%);" data-1355p="transform:translate(0,0%);  opacity: 0" data-1400p=" opacity: 1;"
 	data-1450p="transform:translate(0,0%);" data-1500p="transform:translate(0,-100%);"
 	>
-	<div class="stage">
-		<img class="stage-item" src="./img/s18-img-1.png" width="100%" data-1417p="opacity: 1;"/>
-		<img class="stage-item" src="./img/s18-img-2.png" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
-		<img class="stage-item" src="./img/s18-img-3.png" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
-		<img class="stage-item" src="./img/s18-img-4.png" width="100%" data-1430p="opacity: 0;" data-1437p="opacity: 0;" data-1445p="opacity: 1;" />
-		<img class="stage-item" src="./img/s18-img-4.png" width="100%" style="position: relative; opacity: 0;"/>
-	</div>
-	<div class="container-fluid">
-		<div class="row margin-top-100">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 text-center relative-but-children-abs">
-				
-			</div>
-			<div class="col-md-3"></div>
+	<div class="stage-container">
+		<div class="stage">
+			<img class="stage-item" src="./img/s18-img-1.png" width="100%" data-1417p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-2.png" width="100%" data-1410p="opacity: 0;" data-1417p="opacity: 0;"  data-1425p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-3.png" width="100%" data-1420p="opacity: 0;" data-1427p="opacity: 0;" data-1435p="opacity: 1;"/>
+			<img class="stage-item" src="./img/s18-img-4.png" width="100%" data-1430p="opacity: 0;" data-1437p="opacity: 0;" data-1445p="opacity: 1;" />
+			<img class="stage-item" src="./img/s18-img-4.png" width="100%" style="position: relative; opacity: 0;"/>
 		</div>
-		<div class="row margin-top-100">
-			<div class="col-md-7"></div>
-			<div class="col-md-4 text-right relative-but-children-abs">
-				
-				<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will be treated this year for severe acute malnutrition.</p>
+	
+		<div class="container-fluid">
+			<div class="row margin-top-100">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 text-center relative-but-children-abs">
+					
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			<div class="row margin-top-100">
+				<div class="col-md-7"></div>
+				<div class="col-md-4 text-right relative-but-children-abs">
+					
+					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will need treatment for severe acute malnutrition this year.</p>
 
-				<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">This is <strong>twice</strong> as many as last year.</p>
+					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">This is <strong>twice</strong> as many as last year.</p>
 
-				<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">Without treatment, up to <strong>50,000 children</strong> may die by the end of the year.</p>
+					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">Without treatment, up to <strong>50,000 children</strong> may die by the end of the year.</p>
 
-				<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
-				
+					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
+					
+				</div>
 			</div>
 		</div>
+		<footer>
+			<sub style="margin-top: 100px;">Disclaimer: This image has been digitally altered.</sub>
+		</footer>
 	</div>
-	<footer>
-		<sub style="margin-top: 100px;">Disclaimer: This image has been digitally altered. See the original: [link]</sub>
-	</footer>
 </div>
 
 <div class="section"  id="s18" data-1450p="transform:translate(0,100%);" data-1500p="transform:translate(0,0%);">
-
-	<div class="container-fluid" data-1510p="opacity: 0" data-1520p="opacity: 1" data-1540p="opacity: 1" data-1550p="opacity: 0">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<p class="text-left" style="font-size: 200%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3);">
-				"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
-				</p>
-				<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
-					- Toby Lanzer, Resident and Humanitarian Coordinator, South Sudan
-				</p>
+	<div class="stage-container">
+		<div class="container-fluid absolute-position-content" data-1510p="opacity: 0" data-1520p="opacity: 1" data-1540p="opacity: 1" data-1550p="opacity: 0">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<p class="text-left" style="font-size: 200%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3);">
+					"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
+					</p>
+					<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
+						- Toby Lanzer, Resident and Humanitarian Coordinator, South Sudan
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -818,121 +831,122 @@ catastrophe.</strong></p>
 
 <div class="section"  id="s19" data-1449p="transform:translate(0,100%);" data-1550p="opacity: 0; transform:translate(0,0%);" data-1610p="opacity: 1">
 
-	<div class="container">
+	<div class="stage-container">
+		<div class="container">
 
-		<div class="row margin-top-50">
-			<div class="col-md-1"></div>
-			<div class="col-md-10 text-center">
-				<h1>
-					What can you do?
-				</h1>
+			<div class="row margin-top-50">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 text-center">
+					<h1>
+						What can you do?
+					</h1>
+				</div>
+				<div class="col-md-1"></div>
 			</div>
-			<div class="col-md-1"></div>
-		</div>
-		<!-- FOR CALL TO ACTIONS -->
-		<div class="row">
-			
-					<div class="col-md-12">
-						<div class="row text-center">
-							<div class="col-md-8 brown-background">
-								<div class="well">
-									<h3>Take a stand</h3>
-									<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-4">
-												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
-													<span class="circle">
-														<span class="circle-child">
-															Stop the fighting. RT if you agree, #SouthSudan deserves better. 
+			<!-- FOR CALL TO ACTIONS -->
+			<div class="row">
+				
+						<div class="col-md-12">
+							<div class="row text-center">
+								<div class="col-md-8 brown-background">
+									<div class="well">
+										<h3>Take a stand</h3>
+										<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-md-4">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
+														<span class="circle">
+															<span class="circle-child">
+																Stop the fighting. RT if you agree, #SouthSudan deserves better. 
+															</span>
 														</span>
-													</span>
-												</a>
-											</div>
-											<div class="col-md-4">
-												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
-													<span class="circle">
-														<span class="circle-child">
-															The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine 
-														<span>
-													</span>
-												</a>
-											</div>
-											<div class="col-md-4">
-												<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood ">
-													<span class="circle">
-														<span class="circle-child">
-															Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood 
+													</a>
+												</div>
+												<div class="col-md-4">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
+														<span class="circle">
+															<span class="circle-child">
+																The humanitarian community stands ready to deliver aid in #SouthSudan, but more funding is needed. We MUST avert famine 
+															<span>
 														</span>
-													</span>
-												</a>
+													</a>
+												</div>
+												<div class="col-md-4">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood ">
+														<span class="circle">
+															<span class="circle-child">
+																Attacks on civilians MUST stop in #SouthSudan. So does the recruitment of child soldiers. They deserve a childhood 
+															</span>
+														</span>
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<!--
+										<a href="javascript: void(0);" class="btn btn-default pull-right twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">Take a stand</a>
+										-->
+										<div style="clear: both"></div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="row">
+										<div class="col-md-12 brown-background">
+											<div class="well">
+												<h3>Make a Donation</h3>
+												<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
+
+					people caught up in this man-made crisis.</p>
+												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
+												<div style="clear: both"></div>
 											</div>
 										</div>
 									</div>
-
-									<!--
-									<a href="javascript: void(0);" class="btn btn-default pull-right twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">Take a stand</a>
-									-->
-									<div style="clear: both"></div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="row">
-									<div class="col-md-12 brown-background">
-										<div class="well">
-											<h3>Make a Donation</h3>
-											<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
-
-				people caught up in this man-made crisis.</p>
-											<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
-											<div style="clear: both"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12 brown-background">
-										<div class="well">
-											<h3>Find out more</h3>
-											<p class="text-left">Visit OCHA’s South Sudan webpage to put the humanitarian crisis in context</p>
-											<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
-											<div style="clear: both"></div>
+									<div class="row">
+										<div class="col-md-12 brown-background">
+											<div class="well">
+												<h3>Find out more</h3>
+												<p class="text-left">Visit OCHA’s South Sudan webpage to put the humanitarian crisis in context</p>
+												<a href="http://www.unocha.org" target="_blank" class="btn btn-default pull-right">Visit Website</a>
+												<div style="clear: both"></div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			
-
-	</div>
-
-	<footer class="container-fluid">
-		<div class="row">
-
-							<div class="col-md-1"></div>
-							<div class="col-md-10 brown-background" >
-								
-										<div style="position: relative;">
-										<nav>
-											<ul style="padding: 0;">
-												<li class="pull-left"><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
-												<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
-												<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
-
-											</ul>
-										</nav>
-										</div>
-
-										<div class="clear" style="clear: both;"></div>
-										<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
-										
-									
-							</div>
+				
 
 		</div>
-	</footer>
 
+		<footer class="container-fluid">
+			<div class="row">
+
+								<div class="col-md-1"></div>
+								<div class="col-md-10 brown-background" >
+									
+											<div style="position: relative;">
+											<nav>
+												<ul style="padding: 0;">
+													<li class="pull-left"><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
+													<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
+													<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
+
+												</ul>
+											</nav>
+											</div>
+
+											<div class="clear" style="clear: both;"></div>
+											<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
+											
+										
+								</div>
+
+			</div>
+		</footer>
+	</div>
 	
 </div>
 
