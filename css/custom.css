@@ -165,7 +165,8 @@ body footer {
   background: none;
   background-image: none;
   background-color: transparent;
-  border: none; }
+  border: none;
+  filter: none !important; }
 
 .well.translucent-black-bg {
   background-color: rgba(0, 0, 0, 0.6); }
