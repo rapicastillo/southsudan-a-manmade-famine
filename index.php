@@ -17,7 +17,7 @@
 
 <meta property="og:title" content="A Man Made Catastrophe | A multimedia journey through South Sudan" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://southsudan.messengersofhumanity.org" />
+<meta property="og:url" content="http://bit.ly/SthSudan" />
 <meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
 <meta property="og:site_name" content="UNOCHA interactive" />
 <meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />
@@ -997,10 +997,15 @@ and increasing every day.
 <![endif]-->
   <script src="js/custom.js"></script>
 
-  	<script type="text/javascript">
-	<!--//--><![CDATA[//><!--
-	var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1433955-15"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-	//--><!]]>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-1433955-42', 'auto');
+	  ga('send', 'pageview');
+
 	</script>
 </body>
 </html>
