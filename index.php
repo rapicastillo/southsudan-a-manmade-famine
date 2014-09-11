@@ -323,8 +323,8 @@ into a nightmare.</p>
 		<div class="container-fluid absolute-position-content" data-400p="opacity: 1" data-450p="opacity: 0"
 			data-650p="display: block;" data-651p="display: none;">
 			<div class="row margin-top-150">
-				<div class="col-sm-6 col-md-2"></div>
-				<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
+				<div class="col-sm-2 col-md-2"></div>
+				<div class="col-sm-3 col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
 				<div class="col-sm-6 col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 					<div class="well remove-bg" id="john-mamer-intro">
 						<p>
@@ -382,7 +382,7 @@ into a nightmare.</p>
 	<div id='map-one' class='map'> </div> 
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
-			<div class="col-md-4" >
+			<div class="col-sm-6 col-md-4" >
 				<div class="well remove-bg" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; ">
 				<h1 style="color: white">Interactive Map</h1>
 				<p style="font-size: 18px;">
@@ -482,7 +482,7 @@ into a nightmare.</p>
 				<img src="http://ocha.smugmug.com/photos/i-zd5T6GG/0/O/i-zd5T6GG.png" width="100%"/>
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-4 orange-highlighter text-left">
-				<p style="padding: 40px;">John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
+				<p>John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
 </p>
 			</div>
 		</div>
@@ -517,8 +517,8 @@ into a nightmare.</p>
 		data-950p="transform:translate(0,-100%); opacity: 0;">
 	<div class="container-fluid" data-915p="opacity: 0" data-925p="opacity:1">
 		<div class="row margin-top-150">
-			<div class="col-md-8"></div>
-			<div class="col-md-3 text-left">
+			<div class="col-sm-8 col-md-8"></div>
+			<div class="col-sm-4 col-md-3 text-left">
 				<div class="well remove-bg translucent-white-bg">
 					<p>
 						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
@@ -541,14 +541,14 @@ into a nightmare.</p>
 	<div class="stage-container">
 		<div class="container-fluid absolute-position-content">
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
+				<div class="col-sm-2 col-md-2"></div>
+				<div class="col-md-4 col-sm-4 ">
 					<h3>Watch as Mary talks about life in the displacement site at Mingkaman.</h3>
 					<p>
 						“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
 	</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 ">
 					<a class="ss-youtube" href="http://player.vimeo.com/video/105393643?rel=0&amp;wmode=transparent&amp;autoplay=1">
 					<img src="http://ocha.smugmug.com/photos/i-jrtz4pd/0/O/i-jrtz4pd.png" width="100%"/>
 					</a>
@@ -618,8 +618,8 @@ Sudan could face famine.
 >
 	<div class="container-fluid">
 		<div class="row margin-top-100">
-			<div class="col-md-8"></div>
-			<div class="col-md-4 text-right">
+			<div class="col-sm-7 col-md-8"></div>
+			<div class="col-sm-5 col-md-4 text-right">
 				<div class="well remove-bg" style="background: none; border: none; box-shadow: none;">
 					<p>
 
@@ -650,7 +650,7 @@ Sudan could face famine.
 		data-1180p="opacity: 0" data-1181p="display: none;">
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
-			<div class="col-md-5 orange-highlighter">
+			<div class="col-sm-5 col-md-5 orange-highlighter">
 				<div >
 					<p>
 					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever they could find along the way.
@@ -666,7 +666,7 @@ Sudan could face famine.
 	</div>
 	<div class="container-fluid" data-1180p="opacity: 0;" data-1190p="opacity: 1">
 		<div class="row margin-top-100">
-			<div class="col-md-3">
+			<div class="col-sm-4 col-md-3">
 				<div>
 									<p>
 
@@ -756,7 +756,7 @@ and increasing every day.
 	<div id='map-two' class='map' > </div>
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
-			<div class="col-md-4 text-left">
+			<div class="col-sm-5 col-md-4 text-left">
 				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 20px 20px 20px 20px; ">
 					<h3>A CRISIS OF DEVASTATING PROPORTIONS</h3>
 					<p style="font-size: 18px;">
@@ -816,8 +816,8 @@ and increasing every day.
 				<div class="col-md-3"></div>
 			</div>
 			<div class="row margin-top-100">
-				<div class="col-md-7"></div>
-				<div class="col-md-4 text-right relative-but-children-abs">
+				<div class="col-md-7 col-sm-7"></div>
+				<div class="col-md-4 col-sm-5 text-right relative-but-children-abs">
 					
 					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will need treatment for severe acute malnutrition this year.</p>
 
@@ -880,7 +880,7 @@ and increasing every day.
 										<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
 										<div class="container-fluid">
 											<div class="row">
-												<div class="col-md-4">
+												<div class="col-sm-4 col-md-4">
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
 														<span class="circle">
 															<span class="circle-child">
@@ -889,7 +889,7 @@ and increasing every day.
 														</span>
 													</a>
 												</div>
-												<div class="col-md-4">
+												<div class="col-sm-4 col-md-4">
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
 														<span class="circle">
 															<span class="circle-child">
@@ -898,7 +898,7 @@ and increasing every day.
 														</span>
 													</a>
 												</div>
-												<div class="col-md-4">
+												<div class="col-sm-4 col-md-4">
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
 														<span class="circle">
 															<span class="circle-child">
@@ -916,7 +916,7 @@ and increasing every day.
 										<div style="clear: both"></div>
 									</div>
 								</div>
-								<div class="col-md-4">
+								<div class="col-md-4 hidden-sm hidden-xs">
 									<div class="row">
 										<div class="col-md-12 brown-background">
 											<div class="well">
