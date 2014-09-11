@@ -192,7 +192,7 @@
 	<div class="container-fluid">
 		<div class="row margin-top-150">
 			<div class="col-md-1"></div>
-			<div class="col-md-5" style="position: relative;">
+			<div class="col-sm-6 col-md-5" style="position: relative;">
 				<p style="font-size: 28px;">
 
 					<span data-120p="opacity:1" data-140p="opacity: 0;">
@@ -212,7 +212,7 @@
 
 						the country.
 					</span>
-					<div class="hidden-xs hidden-sm"
+					<div
 						data-120p="opacity: 0" data-140p="opacity: 1">
 					<p class="orange-highlighter" style="font-size: 28px;">
 						Since then, South Sudan has been caught 
@@ -247,7 +247,7 @@ c2-transmission-3.JPG
 	<div class="container-fluid" data-250p="opacity: 1" data-260p="opacity: 0">
 		<div class="row margin-top-100">
 		<div class="col-md-1"></div>
-		<div class="col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
+		<div class="col-sm-6 col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
 			<h5>John's Story<h5>
 			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
 			<p>Within weeks, thousands of 
@@ -280,7 +280,7 @@ women and children.
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
-			<div class="col-md-5 text-center">
+			<div class="col-sm-6 col-md-5 text-center">
 				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the safety of neighbouring countries.
 
 		</p>
@@ -323,9 +323,9 @@ into a nightmare.</p>
 		<div class="container-fluid absolute-position-content" data-400p="opacity: 1" data-450p="opacity: 0"
 			data-650p="display: block;" data-651p="display: none;">
 			<div class="row margin-top-150">
-				<div class="col-md-2"></div>
+				<div class="col-sm-6 col-md-2"></div>
 				<div class="col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
-				<div class="col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
+				<div class="col-sm-6 col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 					<div class="well remove-bg" id="john-mamer-intro">
 						<p>
 		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
