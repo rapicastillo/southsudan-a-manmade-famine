@@ -18,12 +18,7 @@ function findBootstrapEnvironment() {
 $(function() {
   var win;
 
-    /*VIDEO MUTE*/
-    var video_cover = document.getElementById("video-cover");
-      video_cover.volume = 0.0;
-
-    var video_baby = document.getElementById("video-baby");
-      video_baby.volume = 0.0;
+   
 
 
 
@@ -180,8 +175,25 @@ $(function() {
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
 { 
         alert("XXX");
-        $("video").remove(); 
 }
+else
+{
+  $("#s1").prepend(  
+    '<video id="video-cover" src="./video/LoopFirstScreen_prores_Mp4_1080.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>'
+  );
+
+  $("#s14").prepend(
+    '<video id="video-baby" class="hidden-xs hidden-sm" src="./video/babyloop2-SD.mp4" width="100%" autoplay muted loop data-1180p="opacity: 0;" data-1190p="opacity: 1;" style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>'
+  );
+
+   /*VIDEO MUTE*/
+    var video_cover = document.getElementById("video-cover");
+      video_cover.volume = 0.0;
+
+    var video_baby = document.getElementById("video-baby");
+      video_baby.volume = 0.0;
+}
+
 
    if (env != "xs")
    {
