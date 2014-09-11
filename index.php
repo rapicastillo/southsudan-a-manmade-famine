@@ -470,13 +470,13 @@ into a nightmare.</p>
 		data-901p="transform: translate(0,-100%);">
 	<div class="container-fluid">
 		<div class="row margin-top-25">
-			<div class="col-xs-12 col-md-4" style="position: relative;">
+			<div class="col-xs-4 col-sm-4 col-md-4" style="position: relative;">
 				<img src="http://ocha.smugmug.com/photos/i-BJ52Fgk/0/O/i-BJ52Fgk.jpg" width="100%" />
 			</div>
-			<div class="col-xs-12 col-md-4">
+			<div class="col-xs-4 col-sm-4 col-md-4">
 				<img src="http://ocha.smugmug.com/photos/i-zd5T6GG/0/O/i-zd5T6GG.png" width="100%"/>
 			</div>
-			<div class="col-xs-12 col-md-4 orange-highlighter text-left">
+			<div class="col-xs-4 col-sm-4 col-md-4 orange-highlighter text-left">
 				<p style="padding: 40px;">John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
 </p>
 			</div>
