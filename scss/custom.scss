@@ -5,6 +5,7 @@
 @font-face { font-family: AvenirHeavy; font-weight: 400; src: url('../fonts/AvenirLTStd-Heavy.otf'); }
 @font-face { font-family: AvenirBlack; font-weight: 800; src: url('../fonts/AvenirLTStd-Black.otf'); }
 
+@media screen {
 /* VARIABLES */
 $highlight_color: #F9A319;
 $chapter1_font_color: #C5C3BC;
@@ -625,4 +626,28 @@ left: 0;
 .faded-item
 {
   opacity: 0.5;
+}
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  div.section {    
+    &#s2 { background-image: url(http://ocha.smugmug.com/photos/i-GPHnW8b/0/L/i-GPHnW8b-L.jpg);  }
+    &#s3 { background-image: url(http://ocha.smugmug.com/photos/i-9QPp8kH/0/L/i-9QPp8kH-L.jpg); background-size: cover; }
+    &#s6-transition { background-image: url(http://ocha.smugmug.com/photos/i-HxsRMPS/0/L/i-HxsRMPS-L.jpg); }
+    &#s7 {background-image: url(http://ocha.smugmug.com/photos/i-hL5zF2D/0/L/i-hL5zF2D-L.jpg); }
+    &#s10 {  background-image: url(http://ocha.smugmug.com/photos/i-2CVxCDw/0/L/i-2CVxCDw-L.jpg); }
+    &#s11 { background-image: url(http://ocha.smugmug.com/photos/i-BVVT4Jb/0/L/i-BVVT4Jb-L.jpg); }
+    &#s11-transition { background-image: url(http://ocha.smugmug.com/photos/i-swcH5Xj/0/L/i-swcH5Xj-L.jpg); }
+    &#s12 { background-image: url(http://ocha.smugmug.com/photos/i-PQ2cdBJ/0/L/i-PQ2cdBJ-L.jpg); }
+    &#s13 { background-image: url(http://ocha.smugmug.com/photos/i-vdF2rsw/0/L/i-vdF2rsw-L.jpg); }
+    &#s14 { background-image: url(http://ocha.smugmug.com/photos/i-Rxf3zgk/0/L/i-Rxf3zgk-L.jpg); }
+    &#s15 { background-image: url(http://ocha.smugmug.com/photos/i-c4XxFQB/0/L/i-c4XxFQB-L.jpg); }
+    
+    &#s18 { background-image: url(http://ocha.smugmug.com/photos/i-DkSQBkQ/0/L/i-DkSQBkQ-L.jpg); }
+    &#s19 { background-image: url(http://ocha.smugmug.com/photos/i-Pnfq86q/0/L/i-Pnfq86q-L.jpg); }
+
+  }
+
+
 }

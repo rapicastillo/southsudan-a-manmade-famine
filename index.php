@@ -748,7 +748,7 @@ and increasing every day.
 <div class="section"  id="s16" data-1305p="transform:translate(0,100%);" data-1350p="transform:translate(0,0%);" 
 				  data-1355p="transform:translate(0,0%);  opacity: 1" data-1400p=" opacity: 0;" data-1401p="transform:translate(0,-100%);">
 
-	<!-- div id='map-two' class='map' > </div -->
+	<div id='map-two' class='map' > </div>
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-md-4 text-left">
