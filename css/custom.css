@@ -101,9 +101,9 @@ body > .section {
         list-style: none;
         margin-right: 10px; }
   body > .section#s2 {
-    background-image: url(../img/s2-main.JPG); }
+    background-image: url(http://ocha.smugmug.com/photos/i-GPHnW8b/0/O/i-GPHnW8b.jpg); }
   body > .section#s3 {
-    background-image: url(../img/c1-main.jpg);
+    background-image: url(http://ocha.smugmug.com/photos/i-9QPp8kH/0/O/i-9QPp8kH.jpg);
     background-size: cover; }
   body > .section#s4 {
     background-image: url(../img/s4-bg.jpg); }
@@ -112,29 +112,29 @@ body > .section {
   body > .section#s6 {
     background-image: url(../img/s5-bg.JPG); }
   body > .section#s6-transition {
-    background-image: url(../img/c1-transition.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-HxsRMPS/0/O/i-HxsRMPS.jpg); }
     body > .section#s6-transition .container-fluid .col-md-8 p {
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
   body > .section#s7 {
-    background-image: url(../img/s7-main.JPG); }
+    background-image: url(http://ocha.smugmug.com/photos/i-hL5zF2D/0/O/i-hL5zF2D.jpg); }
     body > .section#s7 .container-fluid .col-md-8 p {
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
   body > .section#s8 {
     background-color: whitesmoke; }
   body > .section#s10 {
-    background-image: url(../img/c2-mary-worries-about-food.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-2CVxCDw/0/O/i-2CVxCDw.jpg); }
   body > .section#s11 {
-    background-image: url(../img/s11-bg.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-BVVT4Jb/0/O/i-BVVT4Jb.jpg); }
   body > .section#s11-transition {
-    background-image: url(../img/s11-transition-image.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-swcH5Xj/0/O/i-swcH5Xj.jpg); }
   body > .section#s12 {
-    background-image: url(../img/s12-main.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-PQ2cdBJ/0/O/i-PQ2cdBJ.jpg); }
   body > .section#s13 {
-    background-image: url(../img/s13-main.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-vdF2rsw/0/O/i-vdF2rsw.jpg); }
   body > .section#s14 {
-    background-image: url(../img/s14-nyagol-main.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-Rxf3zgk/0/O/i-Rxf3zgk.jpg); }
   body > .section#s15 {
-    background-image: url(../img/s16-ss-1.JPG); }
+    background-image: url(http://ocha.smugmug.com/photos/i-c4XxFQB/0/O/i-c4XxFQB.jpg); }
   body > .section#s16 {
     background-image: url(../img/s17-bg.JPG); }
   body > .section#s17 footer {
@@ -145,9 +145,9 @@ body > .section {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     color: whitesmoke; }
   body > .section#s18 {
-    background-image: url(../img/c5-toby-quote.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-DkSQBkQ/0/O/i-DkSQBkQ.jpg); }
   body > .section#s19 {
-    background-image: url(../img/c5-what-can-you-do.jpg); }
+    background-image: url(http://ocha.smugmug.com/photos/i-Pnfq86q/0/O/i-Pnfq86q.jpg); }
 body footer {
   position: absolute;
   bottom: 0; }
@@ -402,11 +402,11 @@ nav .nav.navbar-nav#navigation-area > li > a {
   .stage #chapter-1-military {
     background-image: url(../img/c1-john-bg.jpg); }
   .stage #chapter-1-johnmamer {
-    background-image: url(../img/c1-john-mamer.png);
+    background-image: url(http://ocha.smugmug.com/photos/i-vbZ6wKf/0/O/i-vbZ6wKf.png);
     background-size: auto 75%;
     background-position: bottom left; }
   .stage #chapter-7-desat {
-    background-image: url(../img/s7-main-desat-darker.JPG); }
+    background-image: url(http://ocha.smugmug.com/photos/i-5sFGbZX/0/O/i-5sFGbZX.jpg); }
 
 .orange-highlighter strong {
   color: #f9a319; }

@@ -176,26 +176,34 @@ $(function() {
 
    var env = findBootstrapEnvironment();
 
-   if (env != "xs" && env != "sm")
+//Remove video for handheld
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
+{ 
+        alert("XXX");
+        $("video").remove(); 
+}
+
+   if (env != "xs")
    {
-   var s = skrollr.init({
-      box: '200p'
-   });
+      
+       var s = skrollr.init({
+          box: '200p'
+       });
 
-   skrollr.menu.init(s, {
+       skrollr.menu.init(s, {
 
-    duration: function(currentTop, targetTop) {
+        duration: function(currentTop, targetTop) {
 
 
-        //By default, the duration is hardcoded at 500ms.
-        var dura = Math.abs(currentTop - targetTop) * 0.8;
-        return dura;
+            //By default, the duration is hardcoded at 500ms.
+            var dura = Math.abs(currentTop - targetTop) * 0.8;
+            return dura;
 
-        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
-        //return Math.abs(currentTop - targetTop) * 10;
-    }
+            //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+            //return Math.abs(currentTop - targetTop) * 10;
+        }
 
-   });
+       });
    }
    else
    {
@@ -205,9 +213,13 @@ $(function() {
 
      $("body > .section").width("auto").height("auto");
 
-     $(".absolute-staging").css("position", "relative");  
+     $(".absolute-staging").css("position", "relative");
 
-     $(".relative-but-children-abs *").css("position", "relative");
+     $(".relative-but-children-abs *, .absolute-position-content, .absolute-position-content *").css("position", "relative");
+
+     $(window).unbind("resize");
+
+     $("#s6, #s16").height($(window).height());
   
   /*
      $("body > #s2 > div.container-fluid, 

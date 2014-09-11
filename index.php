@@ -101,17 +101,17 @@
 
 			<ul class="nav navbar-nav navbar-right main-nav-area" id="navigation-area">
 				<li class="faded-item"><a href="javascript: void();" class="nav-share-button twitter-caller" twitter-msg="New interactive website! Visit, then help tell the world about what's happening in #SouthSudan RT!">
-					<img src="img/s-tweet.gif" />
+					<img src="http://ocha.smugmug.com/photos/i-dMF5DKB/0/O/i-dMF5DKB.gif" />
 				</a></li>
 				<li class="faded-item"><a href="javascript: void();" class="nav-share-button facebook-caller" >
-					<img src="img/f-share.gif" />
+					<img src="http://ocha.smugmug.com/photos/i-zhTjzvp/0/O/i-zhTjzvp.gif" />
 				</a></li>
 				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
-						data-toggle="tooltip"><img src="./img/nav-01.PNG" /></a></li>
-				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="./img/nav-02.PNG" /></a></li>
-				<li><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="./img/nav-03.PNG" /></a></li>
-				<li><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="./img/nav-04.PNG" /></a></li>
-				<li><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="./img/c5-nav.png" /></a></li>
+						data-toggle="tooltip"><img src="http://ocha.smugmug.com/photos/i-hpnd7DK/0/O/i-hpnd7DK.png" /></a></li>
+				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="http://ocha.smugmug.com/photos/i-mkkp65r/0/O/i-mkkp65r.png" /></a></li>
+				<li><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="http://ocha.smugmug.com/photos/i-6JmvFjf/0/O/i-6JmvFjf.png" /></a></li>
+				<li><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="http://ocha.smugmug.com/photos/i-23ZxTsZ/0/O/i-23ZxTsZ.png" /></a></li>
+				<li><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="http://ocha.smugmug.com/photos/i-NHmcT5p/0/O/i-NHmcT5p.png" /></a></li>
 			</ul>
 			
 		</div>
@@ -276,7 +276,7 @@ women and children.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-md-5 text-center">
-				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the the safety of neighbouring countries.
+				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the safety of neighbouring countries.
 
 		</p>
 
@@ -339,7 +339,7 @@ into a nightmare.</p>
 		<div class="black-overlay" data-450p="opacity: 0;" data-500p="opacity: 1"></div>
 		<div class="container-fluid absolute-position-content" id="s4-speech" data-449p="transform: translate(100%, 0)" data-450p="transform: translate(0%, 0); display: block; opacity: 0;" data-500p="opacity: 1">
 			<div class="row margin-top-100">
-				<div class="col-md-4 col-lg-3" >
+				<div class="col-sm-4 col-md-4 col-lg-3" >
 					<h2>Listen to John as he remembers the night that Bor fell.</h2>
 					<div><sub>TRANSCRIPT</sub></div>
 					<div id="s4-viewport" style="position: relative;">
@@ -354,9 +354,8 @@ into a nightmare.</p>
 
 				
 
-				<div class="col-md-8 col-lg-9">
+				<div class="col-sm-8 col-md-8 col-lg-9">
 					<div>
-
 							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" allowTransparency="true" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
@@ -472,10 +471,10 @@ into a nightmare.</p>
 	<div class="container-fluid">
 		<div class="row margin-top-25">
 			<div class="col-xs-12 col-md-4" style="position: relative;">
-				<img src="./img/s8-image-1.jpg" width="100%" />
+				<img src="http://ocha.smugmug.com/photos/i-BJ52Fgk/0/O/i-BJ52Fgk.jpg" width="100%" />
 			</div>
 			<div class="col-xs-12 col-md-4">
-				<img src="./img/s8-image-2.PNG" width="100%"/>
+				<img src="http://ocha.smugmug.com/photos/i-zd5T6GG/0/O/i-zd5T6GG.png" width="100%"/>
 			</div>
 			<div class="col-xs-12 col-md-4 orange-highlighter text-left">
 				<p style="padding: 40px;">John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
@@ -546,7 +545,7 @@ into a nightmare.</p>
 				</div>
 				<div class="col-md-4">
 					<a class="ss-youtube" href="http://player.vimeo.com/video/105393643?rel=0&amp;wmode=transparent&amp;autoplay=1">
-					<img src="./img/s11-video-play.png" width="100%"/>
+					<img src="http://ocha.smugmug.com/photos/i-jrtz4pd/0/O/i-jrtz4pd.png" width="100%"/>
 					</a>
 				</div>
 			</div>
@@ -957,9 +956,9 @@ and increasing every day.
 											<div style="position: relative;">
 											<nav>
 												<ul style="padding: 0;">
-													<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
-													<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="./img/s-cta-twitter.PNG" height="30px" /></a></li>
-													<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="./img/s-cta-facebook.PNG" height="30px"  /></a></li>
+													<li class="pull-left"><a target="_blank" href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="http://ocha.smugmug.com/photos/i-b6Xnk7V/0/O/i-b6Xnk7V.png" height="40px"/></a></li>
+													<li class="pull-left"><a target="_blank" href="http://twitter.com/UNOCHA"><img src="http://ocha.smugmug.com/photos/i-QGqf5Mb/0/O/i-QGqf5Mb.png" height="30px" /></a></li>
+													<li class="pull-left"><a target="_blank" href="http://www.facebook.com/UNOCHA"><img src="http://ocha.smugmug.com/photos/i-BLmztZ5/0/O/i-BLmztZ5.png" height="30px"  /></a></li>
 
 												</ul>
 											</nav>
