@@ -163,7 +163,7 @@
 	</div>
 
 	<footer class="container-fluid" style="width: 100%">
-		<div class="row hidden-xs hidden-sm">
+		<div class="row">
 			<p class="text-center">
 				<a href="#screen-down" data-menu-top="120p" style="color: white">
 					<sub class="text-center">
