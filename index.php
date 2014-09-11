@@ -354,7 +354,7 @@ into a nightmare.</p>
 
 				
 
-				<div class="col-sm-8 col-md-8 col-lg-9">
+				<div class="col-sm-6 col-md-8 col-lg-9">
 					<div>
 							<iframe src="//www.youtube.com/embed/QorXPfA0OgU" id="johns-story" width="100%" height="100%" frameborder="0" allowTransparency="true" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
