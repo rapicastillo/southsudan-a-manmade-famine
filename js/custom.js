@@ -171,8 +171,6 @@ $(function() {
 //Remove video for handheld
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
 { 
-  $("#6, #16").remove()
-  alert(navigator.userAgent);
 }
 else
 {
@@ -248,8 +246,6 @@ else
 
 
    /*MAPBOX AREA*/
-   initialize_maps();
-
     $("#navigation-area a").tooltip();
 
      
