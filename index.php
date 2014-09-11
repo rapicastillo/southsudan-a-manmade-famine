@@ -841,7 +841,7 @@ and increasing every day.
 					"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
 					</p>
 					<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
-						- Toby Lanzer, Resident and Humanitarian Coordinator, South Sudan
+						- Toby Lanzer, Humanitarian Coordinator, South Sudan
 					</p>
 				</div>
 			</div>
