@@ -970,6 +970,7 @@ and increasing every day.
 	</div>
 	
 </div>
+<div id="skrollr-body"></div>
 
 
 <!-- Scripts -->
