@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 
-<meta property="og:title" content="A Man Made Catastrophe | A multimedia journey through South Sudan" />
+<meta property="og:title" content="A Man-made Catastrophe | A multimedia journey through South Sudan" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://bit.ly/SthSudan" />
 <meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
