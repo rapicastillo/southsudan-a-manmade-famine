@@ -36,7 +36,26 @@ html body
 #s3,#s6,#s9,#s12,#s15,#s18 {  background-color: rgb(152, 194, 207); }
 
 
-#s1 { background-color: black; z-index: 10000; }
+#s1 { background-color: black; z-index: 10000; 
+
+  .front-page-lang
+
+  {
+    a
+    {
+      border-radius: 20px;
+      background-color: #333333;
+      color: white;
+
+      opacity: 0.5;
+
+      &:hover
+      {
+        opacity: 1;
+      }
+    }
+  }
+}
 /* OVERRIDES*/
 .navbar-brand:hover, .navbar-nav>li>a:hover
 {
@@ -628,6 +647,8 @@ left: 0;
   opacity: 0.5;
 }
 }
+
+
 
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */

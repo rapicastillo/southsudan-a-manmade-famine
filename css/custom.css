@@ -38,6 +38,13 @@
   #s1 {
     background-color: black;
     z-index: 10000; }
+    #s1 .front-page-lang a {
+      border-radius: 20px;
+      background-color: #333333;
+      color: white;
+      opacity: 0.5; }
+      #s1 .front-page-lang a:hover {
+        opacity: 1; }
 
   /* OVERRIDES*/
   .navbar-brand:hover, .navbar-nav > li > a:hover {

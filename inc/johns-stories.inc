@@ -1,31 +1,55 @@
-<p>The fighting began at 10PM and continued until morning. They were coming from three directions, so it was
+<p>Les combats ont commencé à 22 heures, et ont continué
 
-hard to escape.</p>
+jusqu’au matin. Ils arrivaient de trois directions, alors il 
 
-<p>Innocent civilians were targeted. They killed the vulnerable—women, children, the elderly and the disabled.
+était difficile de s’échapper.</p>
 
-We stayed inside until morning, until the situation got worse. We left Bor at exactly 6AM, and headed for the 
+<p>Ils ont ciblé des civils innocents. Ils ont tué les plus 
 
-port. </p>
+vulnérables : les femmes, les enfants, les personnes âgées 
 
-<p>There was a lot of shooting. We were rescued from the port and sailed to the west bank of the River Nile, to 
+et les handicapés. Nous sommes restés jusqu’au matin, 
 
-Mingkaman.</p>
+quand la situation a empiré. Nous avons quitté Bor à 6 
 
-<p>The day I returned to Bor to check on my home and property, I couldn’t help but cry. There were dead 
+heures du matin exactement, et nous sommes dirigés 
 
-bodies lying all over the town. Everything was burnt to ashes.</p>
+vers le port.</p>
 
-<p>Bor was a ghost town, and everything was a mess. I decided to return to Mingkaman immediately. </p>
+<p>Il y avait beaucoup de coups de feu. Nous avons été 
 
-<p>On the first day of our settlement in Mingkaman the host community donated food to us. Later, humanitarian 
+rescapés du port et avons navigué vers la rive gauche du 
 
-agencies came. </p>
+Nil, vers Mingkaman.</p>
 
-<p>Life here in Bor is miserable compared to Mingkaman. People who are living here depend on food rations 
+<p>Le jour où je suis retourné à Bor pour voir ma maison et 
 
-from Mingkaman, where the United Nations provides aid. </p>
+mes possessions, je n’ai pas pu m’empêcher de pleurer. 
 
-<p>The conflict we are facing today is man-made, and I believe that the only remedy must also be a man-made 
+Toute la ville était jonchée de cadavres. Tout avait été 
 
-solution.</p>
+réduit en cendres.</p>
+
+<p>Bor était une ville fantôme, dans un état chaotique. J’ai 
+
+décidé de retourner à Mingkaman immédiatement.
+
+Le premier jour que nous avons passé à Mingkaman, la 
+
+communauté-hôte nous a donné de quoi manger. Plus 
+
+tard, les agences humanitaires sont arrivées.</p>
+
+<p>La vie à Bor est épouvantable, comparé à Mingkaman. Les 
+
+gens qui vivent ici dépendent des rations de nourriture 
+
+venant de Mingkaman, où les Nations Unies livrent 
+
+l’assistance.</p>
+
+<p>Le conflit auquel nous faisons face aujourd’hui a été 
+
+créé par l’Homme, et je crois que la seule solution devra 
+
+également venir de l’Homme.</p>

@@ -32,6 +32,8 @@
 <link rel="stylesheet" href="./css/custom.css">
 <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css" />
 
+<link rel="stylesheet" href="./css/custom-fr.css">
+
 <!-- Latest compiled and minified JavaScript -->
 
 
@@ -66,7 +68,7 @@
 				data-1450p="background-color: rgb(96,10,13);"
 				></div>
 		</div-->
-		<div  class="hidden-xs hidden-sm" id="chapter-bar-color"
+		<div class="hidden-xs hidden-sm" id="chapter-bar-color"
 				data-0p="right: 237px; background-color: rgb(221,238,220);"
 				data-150p="right: 237px; background-color: rgb(221,238,220);"
 				data-170p="right: 183px; background-color: rgb(248,234,23);"
@@ -129,15 +131,13 @@
 	data-70p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
+	
 	<div class="front-page-lang" style="position: absolute; top: 20px; right: 30px; height: 40px; z-index: 1000;">
             <!-- a href="javascript: void(0);" onclick="window.location='./ar.html'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px; background-color: white; color: #DB4E44;">AR</a -->
-            <a href="./fr.php" 
-            	style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">
-            	FR
-           	</a>
+            <a href="javascript: void(0);" onclick="window.location='./'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">EN</a>
             <!-- a href="javascript: void(0);" onclick="window.location='./'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 20px;">English</a-->
     </div>
-	
+
 	
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid" data-60p="opacity: 1;" data-70p="opacity: 0;">
@@ -145,8 +145,8 @@
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<div class="title-area"> 
-					<div class="main-item">A MAN-MADE CATASTROPHE</div>
-					<div class="secondary-item">A multimedia journey through South Sudan</div>
+					<div class="main-item">Une catastrophe créée par l’Homme</div>
+					<div class="secondary-item">Un voyage multimédia à travers le Soudan du Sud</div>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -157,13 +157,9 @@
 			<div class="col-md-6 text-center">
 				<article data-20p="opacity: 0" data-40p="opacity: 1;">
 					<p>
-						Last December, a political 
+						En décembre dernier, un désaccord politique a fait
 
-						disagreement turned violent
-
-						and turned the world’s newest 
-
-						country upside-down. 
+basculer le plus jeune pays du monde dans la violence. 
 					</p>
 				</article>
 			</div>
@@ -176,8 +172,8 @@
 			<p class="text-center">
 				<a href="#screen-down" data-menu-top="120p" style="color: white">
 					<sub class="text-center" style="line-height: 18px; text-align: center; ">
-						Scroll<br/>
-						down <br/>
+					Faire défiler <br/>
+					vers le bas<br/>
 						<img src="./img/s1-scroll-down.PNG" />
 					</sub>
 				</a>
@@ -207,28 +203,23 @@
 					<span data-120p="opacity:1" data-140p="opacity: 0;">
 						
 
-						The crisis in South Sudan 
+						La crise au Soudan du Sud a commencé le 15 Décembre 
 
-						started on 15 December 2013. 
+2013. Des tensions politiques ont dégénéré en combats 
 
-						Political tensions spilled over, 
+dans les rues de la capitale, Juba. La violence s’est 
 
-						and there was fighting on the 
-
-						streets of Juba, the capital city. The 
-
-						violence quickly spread across 
-
-						the country.
+rapidement répandue dans tout le pays.
 					</span>
 					<div
 						data-120p="opacity: 0" data-140p="opacity: 1">
 					<p class="orange-highlighter" style="font-size: 28px;">
-						Since then, South Sudan has been caught 
-						in the grip of a crisis defined by horrendous 
-						<strong>violence</strong>, massive <strong>displacement</strong> 
-						and now, the threat of terrible <strong>famine</strong>.
+						Depuis, le Soudan du Sud a été piégé dans une crise de
 
+
+						<strong>violence épouvantable</strong>, de <strong>déplacements</strong> massifs de civils, 
+
+et la terrible menace de la <strong>famine</strong>.
 					</p>
 					</div>
 					</p>
@@ -257,23 +248,17 @@ c2-transmission-3.JPG
 		<div class="row margin-top-100">
 		<div class="col-md-1"></div>
 		<div class="col-sm-6 col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
-			<h5>John's Story<h5>
-			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
-			<p>Within weeks, thousands of 
+			<h5>L’histoire de John<h5>
+			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">LA VIOLENCE</h1>
+			<p>En quelques semaines, des milliers de personnes ont été 
 
-people had been killed or 
+tuées ou blessées. Les équipes d’aide humanitaire ont 
 
-wounded. Aid groups received 
+reçu des rapports de civils innocents assassinés à leurs 
 
-horrific reports of innocent 
+domiciles et dans les hôpitaux, et de violences ineffables 
 
-civilians murdered in their 
-
-homes and in hospitals, of 
-
-unspeakable violence against 
-
-women and children.
+envers les femmes et les enfants.
 			</p>
 		</div>
 		</div>
@@ -290,17 +275,19 @@ women and children.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-sm-6 col-md-5 text-center">
-				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the safety of neighbouring countries.
+				<p>Une personne sur 7 a été contrainte de fuir son domicile. 
+
+Dans le pays, 1,3 millions de personnes demeurent à ce 
+
+jour déplacées, et 450&nbsp;000 ont cherché refuge dans des 
+
+pays voisins.
 
 		</p>
 
-		<p>Within months, the dream of 
+		<p>En quelques mois, le rêve du Soudan du Sud – le pays le
 
-South Sudan – the world’s
-
-youngest country – has turned 
-
-into a nightmare.</p>
+plus jeune du monde – est devenu un cauchemar.</p>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
@@ -337,13 +324,15 @@ into a nightmare.</p>
 				<div class="col-sm-6 col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 					<div class="well remove-bg" id="john-mamer-intro">
 						<p>
-		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
+		<strong>John Mamer</strong> vivait avec sa famille à Bor, une petite ville
 
-	violence. Hundreds of people 
+dans le centre du pays, sur la rive droite du Nil. Peu après 
 
-	were killed, and most of the 
+le début du conflit à Juba, Bor a sombré dans la violence. 
 
-	town forced to flee.
+Des centaines de personnes ont été tuées, et la plupart 
+
+des habitants de la ville ont été contraints de fuir.
 						</p>
 					</div>
 				</div>
@@ -354,8 +343,8 @@ into a nightmare.</p>
 		<div class="container-fluid absolute-position-content" id="s4-speech" data-449p="transform: translate(100%, 0)" data-450p="transform: translate(0%, 0); display: block; opacity: 0;" data-500p="opacity: 1">
 			<div class="row margin-top-100">
 				<div class="col-sm-4 col-md-4 col-lg-3" >
-					<h2>Listen to John as he remembers the night that Bor fell.</h2>
-					<div><sub>TRANSCRIPT</sub></div>
+					<h2>Ecoutez le récit de John sur la nuit où Bor est tombée.</h2>
+					<div><sub>TRANSCRIPTION</sub></div>
 					<div id="s4-viewport" style="position: relative;">
 						
 						<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
@@ -393,16 +382,21 @@ into a nightmare.</p>
 		<div class="row margin-top-100">
 			<div class="col-sm-6 col-md-4" >
 				<div class="well remove-bg" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; ">
-				<h1 style="color: white">Interactive Map</h1>
+				<h1 style="color: white">Carte interactive</h1>
 				<p style="font-size: 18px;">
-					John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
+					La famille de John a fui <strong class="highlight">Bor</strong>, en traversant le Nil pour
+
+trouver refuge à <strong class="highlight">Mingkaman</strong>.
 				</p>
-				<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
-				
 				<p style="font-size: 18px">
-					<span class="glyphicon glyphicon-info-sign"></span> 
-					<span id="map1-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
-				</p>	
+					<span class="glyphicon glyphicon-info-sign"></span>
+
+					Pour en savoir plus sur la violence et les déplacements
+
+qui ébranlent le Soudan du Sud depuis décembre 2013, 
+
+double-cliquez sur la carte.</p>
+				
 				</div>
 
 			</div>
@@ -435,7 +429,11 @@ into a nightmare.</p>
 			</div>
 			<div class="col-md-8 text-center">
 				<p>
-				Nine months of violence has exposed many families to a life of fear, sickness, hunger, displacement and destitution.				</p>
+				Neuf mois de violence ont laissé de nombreuses familles
+
+en proie à la peur, la maladie, la faim, les déplacements 
+
+forcés et la pauvreté.				</p>
 			</div>
 		</div>
 	</div>
@@ -465,11 +463,18 @@ into a nightmare.</p>
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8 text-center">
-					<h5>Mary's Story</h5>
-					<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
+					<h5>L’histoire de Mary</h5>
+					<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Déplacements</h1>
 					<p>
-						Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, taking with you only the few things you are able to carry.
-					</p>
+Etre déplacé, ce n’est pas seulement quitter son domicile.
+
+C’est laisser derrière soi sa vie toute entière. Imaginez ce 
+
+que c’est que de devoir fuir votre maison, en n’emportant 
+
+avec vous que les quelques objets que vous pouvez 
+
+porter.					</p>
 				</div>
 			</div>
 		</div>
@@ -491,7 +496,13 @@ into a nightmare.</p>
 				<img src="http://ocha.smugmug.com/photos/i-zd5T6GG/0/O/i-zd5T6GG.png" width="100%"/>
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-4 orange-highlighter text-left">
-				<p>John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
+				<p>La famille de John vit maintenant à Mingkaman, où 
+
+se trouve le plus grand site pour personnes déplacées 
+
+internes du Soudan du Sud. <strong>Mary</strong>, son épouse, vit avec six
+
+de leurs sept enfants et leurs sept petits-enfants.
 </p>
 			</div>
 		</div>
@@ -530,10 +541,18 @@ into a nightmare.</p>
 			<div class="col-sm-4 col-md-3 text-left">
 				<div class="well remove-bg translucent-white-bg">
 					<p>
-						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
+						Le manque de nourriture angoisse Mary. Bien que les
+
+agences humanitaires distribuent des vivres, la faim 
+
+demeure une inquiétude grandissante.
 					</p>
 					<p>
-						To complicate matters, floods, continued violence, and lack of funds are making it harder for aid agencies to deliver.
+						Les inondations, la violence continue, et le manque de
+
+financements rendent la tâche des agences humanitaires 
+
+encore plus difficile.
 					</p>
 				</div>
 			</div>
@@ -551,10 +570,16 @@ into a nightmare.</p>
 		<div class="container-fluid absolute-position-content">
 			<div class="row">
 				<div class="col-sm-2 col-md-2"></div>
-				<div class="col-md-4 col-sm-4 ">
-					<h3>Watch as Mary talks about life in the displacement site at Mingkaman.</h3>
+				<div class="col-md-4 col-md-4">
+					<h3>Dans cette vidéo, Mary raconte son quotidien dans le site 
+
+de déplacés à Mingkaman.</h3>
 					<p>
-						“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
+						« Ils ont tout pris », dit-elle, en parlant des groupes armés
+
+qui ont détruit sa maison à Bor. « Maintenant, nous 
+
+vivons ici, sans abri. »
 	</p>
 				</div>
 				<div class="col-md-4 col-sm-4 ">
@@ -578,11 +603,15 @@ into a nightmare.</p>
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<p>
-				The violence and displacement that has swept across South Sudan prevented farmers from sowing crops.
+				La violence et les déplacements qui ont secoué le Soudan
 
-Now that the rains have arrived, it is too late. The UN and its partners now fear that large swathes of South 
+du Sud ont empêché les paysans de semer. Maintenant, 
 
-Sudan could face famine.
+avec la saison des pluies, il est trop tard. L’ONU et ses 
+
+partenaires craignent maintenant qu’une grande partie 
+
+du Soudan du Sud ne bascule dans la famine.
 				</p>
 			</div>
 		</div>
@@ -605,11 +634,13 @@ Sudan could face famine.
 				<div class="col-md-6"></div>
 				<div class="col-md-6 text-right">
 					<div class="well remove-bg">
-						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
+						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">La menace de la famine</h1>
 						<p>
-						Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
+						La vie à Mingkaman est une lutte quotidienne. Mais plus
 
-	some – given way to the reality of starvation.
+au nord, dans l’état de l’Unité, on commence à mourir de 
+
+faim.
 					</p>
 					</div>
 				</div>
@@ -626,22 +657,30 @@ Sudan could face famine.
 	data-1151p="transform:translate(0,-100%);"
 >
 	<div class="container-fluid">
-		<div class="row margin-top-100">
-			<div class="col-sm-7 col-md-8"></div>
-			<div class="col-sm-5 col-md-4 text-right">
+		<div class="row margin-top-50">
+			<div class="col-sm-7 col-md-7"></div>
+			<div class="col-sm-5 col-md-5 text-right">
 				<div class="well remove-bg" style="background: none; border: none; box-shadow: none;">
 					<p>
 
-	To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
+	La saison des pluies a empiré la situation en provoquant
 
-	exposing malnourished children to diseases like cholera.
+des inondations qui ont endommagé les systèmes 
+
+d’assainissement et exposé les enfants malnutris à des 
+
+maladies telles que le choléra.
 
 					</p>
 
 					<p>
-	Aid groups working in Bentiu, the capital of Unity State, say that children are now dying every day because of
+	Les équipes d’assistance à Bentiu, capitale de l’état de
 
-	severe malnutrition and other diseases.
+l’Unité, rapportent que des enfants sont désormais 
+
+en train de mourir jour après jour en raison de la 
+
+malnutrition et d’autres maladies.
 					</p>
 				</div>
 			</div>
@@ -662,11 +701,23 @@ Sudan could face famine.
 			<div class="col-sm-5 col-md-5 orange-highlighter">
 				<div >
 					<p>
-					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever they could find along the way.
+					Des familles, comme celle de <strong>Nyagol Mayiel</strong> ont
+
+marché durant des jours pour atteindre Bentiu, en ne 
+
+se nourrissant que d’herbes sauvages, de nénuphars et 
+
+autres plantes et racines trouvées sur leur chemin.
 					</p>
 
 					<p>
-	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the others were walking. We walked for five days to get here,” she said.
+	« Nous sommes venus de Leer (environ 100 km au sud)
+
+à pied. Je portais le dernier-né et les autres marchaient. 
+
+Nous avons marché pendant cinq jours avant d’arriver 
+
+ici », raconte-t-elle.
 
 					</p>
 				</div>
@@ -679,12 +730,20 @@ Sudan could face famine.
 				<div>
 									<p>
 
-					Nyagol’s one-and-a-half year old daughter, <strong class="highlight">Nyataba</strong>, is being treated for malnutrition.
+					La fille de Nyagol, <strong class="highlight">Nyataba</strong>, a un an et demi et est sous
+
+traitement pour malnutrition.
 
 									</p>
 
 									<p>
-					She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her younger brother did not receive treatment in time to save his life.
+					Elle est maintenant dans
+
+un état stable après avoir passé plusieurs jours à tousser, 
+
+vomir et à avoir la diarrhée. Son petit frère n’a pas pu être 
+
+traité à temps pour être sauvé.
 
 									</p>
 				</div>
@@ -721,35 +780,31 @@ Sudan could face famine.
 		</div>
 		*/ ?>
 		<div class="row margin-top-100">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 text-center">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
 				<div data-1260p="opacity: 0" data-1270p="opacity: 1" data-1280p="opacity: 1" data-1290p="opacity: 0">
-			<p>The humanitarian crisis in 
+			<p>La crise humanitaire au Soudan du Sud a causé beaucoup
 
-South Sudan has caused 
-
-immense human suffering.</p>
+de souffrance humaine.</p>
 			<p>
-				The UN estimates that 3.9 
+				L’ONU estime que 3,9 millions de personnes - près de 
 
-million people – just under 
+35 % de la population totale – n’ont pas suffisamment à 
 
-35 per cent of the entire 
+manger. Le risque de voir le pays basculer dans la famine 
 
-population – don't have 
-
-enough to eat. The risk of this 
-
-turning into widespread famine is high 
-
-and increasing every day.
+est très élevé et s’accentue chaque jour.
 			</p>
 			
 		</div>
 		<div data-1290p="opacity: 0" data-1300p="opacity: 1">
 			
 			<p>
-				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided. 
+				S’il avait été possible de semer et si les marchés n’avaient 
+
+pas été détruits, la menace de la famine aurait pu être
+
+évitée. 
 			</p>
 </div>
 			</div>
@@ -767,16 +822,30 @@ and increasing every day.
 		<div class="row margin-top-100">
 			<div class="col-sm-5 col-md-4 text-left">
 				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 20px 20px 20px 20px; ">
-					<h3>A CRISIS OF DEVASTATING PROPORTIONS</h3>
+					<h3>Une crise aux proportions dévastatrices</h3>
 					<p style="font-size: 18px;">
-						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
+						Cette carte montre la gravité de l’insécurité alimentaire 
+
+au Soudan du Sud. A l’heure actuelle, une grande partie
+
+du nord est classée dans la Phase d’Urgence – la phase 
+
+finale avant que famine ne soit déclarée. Dans ces zones, 
+
+au moins un foyer sur cinq fait face à de graves déficits 
+
+nutritionnels, qui entrainent une malnutrition aiguë ou 
+
+une mortalité élevées.
 					</p>
 					<p style="font-size: 18px;">
-						In some areas, however, there are reports that as many as 50 per cent of children are severely malnourished.
+						Dans certaines zones, on rapporte que 50% des enfants
+
+sont gravement malnutris.
 					</p>	
 					<p style="font-size: 18px">
 						<span class="glyphicon glyphicon-info-sign"></span> 
-						<span id="map2-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
+						<span>Double-cliquez pour <strong class="highlight">explorer la carte</strong><span>.
 					</p>				
 					</div>
 			</div>
@@ -828,13 +897,25 @@ and increasing every day.
 				<div class="col-md-7 col-sm-7"></div>
 				<div class="col-md-4 col-sm-5 text-right relative-but-children-abs">
 					
-					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will need treatment for severe acute malnutrition this year.</p>
+					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">
+						Il faut agir maintenant. 
 
-					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">This is <strong>twice</strong> as many as last year.</p>
+<strong>235&nbsp;000 enfants</strong> vont avoir besoin de traitement contre la 
 
-					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">Without treatment, up to <strong>50,000 children</strong> may die by the end of the year.</p>
+malnutrition aiguë cette année.
+						
 
-					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
+					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">
+						C’est <strong>deux fois</strong> plus que l’année dernière.</p>
+
+					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">
+						Sans traitement, près de <strong>50&nbsp;000 enfants</strong> pourraient
+
+mourir avant la fin de l’année.
+
+					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >
+						Cette crise est <strong><u>créée par l’Homme</u></strong>.
+						</p>
 					
 				</div>
 			</div>
@@ -849,14 +930,24 @@ and increasing every day.
 	<div class="stage-container">
 		<div class="container-fluid absolute-position-content" data-1510p="opacity: 0" data-1520p="opacity: 1" data-1540p="opacity: 1" data-1550p="opacity: 0">
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
 					<p class="text-left" style="font-size: 200%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3);">
-					"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
-					</p>
+					« La tragédie du Soudan du Sud c’est que la crise est 
+
+créée par l’Homme. Les déplacements et la violence 
+
+auraient pu être évités, et la souffrance que nous 
+
+observons n’était pas inéluctable. Maintenant, il y a 
+
+le risque de famine. C’est elle est déclarée, elle aura 
+
+également été créée par l’Homme. »
 					<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
-						- Toby Lanzer, Humanitarian Coordinator, South Sudan
-					</p>
+						- Toby Lanzer, Coordinateur Humanitaire du
+
+Soudan du Sud.
 				</div>
 			</div>
 		</div>
@@ -873,7 +964,7 @@ and increasing every day.
 				<div class="col-md-1"></div>
 				<div class="col-md-10 text-center">
 					<h1>
-						What can you do?
+						Comment aider ?
 					</h1>
 				</div>
 				<div class="col-md-1"></div>
@@ -885,33 +976,41 @@ and increasing every day.
 							<div class="row text-center">
 								<div class="col-md-8 brown-background">
 									<div class="well">
-										<h3>Take a stand</h3>
-										<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
+										<h3>Faites-vous entendre</h3>
+										<p class="text-left">Il faut en finir avec la crise au Soudan du Sud, afin d’éviter
+
+que davantage de personnes soient tuées, déplacées ou 
+
+que la famine prenne le dessus.</p>
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Arrêtez les combats. RT si vous êtes d’accord. Le #SudSoudan mérite de vivre en paix. ">
 														<span class="circle">
 															<span class="circle-child">
-																Stop the fighting. RT if you agree, #SouthSudan deserves better. 
+																Arrêtez les combats. RT si vous êtes d’accord. Le #SudSoudan mérite de vivre en paix. 
 															</span>
 														</span>
 													</a>
 												</div>
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Le monde huma est prêt à aider le #SudSoudan mais nous avons besoin de $232 M. Aidez-nous à empêcher la famine.">
 														<span class="circle">
 															<span class="circle-child">
-																The humanitarian community stands ready to deliver aid in #SouthSudan, but more funding is needed. We MUST avert famine 
+																 Le monde huma est prêt à aider le #SudSoudan mais nous avons besoin de $232 M. Aidez-nous à empêcher la famine.
 															<span>
 														</span>
 													</a>
 												</div>
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stoppons les attaques c/ les civils et le recrutement d’enfants-soldats au #SudSoudan. Laissons-les être des">
 														<span class="circle">
 															<span class="circle-child">
-																Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood 
+																Stoppons les attaques c/ les civils et le recrutement
+
+d’enfants-soldats au #SudSoudan. Laissons-les être des 
+
+enfants!
 															</span>
 														</span>
 													</a>
@@ -925,15 +1024,19 @@ and increasing every day.
 										<div style="clear: both"></div>
 									</div>
 								</div>
-								<div class="col-md-4 hidden-sm hidden-xs">
+								<div class="col-md-4 hidden-sm hidden-xs">	
 									<div class="row">
 										<div class="col-md-12 brown-background">
 											<div class="well">
-												<h3>Make a Donation</h3>
-												<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
+												<h3>Faites un don</h3>
+												<p class="text-left">Cette crise vous importe. Faites un don pour aider les
 
-					people caught up in this man-made crisis.</p>
-												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
+équipes humanitaires à apporter de la nourriture, de 
+
+l’aide médicale et des abris aux personnes piégées dans 
+
+cette crise.</p>
+												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Faire un don</a>
 												<div style="clear: both"></div>
 											</div>
 										</div>
@@ -941,9 +1044,11 @@ and increasing every day.
 									<div class="row">
 										<div class="col-md-12 brown-background">
 											<div class="well">
-												<h3>Find out more</h3>
-												<p class="text-left">Visit OCHA’s South Sudan website to put the humanitarian crisis in context</p>
-												<a href="http://www.unocha.org/south-sudan" target="_blank" class="btn btn-default pull-right">Visit Website</a>
+												<h3>En savoir plus</h3>
+												<p class="text-left">Pour plus de contexte sur la crise humanitaire du Soudan
+
+du Sud, visitez la page web d’OCHA consacrée à ce pays.</p>
+												<a href="http://www.unocha.org/south-sudan" target="_blank" class="btn btn-default pull-right">Visiter le site</a>
 												<div style="clear: both"></div>
 											</div>
 										</div>
@@ -1004,7 +1109,7 @@ and increasing every day.
 <!--[if lt IE 9]>
   <script src="js/respond.src.js"></script>
 <![endif]-->
-  <script src="js/custom.js"></script>
+  <script src="js/custom-fr.js"></script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
