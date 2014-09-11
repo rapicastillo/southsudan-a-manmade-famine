@@ -631,6 +631,10 @@ left: 0;
 
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
+  .margin-top-150, .margin-top-100, .margin-top-50
+  {
+    margin-top: 20px;
+  }
   div.section {    
     &#s2 { background-image: url(http://ocha.smugmug.com/photos/i-GPHnW8b/0/L/i-GPHnW8b-L.jpg);  }
     &#s3 { background-image: url(http://ocha.smugmug.com/photos/i-9QPp8kH/0/L/i-9QPp8kH-L.jpg); background-size: cover; }
