@@ -160,16 +160,21 @@
 			</div>
 			<div class="col-md-3"></div>
 		</div>
-		<div class="row margin-top-150 hidden-xs hidden-sm">
+	</div>
+
+	<footer class="container-fluid" style="width: 100%">
+		<div class="row hidden-xs hidden-sm">
 			<p class="text-center">
-				<sub class="text-center">
-					Scroll<br/>
-					down <br/>
-					<img src="./img/s1-scroll-down.PNG" />
-				</sub>
+				<a href="#screen-down" data-menu-top="120p" style="color: white">
+					<sub class="text-center">
+						Scroll<br/>
+						down <br/>
+						<img src="./img/s1-scroll-down.PNG" />
+					</sub>
+				</a>
 			</p>
 		</div>
-	</div>
+	</footer>
 </div>
 <!--
 	END OF SECTION 1
