@@ -189,9 +189,9 @@ else
     var video_baby = document.getElementById("video-baby");
       video_baby.volume = 0.0;
 
-  initialize_maps();
+ 
 }
-
+ initialize_maps();
 
    if (env != "xs")
    {
