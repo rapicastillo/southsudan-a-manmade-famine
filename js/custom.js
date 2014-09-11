@@ -174,6 +174,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 else
 {
+    
   $("#s1").prepend(  
     '<video id="video-cover" src="./video/LoopFirstScreen_prores_Mp4_1080.mp4" class="hidden-xs hidden-sm" width="100%" autoplay muted loop style="position: absolute; top: 0; left: 0;">HTML 5 is needed</video>'
   );

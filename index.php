@@ -55,7 +55,7 @@
 <body data-0p="background-color: rgba(0,0,0,1);" data-649p="background-color: rgba(0,0,0,1);" data-650p="background-color: rgba(255,255,255,1);">
 
 <!-- Navbar -->
-	<nav id="top-nav" class="navbar navbar-fixed-top hidden-xs hidden-sm" role="navigation" data-40p="opacity: 0;" data-60p="opacity: 1;">
+	<nav id="top-nav" class="navbar navbar-fixed-top" role="navigation" data-40p="opacity: 0;" data-60p="opacity: 1;">
 		<!--div id="progress-bar" data-0p="width: 0%" data-1450p="width: 100%">
 			<div id="progress-bar-color"
 				data-0p="background-color: rgb(221,238,220);"
@@ -65,7 +65,7 @@
 				data-1450p="background-color: rgb(96,10,13);"
 				></div>
 		</div-->
-		<div id="chapter-bar-color"
+		<div  class="hidden-xs hidden-sm" id="chapter-bar-color"
 				data-0p="right: 237px; background-color: rgb(221,238,220);"
 				data-150p="right: 237px; background-color: rgb(221,238,220);"
 				data-170p="right: 183px; background-color: rgb(248,234,23);"
@@ -106,12 +106,12 @@
 				<li class="faded-item"><a href="javascript: void();" class="nav-share-button facebook-caller" >
 					<img src="http://ocha.smugmug.com/photos/i-zhTjzvp/0/O/i-zhTjzvp.gif" />
 				</a></li>
-				<li><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
+				<li class="hidden-xs hidden-sm"><a href="#main" id="chapter-0-img" data-menu-top="0p" title="A man-made catastrophe"
 						data-toggle="tooltip"><img src="http://ocha.smugmug.com/photos/i-hpnd7DK/0/O/i-hpnd7DK.png" /></a></li>
-				<li><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="http://ocha.smugmug.com/photos/i-mkkp65r/0/O/i-mkkp65r.png" /></a></li>
-				<li><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="http://ocha.smugmug.com/photos/i-6JmvFjf/0/O/i-6JmvFjf.png" /></a></li>
-				<li><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="http://ocha.smugmug.com/photos/i-23ZxTsZ/0/O/i-23ZxTsZ.png" /></a></li>
-				<li><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="http://ocha.smugmug.com/photos/i-NHmcT5p/0/O/i-NHmcT5p.png" /></a></li>
+				<li class="hidden-xs hidden-sm"><a href="#chapter-1" id="chapter-1-img" data-menu-top="250p" title="The violence"><img src="http://ocha.smugmug.com/photos/i-mkkp65r/0/O/i-mkkp65r.png" /></a></li>
+				<li class="hidden-xs hidden-sm"><a href="#chapter-2" id="chapter-2-img" data-menu-top="750p" title="Displacement"><img src="http://ocha.smugmug.com/photos/i-6JmvFjf/0/O/i-6JmvFjf.png" /></a></li>
+				<li class="hidden-xs hidden-sm"><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="http://ocha.smugmug.com/photos/i-23ZxTsZ/0/O/i-23ZxTsZ.png" /></a></li>
+				<li class="hidden-xs hidden-sm"><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="http://ocha.smugmug.com/photos/i-NHmcT5p/0/O/i-NHmcT5p.png" /></a></li>
 			</ul>
 			
 		</div>
