@@ -349,7 +349,7 @@ des habitants de la ville ont été contraints de fuir.
 						
 						<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
 							
-							<?php include("inc/johns-stories.inc"); ?>
+							<?php include("inc/johns-stories-fr.inc"); ?>
 						</div>
 					</div>
 				</div>

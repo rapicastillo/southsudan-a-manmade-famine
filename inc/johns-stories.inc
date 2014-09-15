@@ -1,55 +1,45 @@
-<p>Les combats ont commencé à 22 heures, et ont continué
+<p>The fighting began at 10PM and continued until morning. They were coming from three directions, so it was
 
-jusqu’au matin. Ils arrivaient de trois directions, alors il 
+ 
+hard to escape.</p>
 
-était difficile de s’échapper.</p>
+ 
+<p>Innocent civilians were targeted. They killed the vulnerable—women, children, the elderly and the disabled.
 
-<p>Ils ont ciblé des civils innocents. Ils ont tué les plus 
+ 
+We stayed inside until morning, until the situation got worse. We left Bor at exactly 6AM, and headed for the 
 
-vulnérables : les femmes, les enfants, les personnes âgées 
+ 
+port. </p>
 
-et les handicapés. Nous sommes restés jusqu’au matin, 
+ 
+<p>There was a lot of shooting. We were rescued from the port and sailed to the west bank of the River Nile, to 
 
-quand la situation a empiré. Nous avons quitté Bor à 6 
+ 
+Mingkaman.</p>
 
-heures du matin exactement, et nous sommes dirigés 
+ 
+<p>The day I returned to Bor to check on my home and property, I couldn’t help but cry. There were dead 
 
-vers le port.</p>
+ 
+bodies lying all over the town. Everything was burnt to ashes.</p>
 
-<p>Il y avait beaucoup de coups de feu. Nous avons été 
+ 
+<p>Bor was a ghost town, and everything was a mess. I decided to return to Mingkaman immediately. </p>
 
-rescapés du port et avons navigué vers la rive gauche du 
+ 
+<p>On the first day of our settlement in Mingkaman the host community donated food to us. Later, humanitarian 
 
-Nil, vers Mingkaman.</p>
+ 
+agencies came. </p>
 
-<p>Le jour où je suis retourné à Bor pour voir ma maison et 
+ 
+<p>Life here in Bor is miserable compared to Mingkaman. People who are living here depend on food rations 
 
-mes possessions, je n’ai pas pu m’empêcher de pleurer. 
+ 
+from Mingkaman, where the United Nations provides aid. </p>
 
-Toute la ville était jonchée de cadavres. Tout avait été 
-
-réduit en cendres.</p>
-
-<p>Bor était une ville fantôme, dans un état chaotique. J’ai 
-
-décidé de retourner à Mingkaman immédiatement.
-
-Le premier jour que nous avons passé à Mingkaman, la 
-
-communauté-hôte nous a donné de quoi manger. Plus 
-
-tard, les agences humanitaires sont arrivées.</p>
-
-<p>La vie à Bor est épouvantable, comparé à Mingkaman. Les 
-
-gens qui vivent ici dépendent des rations de nourriture 
-
-venant de Mingkaman, où les Nations Unies livrent 
-
-l’assistance.</p>
-
-<p>Le conflit auquel nous faisons face aujourd’hui a été 
-
-créé par l’Homme, et je crois que la seule solution devra 
-
-également venir de l’Homme.</p>
+ 
+<p>The conflict we are facing today is man-made, and I believe that the only remedy must also be a man-made 
+ 
+solution.</p>
