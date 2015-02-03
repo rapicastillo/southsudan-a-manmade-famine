@@ -76,15 +76,15 @@
 				data-1050p="right: 77px; background-color: rgb(201,28,34);"
 				data-1430p="right: 77px; background-color: rgb(201,28,34);"
 				data-1450p="right: 26px; background-color: rgb(96,10,13);"
-				
+
 		></div
-		
+
 		<div class="container-fluid">
 			<!--
 			<ul class="nav navbar-nav">
 				<li><a href="http://www.messengersofhumanity.org" style="padding: 3px"><img src="./img/moh.png" height="40px"/></a></li>
 				<li><a id="south-sudan-title" href="#">SOUTH SUDAN</a></li>
-				
+
 				<li><a>
 						<span id="current-title-area" class="relative-but-children-abs">
 							<span id="part-1" data-240p="opacity: 1;" data-250p="opacity: 0;">A man-made catastrophe</span>
@@ -114,7 +114,7 @@
 				<li class="hidden-xs hidden-sm"><a href="#chapter-3"  id="chapter-3-img" data-menu-top="1050p" title="The threat of famine"><img src="http://ocha.smugmug.com/photos/i-23ZxTsZ/0/O/i-23ZxTsZ.png" /></a></li>
 				<li class="hidden-xs hidden-sm"><a href="#call-to-action" id="chapter-cta-img" data-menu-top="1610p" title="What can you do?"><img src="http://ocha.smugmug.com/photos/i-NHmcT5p/0/O/i-NHmcT5p.png" /></a></li>
 			</ul>
-			
+
 		</div>
 	</nav>
 <!-- End of nav bar -->
@@ -125,26 +125,26 @@
 
 	SECTION 1
 -->
-<div class="section"  id="s1" data--1p="transform: translate(0,0%);"	
-	data-70p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)" 
+<div class="section"  id="s1" data--1p="transform: translate(0,0%);"
+	data-70p="transform: translate(0,0%); opacity: 1" data-100p="opacity: 0; transform: translate(0,0%)"
 	data-101p="transform: translate(0,-100%);"
 	style="overflow: hidden">
 	<div class="front-page-lang" style="position: absolute; top: 20px; right: 30px; height: 40px; z-index: 1000;">
             <!-- a href="javascript: void(0);" onclick="window.location='./ar.html'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px; background-color: white; color: #DB4E44;">AR</a -->
-            <a href="./fr.php" 
+            <a href="./fr.php"
             	style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">
             	FR
            	</a>
             <!-- a href="javascript: void(0);" onclick="window.location='./'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 20px;">English</a-->
     </div>
-	
-	
+
+
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1); opacity: 0;" data-30p="opacity: 0" data-50p="opacity: 1;"></div>
 	<div class="container-fluid" data-60p="opacity: 1;" data-70p="opacity: 0;">
 		<div class="row margin-top-100">
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
-				<div class="title-area"> 
+				<div class="title-area">
 					<div class="main-item">A MAN-MADE CATASTROPHE</div>
 					<div class="secondary-item">A multimedia journey through South Sudan</div>
 					<p>&nbsp;</p>
@@ -157,13 +157,13 @@
 			<div class="col-md-6 text-center">
 				<article data-20p="opacity: 0" data-40p="opacity: 1;">
 					<p>
-						Last December, a political 
+						Last December, a political
 
 						disagreement turned violent
 
-						and turned the world’s newest 
+						and turned the world’s newest
 
-						country upside-down. 
+						country upside-down.
 					</p>
 				</article>
 			</div>
@@ -190,11 +190,11 @@
 -->
 
 
-<!-- 
+<!--
 	SECTION 2
 -->
-<div class="section"  style="z-index: 20;"  id="s2" data-49p="transform:translate(0,100%);" 
-		data-50p="transform: translate(0, 0%);opacity: 0;" data-100p="opacity: 1; transform: translate(0, 0%)" 
+<div class="section"  style="z-index: 20;"  id="s2" data-49p="transform:translate(0,100%);"
+		data-50p="transform: translate(0, 0%);opacity: 0;" data-100p="opacity: 1; transform: translate(0, 0%)"
 		data-150p="opacity: 1; transform: translate(0, 0%)"
 		data-199p="transform: translate(0,-100%); display: block" data-200p="display: none">
 	<div class="black-overlay" data--1p="background-color: rgba(0,0,0,1);" data-100p="opacity: 1" data-180p="opacity: 0;" data-190p="opacity: 0;"></div>
@@ -205,28 +205,28 @@
 				<p style="font-size: 28px;">
 
 					<span data-120p="opacity:1" data-140p="opacity: 0;">
-						
 
-						The crisis in South Sudan 
 
-						started on 15 December 2013. 
+						The crisis in South Sudan
 
-						Political tensions spilled over, 
+						started on 15 December 2013.
 
-						and there was fighting on the 
+						Political tensions spilled over,
 
-						streets of Juba, the capital city. The 
+						and there was fighting on the
 
-						violence quickly spread across 
+						streets of Juba, the capital city. The
+
+						violence quickly spread across
 
 						the country.
 					</span>
 					<div
 						data-120p="opacity: 0" data-140p="opacity: 1">
 					<p class="orange-highlighter" style="font-size: 28px;">
-						Since then, South Sudan has been caught 
-						in the grip of a crisis defined by horrendous 
-						<strong>violence</strong>, massive <strong>displacement</strong> 
+						Since then, South Sudan has been caught
+						in the grip of a crisis defined by horrendous
+						<strong>violence</strong>, massive <strong>displacement</strong>
 						and now, the threat of terrible <strong>famine</strong>.
 
 					</p>
@@ -241,12 +241,12 @@
 	END OF SECTION 2
 -->
 
-<!-- 
+<!--
 	SECTION 3c2-transmission-1.JPG
 c2-transmission-2.JPG
-c2-transmission-3.JPG 
+c2-transmission-3.JPG
 -->
-<div class="section"  style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);" 
+<div class="section"  style="z-index: 10;" id="s3" data-149p="opacity: 0" data-150p="opacity: 1; " data-300p="transform: translate(0,0%);"
 			data-310p="transform:translate(0,-100%); display: block;" data-311p="display: none;">
 	<!-- div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
 		<div class="stage-item" id="chapter-1-bg" data-150p="transform: translate(-3%, 0); width: 120%;" data-400p="transform: translate(-1%, 0); width: 130%;"></div>
@@ -259,19 +259,19 @@ c2-transmission-3.JPG
 		<div class="col-sm-6 col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
 			<h5>John's Story<h5>
 			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
-			<p>Within weeks, thousands of 
+			<p>Within weeks, thousands of
 
-people had been killed or 
+people had been killed or
 
-wounded. Aid groups received 
+wounded. Aid groups received
 
-horrific reports of innocent 
+horrific reports of innocent
 
-civilians murdered in their 
+civilians murdered in their
 
-homes and in hospitals, of 
+homes and in hospitals, of
 
-unspeakable violence against 
+unspeakable violence against
 
 women and children.
 			</p>
@@ -280,12 +280,12 @@ women and children.
 	</div>
 </div>
 
-<div class="section"  id="s3-transition" data-249p="transform:translate(0,100%)" 
+<div class="section"  id="s3-transition" data-249p="transform:translate(0,100%)"
 			data-265p="transform:translate(0,0%); opacity: 0;"
-			data-275p="opacity: 1;" 
-			data-320p="transform:translate(0,0%); opacity: 1" 
+			data-275p="opacity: 1;"
+			data-320p="transform:translate(0,0%); opacity: 1"
 			data-350p="transform:translate(0,-100%); opacity: 0">
-	
+
 	<div class="container-fluid">
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
@@ -294,11 +294,11 @@ women and children.
 
 		</p>
 
-		<p>Within months, the dream of 
+		<p>Within months, the dream of
 
 South Sudan – the world’s
 
-youngest country – has turned 
+youngest country – has turned
 
 into a nightmare.</p>
 			</div>
@@ -306,15 +306,15 @@ into a nightmare.</p>
 		</div>
 	</div>
 </div>
-<!-- 
+<!--
 	END OF SECTION 3
 -->
 
 
 <!-- START OF SECTION 4 -->
-<div class="section"  id="s4" data-319p="transform:translate(0,100%);" 
+<div class="section"  id="s4" data-319p="transform:translate(0,100%);"
 	data-320p="transform:translate(0,0%); opacity: 0;" data-350p="opacity: 1"
-	data-600p="transform:translate(0,0%);" 
+	data-600p="transform:translate(0,0%);"
 	data-650p="transform:translate(0,-100%);"
 
 	style="overflow: hidden;">
@@ -322,13 +322,13 @@ into a nightmare.</p>
 	<!-- div class="black-overlay" data-340p="opacity: 0;" data-370p="opacity: 1"></div -->
 	<div class="stage-container">
 		<div class="stage" style="overflow: hidden !important; width: 100%; height: 100%;">
-			<div class="stage-item" id="chapter-1-military" style="background-position: -10% 30%" 
+			<div class="stage-item" id="chapter-1-military" style="background-position: -10% 30%"
 			data-300p="width: 130%; transform: translate(-20%, 0);" data-500p="transform: translate(0%, 0);"
 			data-650p="display: block;" data-651p="display: none;"></div>
 
 			<div class="stage-item" id="chapter-1-johnmamer" data-650p="display: block;" data-651p="display: none;"></div>
 		</div>
-	
+
 		<div class="container-fluid absolute-position-content" data-400p="opacity: 1" data-450p="opacity: 0"
 			data-650p="display: block;" data-651p="display: none;">
 			<div class="row margin-top-150">
@@ -337,11 +337,11 @@ into a nightmare.</p>
 				<div class="col-sm-6 col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 					<div class="well remove-bg" id="john-mamer-intro">
 						<p>
-		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into 
+		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into
 
-	violence. Hundreds of people 
+	violence. Hundreds of people
 
-	were killed, and most of the 
+	were killed, and most of the
 
 	town forced to flee.
 						</p>
@@ -357,16 +357,16 @@ into a nightmare.</p>
 					<h2>Listen to John as he remembers the night that Bor fell.</h2>
 					<div><sub>TRANSCRIPT</sub></div>
 					<div id="s4-viewport" style="position: relative;">
-						
+
 						<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
-							
+
 							<?php include("inc/johns-stories.inc"); ?>
 						</div>
 					</div>
 				</div>
 
 
-				
+
 
 				<div class="col-sm-6 col-md-8 col-lg-9">
 					<div>
@@ -382,13 +382,13 @@ into a nightmare.</p>
 <!-- SECTION 5 -->
 <!-- section id="s5">
 	<div class="black-overlay"></div>
-		
+
 </div -->
 <!-- END OF SECTION 5 -->
 
 <!-- SECTION 6 MAP 1-->
 <div class="section"  id="s6"  data-600p="transform:translate(0,100%);" data-650p="transform:translate(0,0%); opacity: 1;" data-660p="opacity: 1;" data-700p="opacity: 0; transform:translate(0,0%);" data-701p="transform:translate(0, -100%);">
-	<div id='map-one' class='map'> </div> 
+	<div id='map-one' class='map'> </div>
 	<div class="container-fluid" style="z-index: 100;">
 		<div class="row margin-top-100">
 			<div class="col-sm-6 col-md-4" >
@@ -398,11 +398,11 @@ into a nightmare.</p>
 					John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
 				</p>
 				<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
-				
+
 				<p style="font-size: 18px">
-					<span class="glyphicon glyphicon-info-sign"></span> 
+					<span class="glyphicon glyphicon-info-sign"></span>
 					<span id="map1-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
-				</p>	
+				</p>
 				</div>
 
 			</div>
@@ -410,20 +410,20 @@ into a nightmare.</p>
 	</div>
 
 	<footer class="container-fluid" style="font-size: 10px;">
-		
+
 
 
 			<div class="row">
 				<div class="col-md-8">Disclaimer:
 
-	"The boundaries and names shown and the designations used on this map do not imply official endorsement 
+	"The boundaries and names shown and the designations used on this map do not imply official endorsement
 
-	or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of 
+	or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of
 
 	South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
 				</div>
 			</div>
-		
+
 	</footer>
 
 </div>
@@ -443,18 +443,18 @@ into a nightmare.</p>
 <!-- END OF SECTION 6 -->
 
 <!-- SECTION 7 -->
-<div class="section"  id="s7" 
-	data-729p="transform:translate(0,100%);" 
-	data-730p="transform:translate(0,0%); opacity: 0;" 
-	data-750p="opacity:1;" 
+<div class="section"  id="s7"
+	data-729p="transform:translate(0,100%);"
+	data-730p="transform:translate(0,0%); opacity: 0;"
+	data-750p="opacity:1;"
 	data-800p="transform: translate(0,0%); opacity: 1;"
 	data-825p="transform: translate(0,-50%); opacity: 1;"
 	data-875p="opacity: 1"
-	data-900p="opacity: 0" 
+	data-900p="opacity: 0"
 	data-901p="transform: translate(0,-100%);">
 	<div class="stage-container">
 		<div class="stage">
-			<div class="stage-item" id="chapter-7-desat" 
+			<div class="stage-item" id="chapter-7-desat"
 			data-759p="display: none;"
 			data-760p="display: block; opacity: 0;" data-780p="opacity: 1;"></div>
 		</div>
@@ -478,9 +478,9 @@ into a nightmare.</p>
 <!-- SECTION 7 -->
 
 <!-- SECTION 8 -->
-<div class="section"  id="s8" data-800p="transform:translate(0,100%);" data-825p="transform:translate(0,50%)" 
+<div class="section"  id="s8" data-800p="transform:translate(0,100%);" data-825p="transform:translate(0,50%)"
 		data-850p="transform: translate(0,50%); opacity: 1;" data-875p="opacity: 1"
-		data-900p="opacity: 0;" 
+		data-900p="opacity: 0;"
 		data-901p="transform: translate(0,-100%);">
 	<div class="container-fluid">
 		<div class="row margin-top-25">
@@ -502,8 +502,8 @@ into a nightmare.</p>
 <!-- END OF SECTION 8 -->
 
 <!-- SECTION 9 -->
-<?php /* 
-<div class="section"  id="s9" data-874p="transform:translate(0,100%);" data-875p="transform:translate(0,0%); opacity: 0;" 
+<?php /*
+<div class="section"  id="s9" data-874p="transform:translate(0,100%);" data-875p="transform:translate(0,0%); opacity: 0;"
 	data-925p="opacity: 1; transform:translate(0,0%);"
 	data-950p="transform:translate(0,-100%);"
 	>
@@ -511,7 +511,7 @@ into a nightmare.</p>
 		<div class="row margin-top-150"></div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				
+
 			</div>
 		</div>
 	</div>
@@ -520,7 +520,7 @@ into a nightmare.</p>
 <!-- END OF SECTION 9 -->
 
 <!-- SECTION 10 -->
-<div class="section"  id="s10" data-849p="transform:translate(0,100%); opacity: 0;" 
+<div class="section"  id="s10" data-849p="transform:translate(0,100%); opacity: 0;"
 		data-850p="transform: translate(0,0%); opacity: 0;" data-900p="transform:translate(0,0%); opacity: 1;"
 		data-935p="transform:translate(0,0%); opacity: 1;"
 		data-950p="transform:translate(0,-100%); opacity: 0;">
@@ -569,7 +569,7 @@ into a nightmare.</p>
 </div>
 
 <div class="section"  id="s11-transition"
-	data-974p="transform: translate(0,100%); display: block;" data-975p="transform:translate(0,0%); opacity: 0;" 
+	data-974p="transform: translate(0,100%); display: block;" data-975p="transform:translate(0,0%); opacity: 0;"
 	data-990p="opacity: 1" data-1000p="opacity: 1"
 	data-1050p="opacity: 0;" data-1051p="display: none;">
 
@@ -580,7 +580,7 @@ into a nightmare.</p>
 				<p>
 				The violence and displacement that has swept across South Sudan prevented farmers from sowing crops.
 
-Now that the rains have arrived, it is too late. The UN and its partners now fear that large swathes of South 
+Now that the rains have arrived, it is too late. The UN and its partners now fear that large swathes of South
 
 Sudan could face famine.
 				</p>
@@ -591,9 +591,9 @@ Sudan could face famine.
 <!-- END OF SECTION 11 -->
 
 <!-- SECTION 12 -->
-<div class="section"  id="s12" 
+<div class="section"  id="s12"
 	style="overflow: hidden;"
-	data-1024p="transform:translate(0,100%);" 
+	data-1024p="transform:translate(0,100%);"
 				data-1025p="transform:translate(0,0%); opacity: 0;"
 				data-1050p="transform:translate(0,0%); opacity: 1;"
 				data-1060p="transform:translate(0,0%);"
@@ -613,7 +613,7 @@ Sudan could face famine.
 					</p>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
@@ -636,6 +636,8 @@ Sudan could face famine.
 
 	exposing malnourished children to diseases like cholera.
 
+  <a class="human-story" href="http://features.harvard.edu/arts-shining-future">See Matilda's Story</a>
+
 					</p>
 
 					<p>
@@ -651,10 +653,10 @@ Sudan could face famine.
 </div>
 <!-- END OF SECTION 13 -->
 
-<div class="section"  id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;" 
+<div class="section"  id="s14" data-1109p="transform:translate(0,100%);" data-1110p="transform:translate(0,0%); opacity: 0" data-1150p="opacity: 1;"
 		data-1200p="transform:translate(0,0%); opacity: 1;" data-1250p="transform:translate(0,-100%); opacity: 0">
-	
-	<div class="container-fluid" 
+
+	<div class="container-fluid"
 		data-1175p="opacity: 1; display: block;"
 		data-1180p="opacity: 0" data-1181p="display: none;">
 		<div class="row margin-top-100">
@@ -700,7 +702,7 @@ Sudan could face famine.
 		<div class="row">
 			<div class="col-md-12">
 				<div id="s15-slides">
-				    <img ind="1" src="http://ocha.smugmug.com/Countries/South-Sudan/South-Sudan-launched-of-revise/i-MBxbskq/0/X2/OCHA_Tomping_03-X2.jpg" 
+				    <img ind="1" src="http://ocha.smugmug.com/Countries/South-Sudan/South-Sudan-launched-of-revise/i-MBxbskq/0/X2/OCHA_Tomping_03-X2.jpg"
 				    		title="The humanitarian crisis in South Sudan has caused immense human suffering. Even now, eight months since the fighting began, the situation continues to decline catastrophically.">
 				    <img ind="2" src="http://ocha.smugmug.com/Countries/South-Sudan/South-Sudan-launched-of-revise/i-g2DSHFS/0/X3/OCHA_Tomping_18-X3.jpg"
 				    		title="The UN estimates that 3.9 million people – just under 35 per cent of the entire population – are food insecure. The risk of this spilling into famine is high and increasing every day.">
@@ -724,32 +726,32 @@ Sudan could face famine.
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
 				<div data-1260p="opacity: 0" data-1270p="opacity: 1" data-1280p="opacity: 1" data-1290p="opacity: 0">
-			<p>The humanitarian crisis in 
+			<p>The humanitarian crisis in
 
-South Sudan has caused 
+South Sudan has caused
 
 immense human suffering.</p>
 			<p>
-				The UN estimates that 3.9 
+				The UN estimates that 3.9
 
-million people – just under 
+million people – just under
 
-35 per cent of the entire 
+35 per cent of the entire
 
-population – don't have 
+population – don't have
 
-enough to eat. The risk of this 
+enough to eat. The risk of this
 
-turning into widespread famine is high 
+turning into widespread famine is high
 
 and increasing every day.
 			</p>
-			
+
 		</div>
 		<div data-1290p="opacity: 0" data-1300p="opacity: 1">
-			
+
 			<p>
-				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided. 
+				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided.
 			</p>
 </div>
 			</div>
@@ -759,7 +761,7 @@ and increasing every day.
 
 
 <!-- SECTION 16 MAP AREA -->
-<div class="section"  id="s16" data-1305p="transform:translate(0,100%);" data-1350p="transform:translate(0,0%);" 
+<div class="section"  id="s16" data-1305p="transform:translate(0,100%);" data-1350p="transform:translate(0,0%);"
 				  data-1355p="transform:translate(0,0%);  opacity: 1" data-1400p=" opacity: 0;" data-1401p="transform:translate(0,-100%);">
 
 	<div id='map-two' class='map' > </div>
@@ -773,15 +775,15 @@ and increasing every day.
 					</p>
 					<p style="font-size: 18px;">
 						In some areas, however, there are reports that as many as 50 per cent of children are severely malnourished.
-					</p>	
+					</p>
 					<p style="font-size: 18px">
-						<span class="glyphicon glyphicon-info-sign"></span> 
+						<span class="glyphicon glyphicon-info-sign"></span>
 						<span id="map2-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
-					</p>				
+					</p>
 					</div>
 			</div>
-			
-			
+
+
 		</div>
 		<div class="row">
 			<div class="col-md-4"></div>
@@ -791,7 +793,7 @@ and increasing every day.
 		</div>
 	</div>
 	<footer class="container-fluid" style="font-size: 10px;">
-	
+
 
 
 		<div class="row">
@@ -815,19 +817,19 @@ and increasing every day.
 			<img class="stage-item" src="./img/s18-img-4.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" data-1430p="opacity: 0;" data-1437p="opacity: 0;" data-1445p="opacity: 1;" />
 			<img class="stage-item" src="./img/s18-img-4.png" data-1354p="transform:translate(0,100%);" data-1355p="transform:translate(0,0%);" width="100%" style="position: relative; opacity: 0;"/>
 		</div>
-	
+
 		<div class="container-fluid">
 			<div class="row margin-top-100">
 				<div class="col-md-3"></div>
 				<div class="col-md-6 text-center relative-but-children-abs">
-					
+
 				</div>
 				<div class="col-md-3"></div>
 			</div>
 			<div class="row margin-top-100">
 				<div class="col-md-7 col-sm-7"></div>
 				<div class="col-md-4 col-sm-5 text-right relative-but-children-abs">
-					
+
 					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will need treatment for severe acute malnutrition this year.</p>
 
 					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">This is <strong>twice</strong> as many as last year.</p>
@@ -835,7 +837,7 @@ and increasing every day.
 					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">Without treatment, up to <strong>50,000 children</strong> may die by the end of the year.</p>
 
 					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
-					
+
 				</div>
 			</div>
 		</div>
@@ -861,7 +863,7 @@ and increasing every day.
 			</div>
 		</div>
 	</div>
-	
+
 </div>
 
 <div class="section"  id="s19" data-1449p="transform:translate(0,100%);" data-1550p="opacity: 0; transform:translate(0,0%);" data-1610p="opacity: 1">
@@ -880,7 +882,7 @@ and increasing every day.
 			</div>
 			<!-- FOR CALL TO ACTIONS -->
 			<div class="row">
-				
+
 						<div class="col-md-12">
 							<div class="row text-center">
 								<div class="col-md-8 brown-background">
@@ -893,7 +895,7 @@ and increasing every day.
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
 														<span class="circle">
 															<span class="circle-child">
-																Stop the fighting. RT if you agree, #SouthSudan deserves better. 
+																Stop the fighting. RT if you agree, #SouthSudan deserves better.
 															</span>
 														</span>
 													</a>
@@ -902,7 +904,7 @@ and increasing every day.
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
 														<span class="circle">
 															<span class="circle-child">
-																The humanitarian community stands ready to deliver aid in #SouthSudan, but more funding is needed. We MUST avert famine 
+																The humanitarian community stands ready to deliver aid in #SouthSudan, but more funding is needed. We MUST avert famine
 															<span>
 														</span>
 													</a>
@@ -911,7 +913,7 @@ and increasing every day.
 													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
 														<span class="circle">
 															<span class="circle-child">
-																Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood 
+																Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood
 															</span>
 														</span>
 													</a>
@@ -930,7 +932,7 @@ and increasing every day.
 										<div class="col-md-12 brown-background">
 											<div class="well">
 												<h3>Make a Donation</h3>
-												<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the 
+												<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the
 
 					people caught up in this man-made crisis.</p>
 												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
@@ -952,7 +954,7 @@ and increasing every day.
 							</div>
 						</div>
 					</div>
-				
+
 
 		</div>
 
@@ -961,7 +963,7 @@ and increasing every day.
 
 								<div class="col-md-1"></div>
 								<div class="col-md-10 brown-background" >
-									
+
 											<div style="position: relative;">
 											<nav>
 												<ul style="padding: 0;">
@@ -975,21 +977,21 @@ and increasing every day.
 
 											<div class="clear" style="clear: both;"></div>
 											<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
-											
-										
+
+
 								</div>
 
 			</div>
 		</footer>
 	</div>
-	
+
 </div>
 <div id="skrollr-body"></div>
 
 
 <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
   <script src="js/jquery.slides.min.js"></script>
   <script src="js/jquery.colorbox-min.js"></script>
@@ -1000,7 +1002,7 @@ and increasing every day.
 
   <script src="js/skrollr.menu.min.js"></script>
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script> 
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
 <!--[if lt IE 9]>
   <script src="js/respond.src.js"></script>
 <![endif]-->
