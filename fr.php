@@ -1,18 +1,3 @@
-<?php
-
-  $language = isset( $_GET['lang'] ) ? $_GET['lang'] : "en"
-
-  switch( $language )
-  {
-    case "es" :
-      require_once("");
-      break;
-    default:
-      break;
-  }
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +20,7 @@
 <meta property="og:url" content="http://bit.ly/SthSudan" />
 <meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
 <meta property="og:site_name" content="UNOCHA interactive" />
-<meta property="og:description" content="<?php echo $metadata ?>" />
+<meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />
 
 
 
@@ -149,7 +134,8 @@
 
 	<div class="front-page-lang" style="position: absolute; top: 20px; right: 30px; height: 40px; z-index: 1000;">
             <!-- a href="javascript: void(0);" onclick="window.location='./ar.html'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px; background-color: white; color: #DB4E44;">AR</a -->
-            <a href="javascript: void(0);" onclick="window.location='./'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">EN</a>
+            <a href="./index.php?lang=en" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">EN</a>
+            <a href="./index.php?lang=es" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">ES</a>
             <!-- a href="javascript: void(0);" onclick="window.location='./'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 20px;">English</a-->
     </div>
 

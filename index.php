@@ -1,7 +1,27 @@
+<?php
+  require_once("inc/Parsedown.inc");
+  $Parsedown = new Parsedown();
+  $language_options = array("es", "en");
+  $language = isset( $_GET['lang'] ) ? $_GET['lang'] : "en";
+
+  switch( $language )
+  {
+    case "es" :
+      require_once("inc/es.inc");
+      require_once("inc/johns-stories-es.inc");
+      break;
+
+    default:
+      require_once("inc/en.inc");
+      require_once("inc/johns-stories.inc");
+      break;
+  }
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>South Sudan - A man-made catastrophe</title>
+	<title><?php echo $text_script['site_title'] ?></title>
 	<meta charset="utf-8">
 	<meta name="viewport" conelevent="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +40,7 @@
 <meta property="og:url" content="http://bit.ly/SthSudan" />
 <meta property="og:image" content="http://southsudan.messengersofhumanity.org/img/cover.jpg" />
 <meta property="og:site_name" content="UNOCHA interactive" />
-<meta property="og:description" content="South Sudan is silently suffering. 1.7 million South Sudanese have been forced to flee their homes. Famine is threatening. Share this website, show the world that the people of South Sudan MUST not be forgotten. bit.ly/SthSudan " />
+<meta property="og:description" content="<?php echo $metadata ?>" />
 
 
 
@@ -131,6 +151,12 @@
 	style="overflow: hidden">
 	<div class="front-page-lang" style="position: absolute; top: 20px; right: 30px; height: 40px; z-index: 1000;">
             <!-- a href="javascript: void(0);" onclick="window.location='./ar.html'" style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px; background-color: white; color: #DB4E44;">AR</a -->
+            <?php foreach( $language_options as $opts ) : ?>
+                <?php if ($opts != $language): ?>
+                    <a href="?lang=<?php echo $opts ?>"
+                      style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;"><?php echo strtoupper($opts); ?></a>
+                <?php endif; ?>
+            <?php endforeach; ?>
             <a href="./fr.php"
             	style="margin: 0; padding: 10px; font-weight: bold; font-size: 23px;">
             	FR
@@ -145,8 +171,8 @@
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<div class="title-area">
-					<div class="main-item">A MAN-MADE CATASTROPHE</div>
-					<div class="secondary-item">A multimedia journey through South Sudan</div>
+					<div class="main-item"><?php echo $text_script['title'] ?></div>
+					<div class="secondary-item"><?php echo $text_script['subtitle'] ?></div>
 					<p>&nbsp;</p>
 				</div>
 			</div>
@@ -156,14 +182,7 @@
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
 				<article data-20p="opacity: 0" data-40p="opacity: 1;">
-					<p>
-						Last December, a political
-
-						disagreement turned violent
-
-						and turned the world’s newest
-
-						country upside-down.
+					<p><?php echo $text_script['title_para']; ?>
 					</p>
 				</article>
 			</div>
@@ -176,8 +195,7 @@
 			<p class="text-center">
 				<a href="#screen-down" data-menu-top="120p" style="color: white">
 					<sub class="text-center" style="line-height: 18px; text-align: center; ">
-						Scroll<br/>
-						down <br/>
+						<?php echo $text_script['scrolldown'] ?><br/>
 						<img src="./img/s1-scroll-down.PNG" />
 					</sub>
 				</a>
@@ -205,30 +223,12 @@
 				<p style="font-size: 28px;">
 
 					<span data-120p="opacity:1" data-140p="opacity: 0;">
-
-
-						The crisis in South Sudan
-
-						started on 15 December 2013.
-
-						Political tensions spilled over,
-
-						and there was fighting on the
-
-						streets of Juba, the capital city. The
-
-						violence quickly spread across
-
-						the country.
+            <?php echo $text_script['page1']['para1'] ?>
 					</span>
 					<div
 						data-120p="opacity: 0" data-140p="opacity: 1">
 					<p class="orange-highlighter" style="font-size: 28px;">
-						Since then, South Sudan has been caught
-						in the grip of a crisis defined by horrendous
-						<strong>violence</strong>, massive <strong>displacement</strong>
-						and now, the threat of terrible <strong>famine</strong>.
-
+						<?php echo $text_script['page1']['para2'] ?>
 					</p>
 					</div>
 					</p>
@@ -257,23 +257,9 @@ c2-transmission-3.JPG
 		<div class="row margin-top-100">
 		<div class="col-md-1"></div>
 		<div class="col-sm-6 col-md-5 text-center content-item" data-205p="opacity: 0;" data-220p="opacity: 1" >
-			<h5>John's Story<h5>
-			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px">THE VIOLENCE</h1>
-			<p>Within weeks, thousands of
-
-people had been killed or
-
-wounded. Aid groups received
-
-horrific reports of innocent
-
-civilians murdered in their
-
-homes and in hospitals, of
-
-unspeakable violence against
-
-women and children.
+			<h5><?php echo $text_script['page2']['subtitle']; ?><h5>
+			<h1 data-205p="letter-spacing: 2px" data-300p="letter-spacing: 8px"><?php echo $text_script['page2']['title']; ?></h1>
+			<p><?php echo $Parsedown->text($text_script['page2']['para1']); ?>
 			</p>
 		</div>
 		</div>
@@ -290,17 +276,8 @@ women and children.
 		<div class="row margin-top-100">
 			<div class="col-md-1"></div>
 			<div class="col-sm-6 col-md-5 text-center">
-				<p>One in seven people have been forced from their homes. Inside the country, 1.3 million remain displaced, and 450,000 have left for the safety of neighbouring countries.
-
-		</p>
-
-		<p>Within months, the dream of
-
-South Sudan – the world’s
-
-youngest country – has turned
-
-into a nightmare.</p>
+				<p><?php echo $Parsedown->text($text_script['page2']['para2']); ?></p>
+        <p><?php echo $Parsedown->text($text_script['page2']['para3']); ?></p>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
@@ -336,15 +313,7 @@ into a nightmare.</p>
 				<div class="col-sm-3 col-md-3" data-340p="opacity: 0;" data-370p="opacity: 1"></div>
 				<div class="col-sm-6 col-md-6 orange-highlighter" data-340p="opacity: 0;" data-370p="opacity: 1" >
 					<div class="well remove-bg" id="john-mamer-intro">
-						<p>
-		<strong>John Mamer</strong> lived with his family in Bor, a town in the centre of the country, on the eastern bank of the River Nile. Soon after the conflict started in Juba, Bor exploded into
-
-	violence. Hundreds of people
-
-	were killed, and most of the
-
-	town forced to flee.
-						</p>
+						<p><?php echo $Parsedown->text($text_script['page2']['para4']); ?></p>
 					</div>
 				</div>
 			</div>
@@ -354,13 +323,12 @@ into a nightmare.</p>
 		<div class="container-fluid absolute-position-content" id="s4-speech" data-449p="transform: translate(100%, 0)" data-450p="transform: translate(0%, 0); display: block; opacity: 0;" data-500p="opacity: 1">
 			<div class="row margin-top-100">
 				<div class="col-sm-4 col-md-4 col-lg-3" >
-					<h2>Listen to John as he remembers the night that Bor fell.</h2>
-					<div><sub>TRANSCRIPT</sub></div>
+					<h2><?php echo $text_script['page2']['para5']; ?></h2>
+					<div><sub><?php echo $text_script['page2']['transcript_title']; ?></sub></div>
 					<div id="s4-viewport" style="position: relative;">
 
 						<div id="s4-scroller"> <!-- data-500p="margin-top: 0%;" data-600p="margin-top: -100%; "-->
-
-							<?php include("inc/johns-stories.inc"); ?>
+							<?php echo $Parsedown->text($johns_transcript); ?>
 						</div>
 					</div>
 				</div>
@@ -393,15 +361,15 @@ into a nightmare.</p>
 		<div class="row margin-top-100">
 			<div class="col-sm-6 col-md-4" >
 				<div class="well remove-bg" style=" background: none; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; ">
-				<h1 style="color: white">Interactive Map</h1>
+				<h1 style="color: white"><?php echo $text_script['page2']['interactive_map_title']; ?></h1>
 				<p style="font-size: 18px;">
-					John’s family fled <strong class="highlight">Bor</strong>, crossing the River Nile to find safety in <strong class="highlight">Mingkaman</strong>.
+          <?php echo $Parsedown->text($text_script['page2']['para6']); ?>
 				</p>
-				<p style="font-size: 18px">Learn more about the violence and displacement that has gripped South Sudan since December 2013. </p>
+				<p style="font-size: 18px"><?php echo $Parsedown->text($text_script['page2']['para7']); ?></p>
 
 				<p style="font-size: 18px">
 					<span class="glyphicon glyphicon-info-sign"></span>
-					<span id="map1-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
+					<span id="map1-instruction"><?php echo $text_script['page2']['para8']; ?></span>.
 				</p>
 				</div>
 
@@ -414,13 +382,7 @@ into a nightmare.</p>
 
 
 			<div class="row">
-				<div class="col-md-8">Disclaimer:
-
-	"The boundaries and names shown and the designations used on this map do not imply official endorsement
-
-	or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of
-
-	South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
+				<div class="col-md-8"><sub><?php echo $text_script['page2']['disclaimer']; ?></sub>
 				</div>
 			</div>
 
@@ -434,8 +396,7 @@ into a nightmare.</p>
 			<div class="col-md-2">
 			</div>
 			<div class="col-md-8 text-center">
-				<p>
-				Nine months of violence has exposed many families to a life of fear, sickness, hunger, displacement and destitution.				</p>
+				<p><?php echo $Parsedown->text($text_script['page2']['para9']); ?></p>
 			</div>
 		</div>
 	</div>
@@ -465,10 +426,11 @@ into a nightmare.</p>
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8 text-center">
-					<h5>Mary's Story</h5>
-					<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">Displacement</h1>
+					<h5><?php echo $text_script['page3']['subtitle']; ?></h5>
+					<h1 data-730p="letter-spacing: 2px" data-850p="letter-spacing: 8px">
+            <?php echo $text_script['page3']['title']; ?></h1>
 					<p>
-						Displacement is not just about leaving your home. It is about being entirely cut off from your life. Imagine having to run from your home, taking with you only the few things you are able to carry.
+            <?php echo $Parsedown->text($text_script['page3']['spiel']); ?>
 					</p>
 				</div>
 			</div>
@@ -491,7 +453,7 @@ into a nightmare.</p>
 				<img src="http://ocha.smugmug.com/photos/i-zd5T6GG/0/O/i-zd5T6GG.png" width="100%"/>
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-4 orange-highlighter text-left">
-				<p>John’s family now lives in Mingkaman, South Sudan’s largest site for internally displaced people. <strong>Mary</strong>, his wife, lives with six of their seven children and their seven grandchildren.
+				<p><?php echo $Parsedown->text($text_script['page3']['slide1']); ?>
 </p>
 			</div>
 		</div>
@@ -529,12 +491,7 @@ into a nightmare.</p>
 			<div class="col-sm-8 col-md-8"></div>
 			<div class="col-sm-4 col-md-3 text-left">
 				<div class="well remove-bg translucent-white-bg">
-					<p>
-						Mary worries about food. Though aid agencies are providing food, hunger is a growing concern.
-					</p>
-					<p>
-						To complicate matters, floods, continued violence, and lack of funds are making it harder for aid agencies to deliver.
-					</p>
+					<?php echo $Parsedown->text($text_script['page3']['slide2']); ?>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -552,10 +509,7 @@ into a nightmare.</p>
 			<div class="row">
 				<div class="col-sm-2 col-md-2"></div>
 				<div class="col-md-4 col-sm-4 ">
-					<h3>Watch as Mary talks about life in the displacement site at Mingkaman.</h3>
-					<p>
-						“They took everything,” she says, of the armed groups that destroyed her home in Bor. “Now, here we are living without shelter.”
-	</p>
+					<?php echo $Parsedown->text($text_script['page3']['slide3']); ?>
 				</div>
 				<div class="col-md-4 col-sm-4 ">
 					<a class="ss-youtube" href="http://player.vimeo.com/video/105393643?rel=0&amp;wmode=transparent&amp;autoplay=1">
@@ -578,11 +532,8 @@ into a nightmare.</p>
 			<div class="col-md-2"></div>
 			<div class="col-md-8 text-center">
 				<p>
-				The violence and displacement that has swept across South Sudan prevented farmers from sowing crops.
+          <?php echo $Parsedown->text($text_script['page3']['slide4']); ?>
 
-Now that the rains have arrived, it is too late. The UN and its partners now fear that large swathes of South
-
-Sudan could face famine.
 				</p>
 			</div>
 		</div>
@@ -605,11 +556,10 @@ Sudan could face famine.
 				<div class="col-md-6"></div>
 				<div class="col-md-6 text-right">
 					<div class="well remove-bg">
-						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">The threat of famine</h1>
+						<h1 data-1025p="letter-spacing: 2px" data-1100p="letter-spacing: 8px">
+              <?php echo $text_script['page4']['title']; ?></h1>
 						<p>
-						Life in Mingkaman and Bor is a daily struggle. But further north in Unity State, the fear of hunger has – for
-
-	some – given way to the reality of starvation.
+              <?php echo $Parsedown->text($text_script['page4']['spiel']); ?>
 					</p>
 					</div>
 				</div>
@@ -630,21 +580,9 @@ Sudan could face famine.
 			<div class="col-sm-7 col-md-8"></div>
 			<div class="col-sm-5 col-md-4 text-right">
 				<div class="well remove-bg" style="background: none; border: none; box-shadow: none;">
-					<p>
+					 <?php echo $Parsedown->text($text_script['page4']['slide1']); ?>
 
-	To make matters worse, the rainy season has brought with it flooding, worsening sanitation and
 
-	exposing malnourished children to diseases like cholera.
-
-  <a class="human-story" href="http://features.harvard.edu/arts-shining-future">See Matilda's Story</a>
-
-					</p>
-
-					<p>
-	Aid groups working in Bentiu, the capital of Unity State, say that children are now dying every day because of
-
-	severe malnutrition and other diseases.
-					</p>
 				</div>
 			</div>
 			<div class="col-md-3"></div>
@@ -663,14 +601,7 @@ Sudan could face famine.
 			<div class="col-md-1"></div>
 			<div class="col-sm-5 col-md-5 orange-highlighter">
 				<div >
-					<p>
-					Families like <strong>Nyagol Mayiel’s</strong> trekked for days to reach Bentiu, eating wild grass, water lilies or whatever they could find along the way.
-					</p>
-
-					<p>
-	“We came from Leer (about 100 kilometres to the South) on foot. I was carrying the younger baby and the others were walking. We walked for five days to get here,” she said.
-
-					</p>
+          <?php echo $Parsedown->text($text_script['page4']['slide2']); ?>
 				</div>
 			</div>
 		</div>
@@ -679,16 +610,7 @@ Sudan could face famine.
 		<div class="row margin-top-100">
 			<div class="col-sm-4 col-md-3">
 				<div>
-									<p>
-
-					Nyagol’s one-and-a-half year old daughter, <strong class="highlight">Nyataba</strong>, is being treated for malnutrition.
-
-									</p>
-
-									<p>
-					She is now stabilizing, after days of coughing, vomiting and diarrhoea. Her younger brother did not receive treatment in time to save his life.
-
-									</p>
+          <?php echo $Parsedown->text($text_script['page4']['slide3']); ?>
 				</div>
 			</div>
 		</div>
@@ -726,33 +648,12 @@ Sudan could face famine.
 			<div class="col-md-3"></div>
 			<div class="col-md-6 text-center">
 				<div data-1260p="opacity: 0" data-1270p="opacity: 1" data-1280p="opacity: 1" data-1290p="opacity: 0">
-			<p>The humanitarian crisis in
+          <?php echo $Parsedown->text($text_script['page4']['slide4']); ?>
 
-South Sudan has caused
-
-immense human suffering.</p>
-			<p>
-				The UN estimates that 3.9
-
-million people – just under
-
-35 per cent of the entire
-
-population – don't have
-
-enough to eat. The risk of this
-
-turning into widespread famine is high
-
-and increasing every day.
-			</p>
 
 		</div>
 		<div data-1290p="opacity: 0" data-1300p="opacity: 1">
-
-			<p>
-				If people had been able to plant their crops and if markets hadn’t been destroyed, the threat of famine could have been avoided.
-			</p>
+          <?php echo $Parsedown->text($text_script['page4']['slide5']); ?>
 </div>
 			</div>
 		</div>
@@ -769,17 +670,7 @@ and increasing every day.
 		<div class="row margin-top-100">
 			<div class="col-sm-5 col-md-4 text-left">
 				<div class="well" style=" background: none; background-color: rgba(255,255,255,0.6); padding: 20px 20px 20px 20px; ">
-					<h3>A CRISIS OF DEVASTATING PROPORTIONS</h3>
-					<p style="font-size: 18px;">
-						This map shows the severity of food insecurity in South Sudan. Right now, much of the north is classified as being in the Emergency Phase – the final phase before famine. In these areas, at least 1 in 5 households face extreme food consumption gaps, resulting in very high acute malnutrition or excess mortality.
-					</p>
-					<p style="font-size: 18px;">
-						In some areas, however, there are reports that as many as 50 per cent of children are severely malnourished.
-					</p>
-					<p style="font-size: 18px">
-						<span class="glyphicon glyphicon-info-sign"></span>
-						<span id="map2-instruction">Double click on the map to <strong class="highlight">zoom in</strong><span>.
-					</p>
+          <?php echo $Parsedown->text($text_script['page4']['map_text']); ?>
 					</div>
 			</div>
 
@@ -798,7 +689,7 @@ and increasing every day.
 
 		<div class="row">
 			<div class="col-md-8">
-				Disclaimer: "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Final boundary between the Republic of Sudan and the Republic of South Sudan has not yet been determined. Final status of the Abyei area is not yet determined."
+        <?php echo $text_script['page4']['disclaimer']; ?>
 			</div>
 		</div>
 	</footer>
@@ -830,19 +721,19 @@ and increasing every day.
 				<div class="col-md-7 col-sm-7"></div>
 				<div class="col-md-4 col-sm-5 text-right relative-but-children-abs">
 
-					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;">Action must be taken now. <strong>235,000 children</strong> will need treatment for severe acute malnutrition this year.</p>
+					<p data-1410p="opacity: 1; top: 0;" data-1415p="opacity: 1;" data-1417p="opacity: 1;" data-1420p="opacity: 0;"><?php echo $text_script['page4']['slide6_a']; ?></p>
 
-					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;">This is <strong>twice</strong> as many as last year.</p>
+					<p data-1417p="opacity: 0; top: 20px;" data-1420p="opacity: 1; top: 0;" data-1425p="opacity: 1;" data-1427p="opacity: 1;"  data-1430p="opacity: 0;"><?php echo $text_script['page4']['slide6_b']; ?></p>
 
-					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;">Without treatment, up to <strong>50,000 children</strong> may die by the end of the year.</p>
+					<p data-1427p="opacity: 0; top: 20px" data-1430p="opacity: 1; top: 0;" data-1435p="opacity: 1;" data-1437p="opacity: 1;" data-1440p="opacity: 0;"><?php echo $text_script['page4']['slide6_c']; ?></p>
 
-					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" >This is a <strong><u>man-made crisis</u></strong>.</p>
+					<p data-1437p="opacity: 0; top: 20px" data-1440p="opacity: 1; top: 0;" ><?php echo $text_script['page4']['slide6_d']; ?></p>
 
 				</div>
 			</div>
 		</div>
 		<footer>
-			<sub style="margin-top: 100px;">Disclaimer: This image has been digitally altered.</sub>
+			<sub style="margin-top: 100px;"><?php echo $text_script['page4']['slide_disclaimer']; ?></sub>
 		</footer>
 	</div>
 </div>
@@ -854,10 +745,10 @@ and increasing every day.
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 					<p class="text-left" style="font-size: 200%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3);">
-					"The tragedy of South Sudan is that this crisis is man-made. The displacement and the violence did not need to happen, the suffering we're seeing wasn't inevitable. And now, we face the threat of famine. If it comes, it will also be man-made."
+            <?php echo $text_script['page4']['toby_quote']; ?>
 					</p>
 					<p class="text-right" style="font-size: 150%; text-shadow: 1px 1px 1px rgba(255,255,255,0.3)">
-						- Toby Lanzer, Humanitarian Coordinator, South Sudan
+            <?php echo $text_script['page4']['toby_source']; ?>
 					</p>
 				</div>
 			</div>
@@ -875,7 +766,7 @@ and increasing every day.
 				<div class="col-md-1"></div>
 				<div class="col-md-10 text-center">
 					<h1>
-						What can you do?
+            <?php echo $text_script['cta']['title']; ?>
 					</h1>
 				</div>
 				<div class="col-md-1"></div>
@@ -887,34 +778,34 @@ and increasing every day.
 							<div class="row text-center">
 								<div class="col-md-8 brown-background">
 									<div class="well">
-										<h3>Take a stand</h3>
-										<p class="text-left">The crisis in South Sudan needs to end now, before more people are killed or displaced and before famine takes hold.</p>
+										<h3><?php echo $text_script['cta']['cta1'] ?></h3>
+										<p class="text-left"><?php echo $text_script['cta']['cta1_text'] ?></p>
 										<div class="container-fluid">
 											<div class="row">
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Stop the fighting. RT if you agree, #SouthSudan deserves better.">
+													<a href="javascript: void(0);" class="twitter-caller"
+                            twitter-msg="<?php echo $text_script['cta']['tweet'] ?>">
 														<span class="circle">
 															<span class="circle-child">
-																Stop the fighting. RT if you agree, #SouthSudan deserves better.
+                                <?php echo $text_script['cta']['tweet'] ?>
 															</span>
 														</span>
 													</a>
 												</div>
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="The humanitarian community stands ready to deliver aid in #SouthSudan, but $232m is needed. We MUST avert famine">
+													<a href="javascript: void(0);" class="twitter-caller"
+                          twitter-msg="<?php echo $text_script['cta']['tweet_new'] ?>">
 														<span class="circle">
 															<span class="circle-child">
-																The humanitarian community stands ready to deliver aid in #SouthSudan, but more funding is needed. We MUST avert famine
+																<?php echo $text_script['cta']['tweet_new'] ?>
 															<span>
 														</span>
 													</a>
 												</div>
 												<div class="col-sm-4 col-md-4">
-													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood ">
+													<a href="javascript: void(0);" class="twitter-caller" twitter-msg="<?php echo $text_script['cta']['tweet_civilians'] ?>">
 														<span class="circle">
-															<span class="circle-child">
-																Attacks on civilians MUST stop in #SouthSudan. So must the recruitment of child soldiers. They deserve a childhood
-															</span>
+															<span class="circle-child"><?php echo $text_script['cta']['tweet_civilians'] ?></span>
 														</span>
 													</a>
 												</div>
@@ -931,11 +822,9 @@ and increasing every day.
 									<div class="row">
 										<div class="col-md-12 brown-background">
 											<div class="well">
-												<h3>Make a Donation</h3>
-												<p class="text-left">We know you care. Make a donation and help aid groups provide food, medical care and shelter for the
-
-					people caught up in this man-made crisis.</p>
-												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right">Donate</a>
+												<h3><?php echo $text_script['cta']['donate'] ?></h3>
+												<p class="text-left"><?php echo $text_script['cta']['donate_spiel'] ?></p>
+												<a target="_blank" href="https://secure.globalproblems-globalsolutions.org/site/Donation2;jsessionid=A68240A1B2D11F3FFD196DB91020957E.app246a?df_id=7642&7642.donation=form1" class="btn btn-default pull-right"><?php echo $text_script['cta']['donate_button'] ?></a>
 												<div style="clear: both"></div>
 											</div>
 										</div>
@@ -943,9 +832,9 @@ and increasing every day.
 									<div class="row">
 										<div class="col-md-12 brown-background">
 											<div class="well">
-												<h3>Find out more</h3>
-												<p class="text-left">Visit OCHA’s South Sudan website to put the humanitarian crisis in context</p>
-												<a href="http://www.unocha.org/south-sudan" target="_blank" class="btn btn-default pull-right">Visit Website</a>
+												<h3><?php echo $text_script['cta']['more_info'] ?></h3>
+												<p class="text-left"><?php echo $text_script['cta']['more_info_text'] ?></p>
+												<a href="http://www.unocha.org/south-sudan" target="_blank" class="btn btn-default pull-right"><?php echo $text_script['cta']['more_info_button'] ?></a>
 												<div style="clear: both"></div>
 											</div>
 										</div>
@@ -976,7 +865,7 @@ and increasing every day.
 											</div>
 
 											<div class="clear" style="clear: both;"></div>
-											<sub>Photos: OCHA/Jacob Zocherman, OCHA/Ally Ngethi, UNICEF/Peru, UNICEF/Holt; Video: OCHA/Peter Murimi. The designations employed and the presentation of material on the map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</sub>
+											<sub><?php echo $text_script['cta']['credits'] ?></sub>
 
 
 								</div>
